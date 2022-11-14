@@ -1,0 +1,188 @@
+* {
+    font-family: "Rubik" !important;
+}
+
+:root {
+    --main-bg-color: linear-gradient(227.07deg, #4e0062 0.43%, #220076 99.56%);
+    --main-text-color: #ff5c00;
+}
+
+
+/* Section One */
+
+.section-one {
+    position: relative;
+    width: auto;
+    height: 892px;
+    background: var(--main-bg-color);
+    color: #fff;
+}
+
+
+/* ----- Header ----- */
+
+.navbar {
+    position: absolute;
+}
+
+.navbar .nav-link {
+    position: relative;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 22px;
+    margin-right: 20px;
+    font-weight: 600;
+}
+
+.navbar-nav .nav-link {
+    /* margin-right: 50px; */
+}
+
+.navbar-nav a:hover {
+    border-bottom: 3px solid var(--main-text-color);
+}
+
+.logo {
+    /* position: absolute; */
+    width: 151px;
+    height: 66.29px;
+    left: 690px;
+    top: 59px;
+}
+
+
+/* Body */
+
+.text-title {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 90px;
+    margin-top: 120px;
+}
+
+.text-text {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 27px;
+}
+
+.text-color {
+    color: var(--main-text-color);
+}
+
+.btn-primary {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 17px;
+    margin-top: 15%;
+    padding: 15px 30px;
+    background: var(--main-text-color);
+    border-radius: 50px;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: var(--main-text-color) !important;
+}
+
+
+/* -----------------------------------  */
+
+.section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.title-section {
+    /* position: absolute; */
+    margin-top: 85px;
+    font-size: 40px;
+    font-weight: bold;
+    border-bottom: 3px solid var(--main-text-color);
+}
+
+.text-section {
+    font-size: 24px;
+    margin-top: 10px;
+    font-weight: 550;
+}
+
+.list-cards .card {
+    display: flex;
+    align-items: center;
+    margin-top: 90px;
+    height: 250px;
+    border-radius: 25px;
+    color: #fff;
+    background: var(--main-bg-color) !important;
+}
+
+.list-cards .card-header {
+    position: absolute;
+    margin-top: 15px;
+    border: none;
+}
+
+.list-cards .card-body {
+    margin-top: 60px;
+}
+
+.list-cards .card-body li {
+    margin-top: 10px;
+    text-align: left;
+}
+
+
+/* --------------- BANNER LINGUAGENS --------------------  */
+
+.owl-slider {
+    margin-top: 60px;
+}
+
+.owl-slider img {
+    height: 80px;
+}
+
+.owl-slider .item {
+    margin-right: 50px;
+}
+
+.owl-nav {
+    display: none;
+}
+
+.owl-dots {
+    display: none;
+}
+
+
+/* --------------- Sobre --------------------  */
+
+.nav-pills .nav-link {
+    color: #fff;
+}
+
+.nav-pills .nav-link.active {
+    background-color: transparent;
+    border-bottom: 3px solid #ff5c00;
+}
+
+.tab-content .tab-pane {
+    text-align: justify;
+    margin: auto 50px;
+}
+
+.img img {
+    margin: 50px;
+    width: 500px;
+    height: 400px;
+}
+
+
+/* --------------- Portfolio --------------------  */
