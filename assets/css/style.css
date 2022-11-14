@@ -34,10 +34,6 @@
     font-weight: 600;
 }
 
-.navbar-nav .nav-link {
-    /* margin-right: 50px; */
-}
-
 .navbar-nav a:hover {
     border-bottom: 3px solid var(--main-text-color);
 }
@@ -186,3 +182,23 @@
 
 
 /* --------------- Portfolio --------------------  */
+
+
+/* --------------- Footer --------------------  */
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-title {
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.footer-link {
+    color: #f2f3f58f;
+    margin-top: 25px;
+    font-size: 17px;
+    text-decoration: none;
+}
