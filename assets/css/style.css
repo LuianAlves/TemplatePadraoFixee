@@ -1,5 +1,7 @@
 * {
-    font-family: "Rubik" !important;
+    font-family: "Poppins", sans-serif !important;
+    margin: 0;
+    padding: 0;
 }
 
 :root {
@@ -12,10 +14,11 @@
 
 .section-one {
     position: relative;
-    width: auto;
-    height: 892px;
+    width: 100%;
+    height: 60vh;
     background: var(--main-bg-color);
     color: #fff;
+    overflow: hidden;
 }
 
 
