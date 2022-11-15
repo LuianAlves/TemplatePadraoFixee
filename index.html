@@ -22,81 +22,11 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-
-    <style>
-        /* section .onda .onda-animada {
-            animation: moveOnda 3s ease-in-out infinite alternate;
-        } */
-        /* @keyframes moveOnda {
-            from {
-                transform: translateX(-2000px);
-            }
-        }  */
-        /*         
-        section .onda {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            height: 100px;
-            background: url(assets/img/onda/onda.png);
-            background-size: 1000px 100px;
-        }
-        
-        section .onda .onda1 {
-            animation: animate 30s ease-in-out infinite alternate;
-            z-index: 1000;
-            opacity: 1;
-            animation-delay: 0s;
-            bottom: 0;
-        }
-        
-        @keyframes animate {
-            0% {
-                background-position-x: 0;
-            }
-            100% {
-                background-position-x: 1000px;
-            }
-        } */
-        
-        svg {
-            position: absolute;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            /* margin-top: 50px; */
-        }
-        
-        svg path {
-            animation: pathAnim 7s;
-            animation-timing-function: linear;
-            animation-iteration-count: infinite;
-        }
-        
-        @keyframes pathAnim {
-            0% {
-                d: path("M0,129	C220,100,440,100,660,192 C880,290,1100,290,1320,192	L1320 500 L0 500");
-            }
-            25% {
-                d: path("M0,100	C220,100,440,292,660,292 C880,292,1100,100,1320,100	L1320 500 L0 500");
-            }
-            50% {
-                d: path("M0,192	C220,290,440,290,660,192 C880,100,1100,100,1320,192	L1320 500 L0 500");
-            }
-            75% {
-                d: path("M0,292	C220,292,440,100,660,100 C880,100,1100,292,1320,292	L1320 500 L0 500");
-            }
-            100% {
-                d: path("M0,192	C220,100,440,100,660,192 C880,290,1100,290,1320,192	L1320 500 L0 500");
-            }
-        }
-    </style>
 </head>
 
 <body>
     <!-- Header -->
-    <section class="section-one">
+    <section class="section-one" id="home">
         <div class="container">
             <!-- Header -->
             <div class="row d-flex align-items-center">
@@ -107,9 +37,9 @@
                             <div class="container-fluid">
                                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                                     <div class="navbar-nav">
-                                        <a class="nav-link" href="#">Home</a>
-                                        <a class="nav-link" href="#">Serviços</a>
-                                        <a class="nav-link" href="#">Portfólio</a>
+                                        <a class="nav-link" href="#home">Home</a>
+                                        <a class="nav-link" href="#servicos">Serviços</a>
+                                        <a class="nav-link" href="#empresa">Sobre nós</a>
                                     </div>
                                 </div>
                             </div>
@@ -120,9 +50,9 @@
                             <div class="container-fluid">
                                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                                     <div class="navbar-nav">
-                                        <a class="nav-link" href="#">Projetos</a>
-                                        <a class="nav-link" href="#">Sobre nós</a>
-                                        <a class="nav-link" href="#">Contato</a>
+                                        <a class="nav-link" href="#portfolio">Portfólio</a>
+                                        <a class="nav-link" href="#projetos">Projetos</a>
+                                        <a class="nav-link" href="#form">Contato</a>
                                     </div>
                                 </div>
                             </div>
@@ -141,7 +71,7 @@
                 <div class="d-flex justify-content-center align-items-center">
                     <div class="col-6 texto">
                         <h1 class="fw-bold text-uppercase text-title">Desenvolvemos <span class="text-color">sua ideia</span></h1>
-                        <p class="text-text">Acreditamos na sua inveção, uma ideia prevalece em gerações. Pense em tecnologia, <span class="text-color"> escolha-nos</span>
+                        <p class="text-text">Acreditamos na sua inveção, uma ideia prevalece em gerações. Pense em tecnologia, <span class="text-color"> escolha-nos!</span>
                         </p>
                     </div>
                 </div>
@@ -155,7 +85,8 @@
             </div>
         </div>
 
-        <svg viewBox="0 0 1320 300">
+        <!-- Onda Animada -->
+        <svg viewBox="0 0 1320 290">
             <path fill-opacity="1" d="
             M0,160L48
             144C96,128,192,96,192
@@ -200,7 +131,7 @@
     </section>
 
     <!-- Serviços -->
-    <section class="section">
+    <section class="section" id="servicos">
         <div class="container">
             <div class="row mb-5">
                 <div class="d-flex justify-content-center">
@@ -310,7 +241,7 @@
     </section>
 
     <!-- Sobre Nós -->
-    <section class="section-one h-50">
+    <section class="section-one h-50" id="empresa">
         <div class="container">
             <div class="row mb-5">
                 <div class="col-6">
@@ -362,7 +293,7 @@
     </section>
 
     <!-- Portfólio -->
-    <section class="section">
+    <section class="section" id="portfolio">
         <div class="container">
             <div class="row mb-5">
                 <div class="col-6">
@@ -383,7 +314,7 @@
     </section>
 
     <!-- Projeto -->
-    <section class="section-one h-50">
+    <section class="section-one h-50" id="projetos">
         <div class="container">
             <div class="row mb-5">
                 <div class="col-6">
@@ -406,7 +337,7 @@
     </section>
 
     <!-- Formulário -->
-    <section class="section">
+    <section class="section" id="form">
         <div class="container">
             <div class="row">
                 <div class="d-flex justify-content-center">

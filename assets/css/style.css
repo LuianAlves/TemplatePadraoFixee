@@ -15,10 +15,41 @@
 .section-one {
     position: relative;
     width: 100%;
-    height: 60vh;
+    height: 110vh;
     background: var(--main-bg-color);
     color: #fff;
     overflow: hidden;
+}
+
+svg {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+svg path {
+    animation: pathAnim 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pathAnim {
+    0% {
+        d: path( "M0,129	C220,100,440,100,660,192 C880,290,1100,290,1320,192	L1320 500 L0 500");
+    }
+    25% {
+        d: path( "M0,100	C220,100,440,292,660,292 C880,292,1100,100,1320,100	L1320 500 L0 500");
+    }
+    50% {
+        d: path( "M0,192	C220,290,440,290,660,192 C880,100,1100,100,1320,192	L1320 500 L0 500");
+    }
+    75% {
+        d: path( "M0,292	C220,292,440,100,660,100 C880,100,1100,292,1320,292	L1320 500 L0 500");
+    }
+    100% {
+        d: path( "M0,192	C220,100,440,100,660,192 C880,290,1100,290,1320,192	L1320 500 L0 500");
+    }
 }
 
 
@@ -32,7 +63,7 @@
     position: relative;
     text-transform: uppercase;
     color: #fff;
-    font-size: 22px;
+    font-size: 16px;
     margin-right: 20px;
     font-weight: 600;
 }
@@ -44,8 +75,8 @@
 .logo {
     /* position: absolute; */
     width: 151px;
-    height: 66.29px;
-    left: 690px;
+    height: 70px;
+    left: 70px;
     top: 59px;
 }
 
@@ -56,17 +87,17 @@
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
+    font-size: 36px;
     line-height: 90px;
-    margin-top: 120px;
+    margin-top: 15px;
 }
 
 .text-text {
     font-family: "Rubik";
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
-    line-height: 27px;
+    font-size: 18px;
+    line-height: 35px;
 }
 
 .text-color {
@@ -79,11 +110,12 @@
     font-weight: 500;
     font-size: 17px;
     line-height: 17px;
-    margin-top: 15%;
-    padding: 15px 30px;
+    margin-top: 5%;
+    padding: 10px 20px;
     background: var(--main-text-color);
     border-radius: 50px;
     border: none;
+    z-index: 997;
 }
 
 .btn-primary:hover {
@@ -99,15 +131,14 @@
 }
 
 .title-section {
-    /* position: absolute; */
     margin-top: 85px;
-    font-size: 40px;
+    font-size: 32px;
     font-weight: bold;
     border-bottom: 3px solid var(--main-text-color);
 }
 
 .text-section {
-    font-size: 24px;
+    font-size: 18px;
     margin-top: 10px;
     font-weight: 550;
 }
