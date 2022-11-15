@@ -2,6 +2,7 @@
     font-family: "Poppins", sans-serif !important;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 :root {
@@ -131,7 +132,7 @@ svg path {
 }
 
 .title-section {
-    margin-top: 85px;
+    margin-top: 50px;
     font-size: 32px;
     font-weight: bold;
     border-bottom: 3px solid var(--main-text-color);
