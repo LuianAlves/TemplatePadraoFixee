@@ -176,7 +176,8 @@ svg path {
 }
 
 .owl-slider img {
-    height: 80px;
+    height: 50px;
+    margin: 5px;
 }
 
 .owl-slider .item {
