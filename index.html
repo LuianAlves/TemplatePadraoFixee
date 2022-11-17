@@ -70,7 +70,36 @@
             <div class="row">
                 <div class="d-flex justify-content-center align-items-center">
                     <div class="col-6 texto">
-                        <h1 class="fw-bold text-uppercase text-title">Desenvolvemos <span class="text-color">sua ideia</span></h1>
+                        <div class="anime">
+                              
+                                    <span class="fw-bold text-uppercase text-title" class="text first-text">DESENVOLVEMOS</span>
+                                    <span class="text sec-text"></span>
+
+                             <script>
+                            const text = document.querySelector(".sec-text");
+
+                            const textLoad = () => {
+                                setTimeout(() => {
+                                    text.textContent = "SUA IDEIA";
+                                }, 0);
+                                setTimeout(() => {
+                                    text.textContent = "SEU SITE";
+                                }, 4000);
+                                setTimeout(() => {
+                                    text.textContent = "SEU APP";
+                                }, 8000); //1s = 1000 milliseconds
+                            }
+
+                            textLoad();
+                            setInterval(textLoad, 12000);
+                        </script>  
+
+
+                        </div>
+                   
+
+
+                       
                         <p class="text-text">Acreditamos na sua inveção, uma ideia prevalece em gerações. Pense em tecnologia, <span class="text-color"> escolha-nos!</span>
                         </p>
                     </div>
