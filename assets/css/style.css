@@ -7,6 +7,7 @@
 
 :root {
     --main-bg-color: linear-gradient(227.07deg, #4e0062 0.43%, #220076 99.56%);
+    --main-bg-color2: linear-gradient(201.73deg, #000D3C -9.1%, #027769 107.32%);
     --main-text-color: #ff5c00;
 }
 
@@ -22,7 +23,7 @@
     position: relative;
     width: 100%;
     height: 110vh;
-    background: var(--main-bg-color);
+    background: var(--main-bg-color2);
     color: #fff;
     overflow: hidden;
 }
@@ -157,7 +158,7 @@ svg path {
     height: 250px;
     border-radius: 25px;
     color: #fff;
-    background: var(--main-bg-color) !important;
+    background: var(--main-bg-color2) !important;
 }
 
 .list-cards .card-header {
