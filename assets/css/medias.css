@@ -1,6 +1,6 @@
 /* xs - Max Width 576px */
 
-@media (max-width: 576px) {
+@media only screen and (max-width: 576px) {
     /* Section */
     .section-one {
         height: 70vh;
@@ -33,9 +33,9 @@
 }
 
 
-/* sm - Max Width 768px */
+/* sm - Max Width 576px */
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     /* Section */
     .section-one {
         height: 80vh;
@@ -72,12 +72,51 @@
 }
 
 
-/* md - Max Width 992px */
+/* md - Min Width 768px */
 
-@media (max-width: 992px) {
+@media only screen and (min-width: 768px) {
     /* Section */
     .section-one {
-        height: 100vh;
+        height: 95vh;
+    }
+    .text-title {
+        font-size: 24px;
+    }
+    .text-text {
+        font-size: 17px;
+    }
+    .title-section {
+        margin-top: 38px;
+        font-size: 24px;
+    }
+    .section-one .title-section {
+        margin-top: 48px;
+    }
+    .text-section {
+        font-size: 18px;
+    }
+    /* Button */
+    .btn-primary {
+        font-size: 16px;
+        padding: 12px 25px;
+    }
+    /* Owl Carousel - Banner second section */
+    .owl-carousel {
+        margin-top: 25px;
+    }
+    .owl-carousel .owl-item img {
+        height: 75px;
+        width: 150px !important;
+    }
+}
+
+
+/* md - Max Width 992px */
+
+@media only screen and (min-width: 992px) {
+    /* Section */
+    .section-one {
+        height: 110vh;
     }
     .text-title {
         font-size: 30px;
@@ -88,9 +127,6 @@
     .title-section {
         margin-top: 38px;
         font-size: 26px;
-    }
-    .section-one .title-section {
-        margin-top: 48px;
     }
     .text-section {
         font-size: 18px;
