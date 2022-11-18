@@ -74,6 +74,42 @@
 
 /* md - Max Width 992px */
 
+@media (max-width: 992px) {
+    /* Section */
+    .section-one {
+        height: 85vh;
+    }
+    .text-title {
+        font-size: 30px;
+    }
+    .text-text {
+        font-size: 17px;
+    }
+    .title-section {
+        margin-top: 38px;
+        font-size: 26px;
+    }
+    .section-one .title-section {
+        margin-top: 48px;
+    }
+    .text-section {
+        font-size: 18px;
+    }
+    /* Button */
+    .btn-primary {
+        font-size: 16px;
+        padding: 12px 25px;
+    }
+    /* Owl Carousel - Banner second section */
+    .owl-carousel {
+        margin-top: 30px;
+    }
+    .owl-carousel .owl-item img {
+        height: 75px;
+        width: 200px !important;
+    }
+}
+
 
 /* lg - Max Width 1200px */
 
