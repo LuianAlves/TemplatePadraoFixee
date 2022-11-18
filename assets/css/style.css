@@ -178,13 +178,9 @@ svg path {
 
 /* --------------- BANNER LINGUAGENS --------------------  */
 
-.owl-slider {
-    margin-top: 60px;
-}
-
-.owl-slider img {
+.owl-carousel .owl-item img {
     height: 50px;
-    margin: 5px;
+    width: 100px !important;
 }
 
 .owl-slider .item {
