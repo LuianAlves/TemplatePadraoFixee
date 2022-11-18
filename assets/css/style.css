@@ -10,41 +10,47 @@
     --main-text-color: #ff5c00;
 }
 
+
 /*  Multiple text */
 
-.anime{
+.anime {
     width: 600px;
     overflow: hidden;
 }
-.anime .text{
+
+.anime .text {
     position: relative;
     color: var(--main-text-color);
     font-size: 35px;
     font-weight: 600;
 }
-.anime .texte.first-text{
+
+.anime .text .first-text {
     color: #FFF;
 }
-.text.sec-text:before{
+
+.text.sec-text:before {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: #027769; /*resolver bug de fundo*/
-    border-left: 2px solid var(--main-text-color); 
+    background-color: #027769;
+    /*resolver bug de fundo*/
+    border-left: 2px solid var(--main-text-color);
     animation: animate 2s steps(12) infinite;
 }
-@keyframes animate{
-    40%, 60%{
+
+@keyframes animate {
+    40%,
+    60% {
         left: calc(100% + 4px);
     }
-    100%{
+    100% {
         left: 0%;
     }
 }
-
 
 
 /* Section One */
@@ -127,6 +133,7 @@ svg path {
     font-size: 36px;
     line-height: 90px;
     margin-top: 15px;
+    text-transform: uppercase;
 }
 
 .text-text {

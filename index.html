@@ -69,37 +69,24 @@
             <!-- Body -->
             <div class="row">
                 <div class="d-flex justify-content-center align-items-center">
-                    <div class="col-6 texto">
-                        <div class="anime">
-                              
-                                    <span class="fw-bold text-uppercase text-title" class="text first-text">DESENVOLVEMOS</span>
-                                    <span class="text sec-text"></span>
-
-                             <script>
-                            const text = document.querySelector(".sec-text");
-
-                            const textLoad = () => {
-                                setTimeout(() => {
-                                    text.textContent = "SUA IDEIA";
-                                }, 0);
-                                setTimeout(() => {
-                                    text.textContent = "SEU SITE";
-                                }, 4000);
-                                setTimeout(() => {
-                                    text.textContent = "SEU APP";
-                                }, 8000); //1s = 1000 milliseconds
-                            }
-
-                            textLoad();
-                            setInterval(textLoad, 12000);
-                        </script>  
-
-
+                    <div class="col-8">
+                        <div class="">
+                            <span class="fw-bold text-title" class="text first-text">Desenvolvemos</span>
+                            <span class="text-title text-color text-type"></span>
                         </div>
-                   
 
+                        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
-                       
+                        <script>
+                            var textoT = new Typed(".text-type", {
+
+                                strings: ["Seu site ..", "Sua ideia ..", "Seu app"],
+                                typeSpeed: 150,
+                                backSpeed: 150,
+                                loop: true
+                            });
+                        </script>
+
                         <p class="text-text">Acreditamos na sua inveção, uma ideia prevalece em gerações. Pense em tecnologia, <span class="text-color"> escolha-nos!</span>
                         </p>
                     </div>
@@ -482,6 +469,7 @@
 
     <script src="assets/js/banner.js"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+
 
 </body>
 
