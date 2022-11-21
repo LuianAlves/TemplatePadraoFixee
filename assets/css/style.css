@@ -195,7 +195,7 @@ svg path {
 .carousel .slider {
     line-height: 100px;
     text-align: center;
-    margin: 20px 0;
+    margin-top: 20px;
 }
 
 .carousel img {
