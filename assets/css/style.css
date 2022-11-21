@@ -182,21 +182,25 @@ svg path {
 
 /* --------------- BANNER LINGUAGENS --------------------  */
 
-.owl-carousel .owl-item img {
+.wrapper {
+    width: 100%;
+}
+
+.wrapper .carousel {
+    max-width: 1500px;
+    margin: auto;
+    padding: 0 30px;
+}
+
+.carousel .slider {
+    line-height: 100px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.carousel img {
+    width: 100px;
     height: 50px;
-    width: 100px !important;
-}
-
-.owl-slider .item {
-    margin-right: 50px;
-}
-
-.owl-nav {
-    display: none;
-}
-
-.owl-dots {
-    display: none;
 }
 
 
