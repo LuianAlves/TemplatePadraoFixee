@@ -283,3 +283,17 @@ label iconify-icon {
     font-size: 17px;
     text-decoration: none;
 }
+
+
+/* Icons Dark Mode */
+
+.bi {
+    font-size: 26px;
+    cursor: pointer;
+    color: rgb(37, 158, 228);
+}
+
+.bi-sun {
+    color: rgb(147, 176, 5);
+    display: none;
+}

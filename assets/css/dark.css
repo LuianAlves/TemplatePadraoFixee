@@ -5,7 +5,7 @@
 }
 
 input[type="checkbox"] {
-    /* display: none; */
+    display: none;
 }
 
 .dark {
@@ -41,4 +41,12 @@ input[type="checkbox"] {
     background-color: transparent;
     color: #fff;
     border-color: var(--main-text-color);
+}
+
+.dark .bi-sun {
+    display: block;
+}
+
+.dark .bi-moon {
+    display: none;
 }
