@@ -35,17 +35,23 @@ input[type="checkbox"] {
     color: #fff;
 }
 
-.dark svg,
 .dark .section-one,
 .dark .list-cards .card,
-.dark .text-muted,
 #form .card {
     background-color: var(--main-bg-dark);
     background: var(--main-bg-linear-dark);
 }
 
+.dark svg {
+    background: transparent;
+    border: none;
+}
+
+.dark svg path {}
+
+.dark .text-muted,
 .dark .list-cards .card-header {
-    color: var(--main-text-color);
+    color: var(--main-text-color) !important;
 }
 
 .dark #form input,
@@ -75,7 +81,7 @@ input[type="checkbox"] {
 .section-one {
     position: relative;
     width: 100%;
-    height: 110vh;
+    height: 130vh;
     background: var(--main-bg-color);
     color: #fff;
     overflow: hidden;
@@ -89,7 +95,7 @@ svg {
 }
 
 svg path {
-    animation: pathAnim 7s;
+    animation: pathAnim 14s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
