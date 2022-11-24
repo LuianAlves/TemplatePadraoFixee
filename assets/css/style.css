@@ -264,6 +264,13 @@ label iconify-icon {
 /* --------------- Portfolio --------------------  */
 
 
+/* Fale conosco */
+
+form .card {
+    background: #fff !important;
+}
+
+
 /* --------------- Footer --------------------  */
 
 .footer-section ul {
@@ -288,7 +295,13 @@ label iconify-icon {
 /* Icons Dark Mode */
 
 .bi {
-    font-size: 26px;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    z-index: 997;
+    font-size: 30px;
     cursor: pointer;
     color: rgb(37, 158, 228);
 }

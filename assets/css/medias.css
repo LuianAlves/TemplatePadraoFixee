@@ -37,6 +37,12 @@
         height: 50px;
         width: 100px !important;
     }
+    /* Icon dark mode */
+    .bi {
+        width: 45px;
+        height: 45px;
+        right: 15px;
+    }
 }
 
 

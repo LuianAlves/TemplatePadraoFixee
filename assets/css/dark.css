@@ -14,8 +14,7 @@ input[type="checkbox"] {
 }
 
 .dark .section-one,
-.dark .list-cards .card,
-#form .card {
+.dark .list-cards .card {
     background-color: var(--main-bg-dark);
     background: var(--main-bg-linear-dark);
 }
@@ -28,6 +27,10 @@ input[type="checkbox"] {
 .dark .text-muted,
 .dark .list-cards .card-header {
     color: var(--main-text-color) !important;
+}
+
+.dark #form .card {
+    background: var(--main-bg-linear-dark) !important;
 }
 
 .dark #form input,
