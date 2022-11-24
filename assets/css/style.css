@@ -1,11 +1,6 @@
-* {
-    font-family: "Poppins", sans-serif !important;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-}
-
 :root {
+    --main-bg-dark: #1a1a1a;
+    --main-bg-linear-dark: linear-gradient(227.07deg, #1a1a1a 0.43%, #3a3732 99.56%);
     --main-bg-color: linear-gradient(227.07deg, #4e0062 0.43%, #220076 99.56%);
     --main-bg-color1: linear-gradient(201.73deg, #1131A6 -9.1%, #1B2031 107.32%);
     --main-bg-color2: linear-gradient(201.73deg, #000D3C -9.1%, #027769 107.32%);
@@ -13,6 +8,61 @@
     --main-bg-color4: linear-gradient(201.73deg, #00145B -9.1%, #00FFF0 107.32%);
     --main-text-color: #ff5c00;
 }
+
+* {
+    font-family: "Poppins", sans-serif !important;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+html,
+body {
+    transition: 0.3s;
+    height: 100%;
+    background: #fff;
+}
+
+
+/* DARK MODE */
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.dark {
+    background: var(--main-bg-dark);
+    color: #fff;
+}
+
+.dark svg,
+.dark .section-one,
+.dark .list-cards .card,
+.dark .text-muted,
+#form .card {
+    background-color: var(--main-bg-dark);
+    background: var(--main-bg-linear-dark);
+}
+
+.dark .list-cards .card-header {
+    color: var(--main-text-color);
+}
+
+.dark #form input,
+.dark #form textarea {
+    background: transparent;
+    border-color: var(--main-text-color);
+    color: #fff;
+}
+
+.dark .input-group span {
+    background-color: transparent;
+    color: #fff;
+    border-color: var(--main-text-color);
+}
+
+
+/* Typed cursor */
 
 .typed-cursor {
     font-size: 40px;
@@ -164,7 +214,7 @@ label iconify-icon {
 }
 
 .title-section {
-    margin-top: 50px;
+    margin-top: 25px !important;
     font-size: 32px;
     font-weight: bold;
     border-bottom: 3px solid var(--main-text-color);
@@ -178,27 +228,29 @@ label iconify-icon {
 
 .list-cards .card {
     display: flex;
+    justify-content: center;
     align-items: center;
-    margin-top: 90px;
+    margin-top: 20px;
     height: 250px;
     border-radius: 25px;
     color: #fff;
-    background: var(--main-bg-color) !important;
+    background: var(--main-bg-color);
+    padding: 0;
 }
 
 .list-cards .card-header {
-    position: absolute;
+    align-items: center;
     margin-top: 15px;
     border: none;
+    font-weight: bold;
 }
 
-.list-cards .card-body {
-    margin-top: 60px;
+.list-cards .card-body ul {
+    padding: 0;
 }
 
 .list-cards .card-body li {
     margin-top: 10px;
-    text-align: left;
 }
 
 
