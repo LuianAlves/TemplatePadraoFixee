@@ -69,6 +69,14 @@ svg path {
     position: absolute;
 }
 
+.navbar-nav ul {
+    float: right;
+}
+
+.navbar-nav li {
+    display: inline-block;
+}
+
 .navbar .nav-link {
     position: relative;
     text-transform: uppercase;
@@ -88,6 +96,20 @@ svg path {
     height: 70px;
     left: 70px;
     top: 59px;
+    transition: .5s;
+}
+
+
+/* Sidenav */
+
+label iconify-icon {
+    font-size: 30px;
+    transition: .5s;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
 }
 
 
