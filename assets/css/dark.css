@@ -84,3 +84,27 @@ input[type="checkbox"] {
     background: var(--main-bg-linear-dark);
     color: rgba(255, 255, 255, 0.566);
 }
+
+
+/* Menu toggle mobile */
+
+.dark .container-nav .navigation {
+    background: var(--main-bg-dark);
+}
+
+.dark .container-nav .navigation ul li a {
+    color: #f1f2f5a6;
+}
+
+.dark .container-nav .navigation ul li a .icon-nav .bi {
+    color: #ff5e009b;
+}
+
+.dark #toggle-men {
+    background: var(--main-bg-dark);
+    border: 5px solid #f1f2f5a6;
+}
+
+.dark #toggle-men::before {
+    color: #f1f2f5a6;
+}
