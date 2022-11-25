@@ -134,7 +134,7 @@
 @media only screen and (min-width: 992px) {
     /* Section */
     .section-one {
-        height: 100vh;
+        height: 80vh;
     }
     .text-title {
         font-size: 30px;
