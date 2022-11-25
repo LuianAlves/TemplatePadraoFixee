@@ -225,8 +225,8 @@ ul {
 #toggle-men {
     display: none;
     position: fixed;
-    left: 7px;
-    top: calc(10% - 12px);
+    left: 20px;
+    top: calc(10% - 5px);
     width: 40px;
     height: 40px;
     background: #f5f5f5;
