@@ -6,6 +6,7 @@
     --main-bg-color3: linear-gradient(201.73deg, #002ABD -9.1%, #026277 107.32%);
     --main-bg-color4: linear-gradient(201.73deg, #00145B -9.1%, #00FFF0 107.32%);
     --main-text-color: #ff5c00;
+    --main-bg-icon-whats: linear-gradient(227.07deg, #1abf4e 0.43%, #28b183 99.56%);
 }
 
 * {
@@ -29,7 +30,7 @@
 #backToTop {
     display: none;
     position: fixed;
-    bottom: 20px;
+    bottom: 80px;
     right: 35px;
     z-index: 99;
     font-size: 20px;
@@ -39,6 +40,23 @@
     padding: 10px 15px;
     border-radius: 50%;
     background: var(--main-bg-color);
+    color: #fff;
+}
+
+
+/* Button WhatsApp */
+
+#btnWhatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 35px;
+    z-index: 99;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 50%;
+    background: var(--main-bg-icon-whats);
     color: #fff;
 }
 

@@ -77,5 +77,10 @@ input[type="checkbox"] {
 
 .dark #backToTop {
     background: var(--main-bg-linear-dark);
-    color: var(--main-text-color);
+    color: rgba(255, 255, 255, 0.566);
+}
+
+.dark #btnWhatsapp {
+    background: var(--main-bg-linear-dark);
+    color: rgba(255, 255, 255, 0.566);
 }
