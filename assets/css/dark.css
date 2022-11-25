@@ -71,3 +71,11 @@ input[type="checkbox"] {
 .dark .btn-config .dropdown-menu.show {
     background: rgba(255, 255, 255, 0.112);
 }
+
+
+/* back to top */
+
+.dark #backToTop {
+    background: var(--main-bg-linear-dark);
+    color: var(--main-text-color);
+}

@@ -24,6 +24,25 @@
 }
 
 
+/* Back to top */
+
+#backToTop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 35px;
+    z-index: 99;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 50%;
+    background: var(--main-bg-color);
+    color: #fff;
+}
+
+
 /* Section One */
 
 .section-one {
