@@ -160,8 +160,11 @@
     }
 }
 
-
-/* lg - Max Width 1200px */
-
-
-/* xl - Max Width 1400px */
+@media only screen and (max-width: 992px) {
+    .container-nav .navigation {
+        display: block;
+    }
+    #toggle-men {
+        display: block;
+    }
+}
