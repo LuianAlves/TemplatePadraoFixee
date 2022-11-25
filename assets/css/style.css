@@ -155,6 +155,7 @@ svg path {
     position: absolute;
     right: 60px;
     top: 41px;
+    z-index: 1000;
 }
 
 .btn-config .dropdown-menu {
