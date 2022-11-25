@@ -150,8 +150,8 @@ svg path {
 
 .btn-config .dropdown {
     position: absolute;
-    right: 35px;
-    top: 57.5px;
+    right: 60px;
+    top: 41px;
 }
 
 .btn-config .dropdown-menu {
@@ -159,7 +159,7 @@ svg path {
 }
 
 .btn-config .dropdown-menu.show {
-    transform: translate(0px, 40px) !important;
+    transform: translate(0px, 60px) !important;
     background: rgba(232, 232, 233, 0.707);
 }
 
