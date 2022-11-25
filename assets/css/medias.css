@@ -13,10 +13,10 @@
     }
     .title-section {
         margin-top: 15px;
-        font-size: 22px;
+        font-size: 20px !important;
     }
     .text-section {
-        font-size: 13px;
+        font-size: 15px !important;
     }
     /* Cards */
     .list-cards {
@@ -24,6 +24,10 @@
     }
     .list-cards .card-header {
         font-size: 14px;
+    }
+    /* Nav tabs */
+    .nav-pills .nav-item {
+        font-size: 13px !important;
     }
     /* Button */
     .btn-primary {

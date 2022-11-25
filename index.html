@@ -41,7 +41,7 @@
     <section class="section-one" id="home">
         <div class="container">
             <!-- Header -->
-            <div class="row d-flex align-items-center">
+            <div class="row d-flex align-items-center" id="nav-barra">
                 <div class="my-5">
                     <!-- Navbar -->
                     <div class="d-flex justify-content-start">
@@ -180,7 +180,7 @@
         </div>
 
         <!-- Onda Animada -->
-        <svg xmlns="http://wwww.w3.org/2000/svg" viewBox="0 0 1320 290">
+        <svg class="svg-onda" xmlns="http://wwww.w3.org/2000/svg" viewBox="0 0 1320 290">
             <style>
                 .onda-animada {
                     fill: #fff;
@@ -340,7 +340,7 @@
     </section>
 
     <!-- Sobre Nós -->
-    <section class="section-one pt-5 my-5" id="empresa">
+    <section class="section-one pt-5 my-5 h-100" id="empresa">
         <div class="container">
             <div class="row d-flex align-items-center">
                 <div class="col-12 col-lg-6 order-1 order-lg-0">
@@ -411,7 +411,7 @@
     </section>
 
     <!-- Projeto -->
-    <section class="section-one pt-2 my-5" id="projetos">
+    <section class="section-one pt-2 my-5 h-100" id="projetos">
         <div class="container">
             <div class="row d-flex align-items-center mb-5">
                 <div class="col-12 col-md-6 order-1 order-md-0">
@@ -441,7 +441,7 @@
                         <h6 class="title-section">Fale conosco</h6>
                     </div>
 
-                    <div class="col-12 col-md-10">
+                    <div class="col-12 col-md-8">
                         <div class="card py-3">
                             <div class="card-body">
                                 <div class="row">
@@ -449,7 +449,7 @@
                                         <div class="input-group mb-3">
                                             <span class="input-group-text" id="basic-addon1"><iconify-icon icon="bx:mail-send"></iconify-icon>
                                             </span>
-                                            <input type="text" class="form-control" placeholder="Endereço de e-mail .." aria-label="Username" aria-describedby="basic-addon1">
+                                            <input type="text" class="form-control form-control-sm" placeholder="Endereço de e-mail .." aria-label="Username" aria-describedby="basic-addon1">
                                         </div>
                                     </div>
                                     <div class="col-12 mb-3">
@@ -457,7 +457,7 @@
                                             <span class="input-group-text" id="basic-addon1"><iconify-icon icon="bx:phone-call"></iconify-icon>
 
                                             </span>
-                                            <input type="text" class="form-control" placeholder="Número de whatsapp .." aria-label="Username" aria-describedby="basic-addon1">
+                                            <input type="text" class="form-control form-control-sm" placeholder="Número de whatsapp .." aria-label="Username" aria-describedby="basic-addon1">
                                         </div>
                                     </div>
 
@@ -465,12 +465,12 @@
                                         <div class="input-group">
                                             <span class="input-group-text"><iconify-icon icon="bx:message-detail"></iconify-icon>
                                             </span>
-                                            <textarea class="form-control" aria-label="With textarea" placeholder="Digite aqui sua mensagem .."></textarea>
+                                            <textarea class="form-control form-control-sm" aria-label="With textarea" placeholder="Digite aqui sua mensagem .."></textarea>
                                         </div>
                                     </div>
 
                                     <div class="row d-flex justify-content-center">
-                                        <button class="btn btn-sm btn-primary text-white fw-bold w-auto" style="border-radius: 5px;">Enviar mensagem</button>
+                                        <button class="btn btn-sm btn-primary text-white fw-bold w-auto" style="font-size: 13px; padding: 7px 20px; border-radius: 5px;">Enviar mensagem</button>
                                     </div>
                                 </div>
                             </div>
@@ -482,7 +482,7 @@
     </section>
 
     <!-- Footer -->
-    <section class="section-one mt-5 footer-section mt-5">
+    <section class="section-one mt-5 h-100 footer-section mt-5">
         <div class="container">
             <div class="row d-flex justify-content-center py-5 mx-5">
                 <div class="col-12 col-sm-6 col-lg-3">
@@ -573,6 +573,9 @@
 
     <!-- Menu Toggle -->
     <script src="assets/js/menu_toggle.js" defer></script>
+
+    <script>
+    </script>
 </body>
 
 </html>
