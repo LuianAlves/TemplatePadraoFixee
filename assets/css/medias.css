@@ -1,4 +1,4 @@
-/* xs - Max Width 576px */
+/* Max Width 576px */
 
 @media only screen and (max-width: 576px) {
     /* Section */
@@ -47,9 +47,9 @@
 }
 
 
-/* sm - Max Width 576px */
+/* Min Width 576px */
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
     /* Section */
     .section-one {
         height: 80vh;
