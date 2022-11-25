@@ -34,8 +34,8 @@
         margin-top: 10px;
     }
     .owl-carousel .owl-item img {
-        height: 50px;
-        width: 100px !important;
+        height: 30px;
+        width: 80px !important;
     }
     .logo {
         width: 120px;
@@ -80,8 +80,8 @@
         margin-top: 25px;
     }
     .owl-carousel .owl-item img {
-        height: 75px;
-        width: 150px !important;
+        height: 30px;
+        width: 80px !important;
     }
     .logo {
         width: 120px;
@@ -123,8 +123,8 @@
         margin-top: 25px;
     }
     .owl-carousel .owl-item img {
-        height: 75px;
-        width: 150px !important;
+        height: 40px;
+        width: 100px !important;
     }
 }
 
@@ -171,8 +171,8 @@
         margin-top: 30px;
     }
     .owl-carousel .owl-item img {
-        height: 75px;
-        width: 200px !important;
+        height: 50px;
+        width: 120px !important;
     }
 }
 
