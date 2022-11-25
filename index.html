@@ -32,7 +32,8 @@
     <script src="assets/js/dark.js" defer></script>
 </head>
 
-<body class="dark">
+
+<body class="scrollbar-c">
     <!-- Header -->
     <section class="section-one" id="home">
         <div class="container">
@@ -79,6 +80,8 @@
                     <div class="d-flex justify-content-center">
                         <img class="logo" src="assets/img/logo_png.png" alt="">
                     </div>
+
+                    <!-- Button config -->
                 </div>
             </div>
 
@@ -103,23 +106,31 @@
             </div>
         </div>
 
+        <input type="checkbox" name="dark-mode" id="dark-mode">
+        <label for="dark-mode">
+                <i class="bi bi-sun"></i>
+                <i class="bi bi-moon"></i>
+        </label>
+
         <!-- Onda Animada -->
-        <svg viewBox="0 0 1320 290">
-            <path fill-opacity="1" d="
+        <svg xmlns="http://wwww.w3.org/2000/svg" viewBox="0 0 1320 290">
+            <style>
+                .onda-animada {
+                    fill: #fff;
+                }
+                .dark .onda-animada {
+                    fill: #1a1a1a;
+                }
+            </style>
+            <path class="onda-animada" fill-opacity="1" d="
             M0,160L48
             144C96,128,192,96,192
             C880,290,1100,290,1320,192
             L1320 500
             L0 500
-            " fill=""/>
+            " fill="#ffffff"/>
         </svg>
     </section>
-
-    <input type="checkbox" name="dark-mode" id="dark-mode">
-    <label for="dark-mode">
-            <i class="bi bi-sun"></i>
-            <i class="bi bi-moon"></i>
-        </label>
 
     <!-- Banner Linguagens -->
     <section class="section">
