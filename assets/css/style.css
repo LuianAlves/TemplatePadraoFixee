@@ -161,11 +161,11 @@ ul {
 .container-nav .navigation {
     display: none;
     position: fixed;
-    top: 100px;
+    top: 75px;
     bottom: 100px;
     left: 10px;
-    width: 0px;
-    height: auto;
+    width: 215px;
+    height: 0px;
     background: #fff;
     border-radius: 10px;
     overflow: hidden;
@@ -175,13 +175,13 @@ ul {
 }
 
 .container-nav .navigation.active {
-    width: 215px;
+    height: 420px;
 }
 
 .container-nav .navigation ul {
     position: relative;
     width: 100%;
-    top: calc(20% - 29px);
+    top: calc(30% - 90px);
 }
 
 .container-nav .navigation ul li {
@@ -225,8 +225,8 @@ ul {
 #toggle-men {
     display: none;
     position: fixed;
-    left: 20px;
-    top: calc(50% - 20px);
+    left: 7px;
+    top: calc(10% - 10px);
     width: 40px;
     height: 40px;
     background: #f5f5f5;
@@ -238,12 +238,12 @@ ul {
 }
 
 #toggle-men.active {
-    left: 205px;
+    /* left: 205px; */
     transition: .5s;
 }
 
 #toggle-men::before {
-    content: '\f054';
+    content: '\f0c9';
     font-family: fontAwesome;
     position: absolute;
     color: #280a74ca;
@@ -256,7 +256,7 @@ ul {
 }
 
 #toggle-men.active::before {
-    content: '\f053';
+    content: '\f078';
 }
 
 
