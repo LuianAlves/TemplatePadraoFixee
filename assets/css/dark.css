@@ -46,10 +46,28 @@ input[type="checkbox"] {
     border-color: var(--main-text-color);
 }
 
-.dark .bi-sun {
+
+/* Button config  */
+
+.dark .btn-config .bi-moon,
+.dark .btn-config .modo-escuro {
+    display: none;
+}
+
+.dark .btn-config .bi-sun,
+.dark .btn-config .modo-claro {
     display: block;
 }
 
-.dark .bi-moon {
-    display: none;
+.dark .btn-config .bi-sun {
+    color: rgb(193, 180, 62);
+}
+
+.dark .btn-config .modo-claro {
+    font-weight: 600;
+    color: #f1f2f5;
+}
+
+.dark .btn-config .dropdown-menu.show {
+    background: rgba(255, 255, 255, 0.112);
 }

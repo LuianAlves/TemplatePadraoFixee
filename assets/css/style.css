@@ -12,7 +12,7 @@
     font-family: "Poppins", sans-serif !important;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 
@@ -94,12 +94,6 @@ svg path {
     border-bottom: 3px solid var(--main-text-color);
 }
 
-li .bi {
-    font-size: 24px;
-    color: #fff;
-    display: block !important;
-}
-
 .logo {
     /* position: absolute; */
     width: 151px;
@@ -107,6 +101,57 @@ li .bi {
     left: 70px;
     top: 59px;
     transition: .5s;
+}
+
+
+/* Button config */
+
+.btn-config {
+    margin: 0;
+    padding: 0;
+}
+
+.btn-config .dropdown {
+    position: absolute;
+    right: 35px;
+    top: 57.5px;
+}
+
+.btn-config .dropdown-menu {
+    min-width: 150px;
+}
+
+.btn-config .dropdown-menu.show {
+    transform: translate(0px, 40px) !important;
+    background: rgba(232, 232, 233, 0.707);
+}
+
+.btn-config .dropdown-menu a:hover {
+    background: none;
+}
+
+.btn-config .icon-config {
+    position: absolute;
+    font-size: 24px;
+    color: #fff;
+}
+
+.btn-config label .bi {
+    font-size: 20px;
+}
+
+.btn-config .bi-sun,
+.btn-config .modo-claro {
+    display: none;
+}
+
+.btn-config .bi-moon {
+    color: var(--main-text-color);
+}
+
+.btn-config .modo-escuro {
+    font-weight: 600;
+    color: #1a1a1a;
 }
 
 
@@ -290,26 +335,6 @@ form .card {
     margin-top: 25px;
     font-size: 17px;
     text-decoration: none;
-}
-
-
-/* Icons Dark Mode */
-
-label .bi {
-    position: fixed;
-    width: 60px;
-    height: 60px;
-    bottom: 40px;
-    right: 40px;
-    z-index: 997;
-    font-size: 30px;
-    cursor: pointer;
-    color: rgb(37, 158, 228);
-}
-
-.bi-sun {
-    color: rgb(147, 176, 5);
-    display: none;
 }
 
 
