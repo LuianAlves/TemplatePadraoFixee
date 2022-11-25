@@ -163,6 +163,10 @@ svg path {
     background: rgba(232, 232, 233, 0.707);
 }
 
+.btn-config .dropdown-toggle::after {
+    display: none;
+}
+
 .btn-config .dropdown-menu a:hover {
     background: none;
 }
