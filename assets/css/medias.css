@@ -37,6 +37,13 @@
         height: 50px;
         width: 100px !important;
     }
+    .logo {
+        width: 120px;
+        height: 55px;
+    }
+    .btn-config .dropdown {
+        z-index: 997;
+    }
 }
 
 
