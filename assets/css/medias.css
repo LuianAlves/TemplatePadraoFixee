@@ -52,7 +52,7 @@
 @media only screen and (max-width: 768px) {
     /* Section */
     .section-one {
-        height: 80vh;
+        height: 75vh;
     }
     .text-title {
         font-size: 21px;
@@ -72,8 +72,8 @@
     }
     /* Button */
     .btn-primary {
-        font-size: 16px;
-        padding: 12px 25px;
+        font-size: 14px;
+        padding: 10px 25px;
     }
     /* Owl Carousel - Banner second section */
     .owl-carousel {
@@ -83,6 +83,10 @@
         height: 75px;
         width: 150px !important;
     }
+    .logo {
+        width: 120px;
+        height: 55px;
+    }
 }
 
 
@@ -91,7 +95,7 @@
 @media only screen and (min-width: 768px) {
     /* Section */
     .section-one {
-        height: 90vh;
+        height: 80vh;
     }
     .text-title {
         font-size: 24px;
