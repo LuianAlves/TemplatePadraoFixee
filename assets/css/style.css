@@ -1,12 +1,12 @@
 :root {
-    --main-bg-scrollbar: linear-gradient(227.07deg, #b7b6b76e 0.43%, #b3b3b54a 99.56%);
+    --main-bg-scrollbar: linear-gradient( 227.07deg, #b7b6b76e 0.43%, #b3b3b54a 99.56%);
     --main-bg-color: linear-gradient(227.07deg, #4e0062 0.43%, #220076 99.56%);
-    --main-bg-color1: linear-gradient(201.73deg, #1131A6 -9.1%, #1B2031 107.32%);
-    --main-bg-color2: linear-gradient(201.73deg, #000D3C -9.1%, #027769 107.32%);
-    --main-bg-color3: linear-gradient(201.73deg, #002ABD -9.1%, #026277 107.32%);
-    --main-bg-color4: linear-gradient(201.73deg, #00145B -9.1%, #00FFF0 107.32%);
+    --main-bg-color1: linear-gradient(201.73deg, #1131a6 -9.1%, #1b2031 107.32%);
+    --main-bg-color2: linear-gradient(201.73deg, #000d3c -9.1%, #027769 107.32%);
+    --main-bg-color3: linear-gradient(201.73deg, #002abd -9.1%, #026277 107.32%);
+    --main-bg-color4: linear-gradient(201.73deg, #00145b -9.1%, #00fff0 107.32%);
     --main-text-color: #ff5c00;
-    --main-bg-icon-whats: linear-gradient(227.07deg, #1abf4e 0.43%, #28b183 99.56%);
+    --main-bg-icon-whats: linear-gradient( 227.07deg, #1abf4e 0.43%, #28b183 99.56%);
 }
 
 * {
@@ -137,7 +137,7 @@ svg path {
     height: 70px;
     left: 70px;
     top: 59px;
-    transition: .5s;
+    transition: 0.5s;
 }
 
 
@@ -234,16 +234,16 @@ ul {
     z-index: 1000;
     border: 5px solid #280a74ca;
     border-radius: 50%;
-    transition: .5s;
+    transition: 0.5s;
 }
 
 #toggle-men.active {
     /* left: 205px; */
-    transition: .5s;
+    transition: 0.5s;
 }
 
 #toggle-men::before {
-    content: '\f0c9';
+    content: "\f0c9";
     font-family: fontAwesome;
     position: absolute;
     color: #280a74ca;
@@ -252,11 +252,11 @@ ul {
     text-align: center;
     line-height: 30px;
     font-size: 16px;
-    transition: .5s;
+    transition: 0.5s;
 }
 
 #toggle-men.active::before {
-    content: '\f078';
+    content: "\f078";
 }
 
 
@@ -320,7 +320,7 @@ ul {
 
 label iconify-icon {
     font-size: 30px;
-    transition: .5s;
+    transition: 0.5s;
     line-height: 80px;
     float: right;
     margin-right: 40px;
@@ -398,7 +398,7 @@ label iconify-icon {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    height: 250px;
+    height: 200px;
     border-radius: 25px;
     color: #fff;
     background: var(--main-bg-color);
@@ -517,3 +517,6 @@ form .card {
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
     background-image: var(--main-bg-scrollbar);
 }
+
+
+/*  */
