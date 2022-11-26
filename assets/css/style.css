@@ -279,7 +279,7 @@ ul {
 }
 
 .btn-config .dropdown-menu.show {
-    transform: translate(0px, 60px) !important;
+    transform: translate(0px, 55px) !important;
     background: rgba(232, 232, 233, 0.707);
 }
 
@@ -294,6 +294,7 @@ ul {
 .btn-config .icon-config {
     position: absolute;
     font-size: 24px;
+    z-index: 1001;
     color: #fff;
 }
 
@@ -351,6 +352,7 @@ label iconify-icon {
 
 .text-color {
     color: var(--main-text-color);
+    z-index: 1001 !important;
 }
 
 .btn-primary {
