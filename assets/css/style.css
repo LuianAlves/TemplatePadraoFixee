@@ -5,12 +5,11 @@
     --main-bg-color2: linear-gradient(201.73deg, #000d3c -9.1%, #027769 107.32%);
     --main-bg-color3: linear-gradient(201.73deg, #002abd -9.1%, #026277 107.32%);
     --main-bg-color4: linear-gradient(201.73deg, #00145b -9.1%, #00fff0 107.32%);
-    --main-bg-color: linear-gradient(201.73deg, #000D3C -9.1%, #027769 107.32%);
-
+    --main-bg-color6: linear-gradient(201.73deg, #000D3C -9.1%, #027769 107.32%);
+    --main-bg-color: linear-gradient(193.83deg, #000927 -11.98%, #24C2F4 131.23%);
     --main-text-color: #14D5FF;
     --main-text-color1: #ff5c00;
     --main-text-color2: #14FF00;
-
     --main-bg-icon-whats: linear-gradient( 227.07deg, #1abf4e 0.43%, #28b183 99.56%);
 }
 
