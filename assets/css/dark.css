@@ -76,11 +76,11 @@ input[type="checkbox"] {
 
 .dark #toggle-men {
     background: var(--main-bg-dark);
-    border: 5px solid #f1f2f5a6;
+    border: 5px solid #14D5FF;
 }
 
 .dark #toggle-men::before {
-    color: #f1f2f5a6;
+    color: #14D5FF;
 }
 
 
@@ -96,11 +96,11 @@ input[type="checkbox"] {
 
 .dark #icon-config {
     background: var(--main-bg-dark);
-    border: 5px solid #f1f2f5a6;
+    border: 5px solid #14D5FF;
 }
 
 .dark #icon-config::before {
-    color: #f1f2f5a6;
+    color: #14D5FF;
 }
 
 .dark .btn-config .modo-escuro {

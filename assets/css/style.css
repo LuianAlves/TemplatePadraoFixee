@@ -172,7 +172,7 @@ ul {
     overflow: hidden;
     z-index: 1000;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .container-nav .navigation.active {
@@ -281,7 +281,7 @@ ul {
     overflow: hidden;
     z-index: 1000;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-    transition: .2s;
+    transition: .3s;
 }
 
 .container-nav .menu-config.active {
