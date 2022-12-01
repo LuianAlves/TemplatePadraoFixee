@@ -16,6 +16,22 @@
 
 .button i {
     width: 100%;
+    width: 40px;
+    height: 40px;
+    color: #0a5174ca;
+    background: #f5f5f5;
+    cursor: pointer;
+    z-index: 1000;
+    border: 5px solid #0a5174ca;
+    border-radius: 50%;
+    transition: 0.5s;
+    line-height: 30px;
+}
+
+.dark .button i {
+    color: #f1f2f5a6;
+    background: var(--main-bg-dark);
+    border: 5px solid #f1f2f5a6;
 }
 
 .cards-wrapper {
@@ -32,9 +48,9 @@
 }
 
 .box {
-    margin: 0 -3.2rem;
-    width: 170px;
-    height: 20rem;
+    margin: 0 -4rem;
+    width: 200px;
+    height: 15rem;
     box-shadow: 0px 0px 2rem 0px #888888;
     display: flex;
     justify-content: center;

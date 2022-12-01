@@ -47,42 +47,16 @@ input[type="checkbox"] {
 }
 
 
-/* Button config  */
-
-.dark .btn-config .bi-moon,
-.dark .btn-config .modo-escuro {
-    display: none;
-}
-
-.dark .btn-config .bi-sun,
-.dark .btn-config .modo-claro {
-    display: block;
-}
-
-.dark .btn-config .bi-sun {
-    color: var(--color-icone-sol);
-}
-
-.dark .btn-config .modo-claro {
-    font-weight: 600;
-    color: #f1f2f5;
-}
-
-.dark .btn-config .dropdown-menu.show {
-    background: rgba(255, 255, 255, 0.112);
-}
-
-
 /* back to top */
 
 .dark #backToTop {
     background: var(--main-bg-linear-dark);
-    color: rgba(255, 255, 255, 0.566);
+    color: #14D5FF;
 }
 
 .dark #btnWhatsapp {
     background: var(--main-bg-linear-dark);
-    color: rgba(255, 255, 255, 0.566);
+    color: #14D5FF;
 }
 
 
@@ -107,4 +81,36 @@ input[type="checkbox"] {
 
 .dark #toggle-men::before {
     color: #f1f2f5a6;
+}
+
+
+/* Button config  */
+
+.dark .container-nav .menu-config {
+    background: #2a2727;
+}
+
+.dark .container-nav .menu-config ul li .text-menu {
+    color: #f1f2f5a6;
+}
+
+.dark #icon-config {
+    background: var(--main-bg-dark);
+    border: 5px solid #f1f2f5a6;
+}
+
+.dark #icon-config::before {
+    color: #f1f2f5a6;
+}
+
+.dark .btn-config .modo-escuro {
+    display: none;
+}
+
+.dark .btn-config .modo-claro {
+    display: block;
+}
+
+.dark .btn-config .bi-sun-fill {
+    color: var(--main-text-color);
 }

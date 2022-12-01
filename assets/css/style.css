@@ -1,16 +1,10 @@
 :root {
-    --main-bg-scrollbar: linear-gradient( 227.07deg, #b7b6b76e 0.43%, #b3b3b54a 99.56%);
-    --main-bg-color5: linear-gradient(227.07deg, #4e0062 0.43%, #220076 99.56%);
-    --main-bg-color1: linear-gradient(201.73deg, #1131a6 -9.1%, #1b2031 107.32%);
-    --main-bg-color2: linear-gradient(201.73deg, #000d3c -9.1%, #027769 107.32%);
-    --main-bg-color3: linear-gradient(201.73deg, #002abd -9.1%, #026277 107.32%);
-    --main-bg-color4: linear-gradient(201.73deg, #00145b -9.1%, #00fff0 107.32%);
     --main-bg-color: linear-gradient(201.73deg, #000D3C -9.1%, #027769 107.32%);
     --main-bg-color6: linear-gradient(193.83deg, #000927 -11.98%, #24C2F4 131.23%);
-    --main-text-color: #14D5FF;
-    --main-text-color1: #ff5c00;
-    --main-text-color2: #14FF00;
     --main-bg-icon-whats: linear-gradient( 227.07deg, #1abf4e 0.43%, #28b183 99.56%);
+    --main-bg-scrollbar: linear-gradient( 227.07deg, #b7b6b76e 0.43%, #b3b3b54a 99.56%);
+    --main-text-color: #14D5FF;
+    --color-icone-lua: rgb(209, 131, 5);
 }
 
 * {
@@ -145,13 +139,7 @@ svg path {
 }
 
 
-/* Menu Mobile  */
-
-.nav-custom-mobile {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
+/* Menu Mobile / Btn Config  */
 
 .container-nav {
     position: relative;
@@ -162,10 +150,19 @@ ul {
     padding-left: 0px !important;
 }
 
+
+/* Menu Mobile  */
+
+.nav-custom-mobile {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 .container-nav .navigation {
     display: none;
     position: fixed;
-    top: 70px;
+    top: 60px;
     bottom: 100px;
     left: 15px;
     width: 215px;
@@ -230,7 +227,7 @@ ul {
     display: none;
     position: fixed;
     left: 10px;
-    top: calc(8% - 5px);
+    top: calc(10% - 10px);
     width: 40px;
     height: 40px;
     background: #f5f5f5;
@@ -264,15 +261,127 @@ ul {
 }
 
 
-/* Button config */
+/* Btn config */
 
 .btn-config {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container-nav .menu-config {
+    position: fixed;
+    top: 80px;
+    bottom: 100px;
+    right: 35px;
+    width: 200px;
+    height: 0px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 1000;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+}
+
+.container-nav .menu-config.active {
+    height: 55px;
+}
+
+.container-nav .menu-config ul {
+    position: relative;
+    width: 100%;
+    top: calc(15% - 10px);
+}
+
+.container-nav .menu-config ul li {
+    position: relative;
+    list-style: none;
+    width: 100%
+}
+
+.container-nav .menu-config ul li a {
+    text-decoration: none;
+}
+
+.container-nav .menu-config ul li label {
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    font-weight: 600;
+}
+
+.container-nav .menu-config ul li label .icon-menu {
+    position: relative;
+    display: block;
+    min-width: 50px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.container-nav .menu-config ul li label .text-menu {
+    position: relative;
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    font-size: 16px;
+    color: var(--main-bg-dark);
+    white-space: nowrap;
+}
+
+.btn-config .bi-moon-fill {
+    color: var(--color-icone-lua);
+}
+
+.btn-config .modo-claro {
+    display: none;
+}
+
+#icon-config {
+    position: fixed;
+    right: 10px;
+    top: calc(10% - 10px);
+    width: 40px;
+    height: 40px;
+    background: #f5f5f5;
+    cursor: pointer;
+    z-index: 1000;
+    border: 5px solid #0a5174ca;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+#icon-config.active {
+    transition: 0.5s;
+}
+
+#icon-config::before {
+    content: "\f085";
+    font-family: fontAwesome;
+    position: absolute;
+    color: #0a5174ca;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    line-height: 30px;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+#icon-config.active::before {
+    content: "\f078";
+}
+
+
+/* .btn-config {
     margin: 0;
     padding: 0;
 }
 
 .btn-config .dropdown {
-    position: absolute;
+    position: fixed;
     right: 60px;
     top: 41px;
     z-index: 1000;
@@ -287,6 +396,11 @@ ul {
     background: rgba(232, 232, 233, 0.707);
 }
 
+.dropdown-color.show {
+    background: #000 !important;
+    color: #fff !important;
+}
+
 .btn-config .dropdown-toggle::after {
     display: none;
 }
@@ -295,11 +409,31 @@ ul {
     background: none;
 }
 
-.btn-config .icon-config {
+.btn-config #icon-config {
+    position: fixed;
+    right: 15px;
+    top: calc(8% - 5px);
+    width: 40px;
+    height: 40px;
+    background: #f5f5f5;
+    cursor: pointer;
+    z-index: 1000;
+    border: 5px solid #0a5174ca;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.btn-config #icon-config::before {
+    content: "\f085";
+    font-family: fontAwesome;
     position: absolute;
-    font-size: 24px;
-    z-index: 1001;
-    color: #fff;
+    color: #0a5174ca;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    transition: 0.5s;
 }
 
 .btn-config label .bi {
@@ -318,11 +452,13 @@ ul {
 .btn-config .modo-escuro {
     font-weight: 600;
     color: #1a1a1a;
-}
+} */
 
 
 /* Sidenav */
 
+
+/* 
 label iconify-icon {
     font-size: 30px;
     transition: 0.5s;
@@ -331,7 +467,7 @@ label iconify-icon {
     margin-right: 40px;
     cursor: pointer;
     display: none;
-}
+} */
 
 
 /* Body */

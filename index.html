@@ -51,7 +51,7 @@
                 <div class="row d-flex align-items-center" id="nav-barra">
                     <div class="my-5">
                         <!-- Navbar -->
-                        <div class="d-flex justify-content-start">
+                        <div class="d-flex justify-content-start" id="nav_bar1">
                             <nav class="navbar navbar-expand-lg bg-transparent">
                                 <div class="container-fluid">
                                     <div class="collapse navbar-collapse">
@@ -90,33 +90,36 @@
 
                         <!-- Button config -->
                         <div class="btn-config">
-                            <div class="dropdown">
-                                <a class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    <i class="bi bi-gear icon-config"></i>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a class="dropdown-item d-flex" href="#">
-                                            <input type="checkbox" name="dark-mode" id="dark-mode">
-                                            <label for="dark-mode">
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <i class="bi bi-sun"></i> 
-                                                <span class="modo-claro mx-3">Modo Claro</span>
-                                            </div>
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <i class="bi bi-moon"></i> 
-                                                <span class="modo-escuro mx-3">Modo Escuro</span>
-                                            </div>
-                                            
-                                        </label>
-                                        </a>
-                                    </li>
-                                </ul>
+                            <div class="container-nav">
+                                <div class="menu-config">
+                                    <ul>
+                                        <li class="modo-claro">
+                                            <a href="#">
+                                                <input type="checkbox" name="dark-mode" id="dark-mode">
+                                                <label for="dark-mode">
+                                                    <span class="icon-menu"><i class="bi bi-sun-fill"></i></span>
+                                                    <span class="text-menu">Modo claro</span>
+                                                </label>
+                                            </a>
+                                        </li>
+                                        <li class="modo-escuro">
+                                            <a href="#">
+                                                <input type="checkbox" name="dark-mode" id="dark-mode">
+                                                <label for="dark-mode">
+                                                    <span class="icon-menu"><i class="bi bi-moon-fill"></i></span>
+                                                    <span class="text-menu">Modo escuro</span>
+                                                </label>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
+                        <div class="icon-config" id="icon-config"></div>
 
                     </div>
                 </div>
+
 
                 <!-- Menu Mobile -->
                 <div class="nav-custom-mobile">
@@ -419,7 +422,7 @@
                     </div>
                     <div class="col-12 col-lg-4 offset-lg-1">
                         <div class="container-port">
-                            <div class="button" onclick="shiftLeft()"><i class="bi bi-chevron-left"></i></div>
+                            <div class="button" onclick="shiftLeft()"><i class="bi bi-chevron-left fs-5"></i></div>
                             <div class="cards-wrapper">
                                 <ul class="cards__container">
                                     <li class="box img-fluid">
@@ -616,7 +619,7 @@
         <script src="assets/js/back_to_top.js" defer></script>
 
         <!-- Menu Toggle -->
-        <script src="assets/js/menu_toggle.js" defer></script>
+        <script src="assets/js/btn_fixed.js" defer></script>
 
         <script src="assets/js/slider_carousel_portfolio.js"></script>
 </body>
