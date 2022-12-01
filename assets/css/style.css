@@ -412,6 +412,7 @@ ul {
     border-radius: 50px;
     border: none;
     z-index: 997;
+    animation: pulse 1.5s infinite;
     -webkit-animation: pulse 1.5s infinite;
 }
 
@@ -535,6 +536,14 @@ ul {
 
 form .card {
     background: #fff !important;
+}
+
+
+/* Projetos */
+
+#projetos img {
+    animation: pulse 1.5s infinite;
+    -webkit-animation: pulse 1.5s infinite;
 }
 
 
