@@ -114,3 +114,14 @@ input[type="checkbox"] {
 .dark .btn-config .bi-sun-fill {
     color: var(--main-text-color);
 }
+
+
+/* Banner Sliders */
+
+.dark .dark-imgs {
+    display: block;
+}
+
+.dark .light-imgs {
+    display: none;
+}
