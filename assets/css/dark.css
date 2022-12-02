@@ -189,3 +189,16 @@ input[type="checkbox"] {
     background-clip: text;
     text-fill-color: transparent;
 }
+
+.dark .footer-section ul .li-logo .logo-footer-dark {
+    width: 185px;
+    height: 70px;
+}
+
+.dark .logo-footer-light {
+    display: none;
+}
+
+.dark .logo-footer-dark {
+    display: block;
+}

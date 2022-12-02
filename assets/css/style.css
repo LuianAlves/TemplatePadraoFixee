@@ -879,7 +879,7 @@ svg path {
     margin: 15px auto;
 }
 
-.footer-section ul .li-logo img {
+.footer-section ul .li-logo .logo-footer-light {
     width: 150px;
     height: 70px;
 }
@@ -901,6 +901,10 @@ svg path {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
+}
+
+.logo-footer-dark {
+    display: none;
 }
 
 
