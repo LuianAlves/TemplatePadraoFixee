@@ -639,10 +639,9 @@ svg path {
 }
 
 
-/* --------------- Portfolio --------------------  */
-
-
-/* Portfolio */
+/*--------------------------------------------------------------
+# Section PORTFOLIO
+--------------------------------------------------------------*/
 
 .portfolio .portfolio-item {
     margin-bottom: 30px;
@@ -810,7 +809,14 @@ svg path {
 }
 
 
-/* --------------- Footer --------------------  */
+/*--------------------------------------------------------------
+# Section FOOTER
+--------------------------------------------------------------*/
+
+
+/**
+* Primeiro footer
+*/
 
 .footer-section {
     height: 100% !important;
@@ -820,18 +826,72 @@ svg path {
     list-style: none;
 }
 
-.footer-title {
-    font-size: 15px;
-    color: #fff;
-    margin-bottom: 10px;
-    text-align: left;
+.footer-section .footer-link {
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 45px;
+    text-decoration: none;
+    color: #000;
+    opacity: 0.8;
 }
 
-.footer-link {
-    color: #f2f3f58f;
-    margin-top: 25px;
-    font-size: 13px;
-    text-decoration: none;
+.footer-section ul .li-icons {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    line-height: 45px;
+}
+
+.footer-section ul .li-icons .footer-icon {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer-section ul .li-icons .footer-icon .bi {
+    padding: 5px;
+    font-size: 18px;
+    color: #616161;
+    border: 1px solid #616161;
+    border-radius: 10px;
+}
+
+.footer-section ul .li-icons .footer-icon .bi:hover {
+    color: #fff;
+    background: #4154FF;
+    border: 1px solid #4154ff9c;
+}
+
+.footer-section ul .li-logo {
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+}
+
+.footer-section ul .li-logo img {
+    width: 150px;
+    height: 70px;
+}
+
+
+/**
+* Segundo footer
+*/
+
+.second-footer {}
+
+.second-footer .footer-divider {
+    border-top: 1px solid #bcbcbc;
+}
+
+.second-footer .footer-text {
+    margin: 25px auto;
+    text-align: center;
+    background: var(--bg-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
 }
 
 
