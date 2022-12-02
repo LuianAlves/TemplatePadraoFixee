@@ -17,6 +17,10 @@
     /* overflow-x: hidden; */
 }
 
+a:hover {
+    color: var(--text-primary) !important;
+}
+
 
 /* Back to top */
 
@@ -884,8 +888,6 @@ svg path {
 /**
 * Segundo footer
 */
-
-.second-footer {}
 
 .second-footer .footer-divider {
     border-top: 1px solid #bcbcbc;
