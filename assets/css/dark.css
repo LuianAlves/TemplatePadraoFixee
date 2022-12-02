@@ -125,3 +125,10 @@ input[type="checkbox"] {
 .dark .light-imgs {
     display: none;
 }
+
+
+/* Serviços */
+
+.dark .list-cards .icon-card i {
+    color: #fff;
+}

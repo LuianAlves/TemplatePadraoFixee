@@ -480,8 +480,9 @@ ul {
     height: 120px;
     border-radius: 25px;
     color: #fff;
-    background: var(--main-bg-color);
-    box-shadow: 7px 7px 10px #14d4ff87;
+    background: #fff;
+    border: none;
+    box-shadow: 7px 7px 10px #14d4ff61;
     padding: 0;
 }
 
@@ -502,6 +503,7 @@ ul {
 
 .list-cards .icon-card i {
     font-size: 40px !important;
+    color: #0599bacd;
 }
 
 .list-cards .title-card {
