@@ -18,7 +18,7 @@
     width: 100%;
     width: 40px;
     height: 40px;
-    color: #0a5174ca;
+    color: #0a5174;
     background: #f5f5f5;
     cursor: pointer;
     z-index: 1000;
@@ -26,11 +26,12 @@
     border-radius: 50%;
     transition: 0.5s;
     line-height: 30px;
+    box-shadow: 15px 15px 50px var(--text-primary);
 }
 
 .dark .button i {
     color: #f1f2f5a6;
-    background: var(--main-bg-dark);
+    background: var(--bg-dark);
     border: 5px solid #f1f2f5a6;
 }
 
