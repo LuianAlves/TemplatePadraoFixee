@@ -59,7 +59,7 @@ a:hover {
 
 #home {
     width: 100%;
-    height: 65vh;
+    height: 80vh;
 }
 
 
@@ -445,7 +445,7 @@ svg path {
 --------------------------------------------------------------*/
 
 #banner {
-    margin: 20px auto;
+    margin: auto 20px auto;
 }
 
 .wrapper {
@@ -479,7 +479,7 @@ svg path {
 --------------------------------------------------------------*/
 
 #servicos {
-    height: 55vh;
+    height: 90vh;
 }
 
 #servicos .title-section {
@@ -540,7 +540,7 @@ svg path {
 --------------------------------------------------------------*/
 
 #empresa {
-    height: 60vh;
+    height: 100vh;
 }
 
 #empresa .title-section {
@@ -625,7 +625,7 @@ svg path {
 --------------------------------------------------------------*/
 
 #projetos {
-    height: 55vh;
+    height: 90vh;
     padding-top: 100px;
 }
 
@@ -922,7 +922,7 @@ svg path {
 --------------------------------------------------------------*/
 
 #portfolio {
-    height: 60vh;
+    height: 85vh;
 }
 
 #portfolio .title-section {
