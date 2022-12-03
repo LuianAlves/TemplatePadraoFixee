@@ -160,18 +160,18 @@ input[type="checkbox"] {
 * Primeiro footer
 */
 
-.dark .footer-section .footer-link {
+.dark #footer .footer-link {
     color: #fff;
     opacity: 0.8;
 }
 
-.dark .footer-section ul .li-icons .footer-icon .bi {
+.dark #footer ul .li-icons .footer-icon .bi {
     color: #fff;
     border: 1px solid #fff;
     opacity: 0.8;
 }
 
-.dark .footer-section ul .li-icons .footer-icon .bi:hover {
+.dark #footer ul .li-icons .footer-icon .bi:hover {
     background: var(--text-primary);
     border: 1px solid var(--text-primary);
 }
@@ -190,7 +190,7 @@ input[type="checkbox"] {
     text-fill-color: transparent;
 }
 
-.dark .footer-section ul .li-logo .logo-footer-dark {
+.dark #footer ul .li-logo .logo-footer-dark {
     width: 185px;
     height: 70px;
 }

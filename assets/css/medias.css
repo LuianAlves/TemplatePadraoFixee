@@ -2,9 +2,9 @@
 
 @media only screen and (max-width: 576px) {
     /* Section */
-    .section-one {
+    /* .section-one {
         height: 70vh;
-    }
+    } */
     .text-title {
         font-size: 20px;
     }
@@ -12,7 +12,7 @@
         font-size: 16px;
     }
     .title-section {
-        margin-top: 15px;
+        /* margin-top: 15px; */
         font-size: 20px !important;
     }
     .text-section {
@@ -34,10 +34,10 @@
         font-size: 16px;
     }
     /* Owl Carousel - Banner second section */
-    .owl-carousel {
+    #banner .owl-carousel {
         margin-top: 10px;
     }
-    .owl-carousel .owl-item img {
+    #banner .owl-carousel .owl-item img {
         height: 30px;
         width: 80px !important;
     }
@@ -55,9 +55,9 @@
 
 @media only screen and (max-width: 768px) {
     /* Section */
-    .section-one {
+    /* .section-one {
         height: 75vh;
-    }
+    } */
     .text-title {
         font-size: 21px;
     }
@@ -65,11 +65,11 @@
         font-size: 16px;
     }
     .title-section {
-        margin-top: 18px;
+        /* margin-top: 18px; */
         font-size: 26px;
     }
     .section-one .title-section {
-        margin-top: 36px;
+        /* margin-top: 36px; */
     }
     .text-section {
         font-size: 18px;
@@ -80,10 +80,10 @@
         padding: 10px 25px;
     }
     /* Owl Carousel - Banner second section */
-    .owl-carousel {
+    #banner .owl-carousel {
         margin-top: 25px;
     }
-    .owl-carousel .owl-item img {
+    #banner .owl-carousel .owl-item img {
         height: 30px;
         width: 80px !important;
     }
@@ -98,9 +98,9 @@
 
 @media only screen and (min-width: 768px) {
     /* Section */
-    .section-one {
+    /* .section-one {
         height: 80vh;
-    }
+    } */
     .text-title {
         font-size: 24px;
     }
@@ -108,11 +108,11 @@
         font-size: 17px;
     }
     .title-section {
-        margin-top: 38px;
+        /* margin-top: 38px; */
         font-size: 24px;
     }
     .section-one .title-section {
-        margin-top: 48px;
+        /* margin-top: 48px; */
     }
     .text-section {
         font-size: 18px;
@@ -123,10 +123,10 @@
         padding: 12px 25px;
     }
     /* Owl Carousel - Banner second section */
-    .owl-carousel {
+    #banner .owl-carousel {
         margin-top: 25px;
     }
-    .owl-carousel .owl-item img {
+    #banner .owl-carousel .owl-item img {
         height: 40px;
         width: 100px !important;
     }
@@ -142,8 +142,19 @@
     #toggle-men {
         display: block;
     }
-    .container-port .box {
-        margin-top: 35px;
+    #projetos {
+        height: 90vh;
+    }
+    #projetos .button {
+        margin: 0;
+    }
+    #projetos .container-proj {
+        position: relative;
+        top: 75px;
+    }
+    #projetos .box {
+        width: 13rem;
+        height: 20rem;
     }
 }
 
@@ -152,9 +163,9 @@
 
 @media only screen and (min-width: 992px) {
     /* Section */
-    .section-one {
+    /* .section-one {
         height: 80vh;
-    }
+    } */
     .text-title {
         font-size: 30px;
     }
@@ -162,7 +173,7 @@
         font-size: 17px;
     }
     .title-section {
-        margin-top: 38px;
+        /* margin-top: 38px; */
         font-size: 26px;
     }
     .text-section {
@@ -174,10 +185,10 @@
         padding: 12px 25px;
     }
     /* Owl Carousel - Banner second section */
-    .owl-carousel {
+    #banner .owl-carousel {
         margin-top: 30px;
     }
-    .owl-carousel .owl-item img {
+    #banner .owl-carousel .owl-item img {
         height: 50px;
         width: 120px !important;
     }
@@ -188,9 +199,9 @@
 
 @media only screen and (min-width: 1200px) {
     /* Section */
-    .section-one {
+    /* .section-one {
         height: 85vh;
-    }
+    } */
 }
 
 
@@ -198,7 +209,7 @@
 
 @media only screen and (min-height: 1400px) {
     /* Section */
-    .section-one {
+    /* .section-one {
         height: 50vh;
-    }
+    } */
 }

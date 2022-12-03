@@ -30,8 +30,6 @@
     <!-- Css File -->
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <!-- Carousel Portfolio -->
-    <link rel="stylesheet" href="assets/css/carousel_portfolio.css">
     <!-- Css Dark Mode -->
     <link rel="stylesheet" href="assets/css/dark.css">
     <!-- Css responsive -->
@@ -45,7 +43,7 @@
 <body class="scrollbar-c">
     <div class="main">
         <!-- Header -->
-        <section class="section-one" id="home">
+        <section class="section section-one" id="home">
             <div class="container">
                 <!-- Header -->
                 <div class="row d-flex align-items-center" id="nav-barra">
@@ -119,7 +117,6 @@
 
                     </div>
                 </div>
-
 
                 <!-- Menu Mobile -->
                 <div class="nav-custom-mobile">
@@ -206,10 +203,11 @@
                     d="M 0,400 C 0,400 0,200 0,200 C 206.13333333333333,232 412.26666666666665,264 549,262 C 685.7333333333333,260 753.0666666666666,224.00000000000003 890,208 C 1026.9333333333334,191.99999999999997 1233.4666666666667,196 1440,200 C 1440,200 1440,400 1440,400 Z"
                     fill="#ffffff" />
             </svg>
+
         </section>
 
         <!-- Banner Linguagens -->
-        <section class="section">
+        <section class="section" id="banner">
             <div class="row">
                 <div class="wrapper light-imgs">
                     <div class="carousel owl-carousel">
@@ -379,124 +377,222 @@
         </section>
 
         <!-- Sobre Nós -->
-        <section class="section-one pt-5 my-5 h-100" id="empresa">
+        <section class="section section-one" id="empresa">
             <div class="container">
                 <div class="row d-flex align-items-center">
                     <div class="col-12 col-lg-6 order-0">
-                        <img class="img-fluid my-5 my-md-3 px-5" src="assets/gif/sobre_a_fixee.gif" alt="">
+                        <div class="row">
+                            <img class="gif-animado" src="assets/gif/sobre_a_fixee.gif" alt="">
+                        </div>
                     </div>
-                    <div class="col-12 col-lg-6 order-1 mb-0">
-                        <div class="d-flex justify-content-center">
-                            <h6 class="title-section">Sobre a Fixee</h6>
-                        </div>
-                        <div class="d-flex justify-content-center">
-                            <ul class="nav nav-pills my-5" id="pills-tab" role="tablist">
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link active" id="pills-home-sobre" data-bs-toggle="pill" data-bs-target="#pills-sobre" type="button" role="tab" aria-controls="pills-sobre" aria-selected="true">SOBRE</button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="pills-profile-missao" data-bs-toggle="pill" data-bs-target="#pills-missao" type="button" role="tab" aria-controls="pills-missao" aria-selected="false">MISSÃO</button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="pills-contact-visao" data-bs-toggle="pill" data-bs-target="#pills-visao" type="button" role="tab" aria-controls="pills-visao" aria-selected="false">VISÃO</button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="pills-contact-valores" data-bs-toggle="pill" data-bs-target="#pills-valores" type="button" role="tab" aria-controls="pills-valores" aria-selected="false">VALORES</button>
-                                </li>
-                            </ul>
-                        </div>
+                    <div class="col-12 col-lg-6 order-1">
+                        <div class="row tabs-empresa">
+                            <div class="d-flex justify-content-center">
+                                <h6 class="title-section">Sobre a Fixee</h6>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <ul class="nav nav-pills my-5" id="pills-tab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active" id="pills-home-sobre" data-bs-toggle="pill" data-bs-target="#pills-sobre" type="button" role="tab" aria-controls="pills-sobre" aria-selected="true">SOBRE</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="pills-profile-missao" data-bs-toggle="pill" data-bs-target="#pills-missao" type="button" role="tab" aria-controls="pills-missao" aria-selected="false">MISSÃO</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="pills-contact-visao" data-bs-toggle="pill" data-bs-target="#pills-visao" type="button" role="tab" aria-controls="pills-visao" aria-selected="false">VISÃO</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="pills-contact-valores" data-bs-toggle="pill" data-bs-target="#pills-valores" type="button" role="tab" aria-controls="pills-valores" aria-selected="false">VALORES</button>
+                                    </li>
+                                </ul>
+                            </div>
 
-                        <div class="tab-content mb-5" id="pills-tabContent">
-                            <div class="tab-pane fade show active" id="pills-sobre" role="tabpanel" aria-labelledby="pills-sobre-tab" tabindex="0">
-                                <span>
-                                    A Fixee começou sua história em um ambiente acadêmico com o objetivo de solucionar
-                                    problemas reais em pequenos negócios.
-                                </span>
+                            <div class="tab-content mb-5" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="pills-sobre" role="tabpanel" aria-labelledby="pills-sobre-tab" tabindex="0">
+                                    <span>
+                                        A Fixee começou sua história em um ambiente acadêmico com o objetivo de
+                                        solucionar
+                                        problemas reais em pequenos negócios.
+                                    </span>
 
-                                <div class="avatar">
-                                    <div class="row d-flex justify-content-center">
-                                        <div class="col-4">
-                                            <div class="avatar-preview" style="">
-                                                <img class="img-fluid" src="assets/img/avatar/avatar_thi.png" alt="">
-                                                <span class="avatar-nome">Thiago</span>
-                                                <span class="avatar-func"><b>Product Owner</b></span>
-                                                <span class="avatar-icon"><a href="#"><i class="bi bi-linkedin"></i></a></span>
+                                    <div class="avatar">
+                                        <div class="row d-flex justify-content-center">
+                                            <div class="col-4">
+                                                <div class="avatar-preview" style="">
+                                                    <img class="img-fluid" src="assets/img/avatar/avatar_thi.png" alt="">
+                                                    <span class="avatar-nome">Thiago</span>
+                                                    <span class="avatar-func">Product Owner</span>
+                                                    <span class="avatar-icon"><a href="#"><i
+                                                                class="bi bi-linkedin"></i></a></span>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="col-4">
-                                            <div class="avatar-preview">
-                                                <img class="img-fluid" src="assets/img/avatar/avatar_lui.png" alt="">
-                                                <span class="avatar-nome">Luian</span>
-                                                <span class="avatar-func">Desenvolvedor <b>PHP</b></span>
-                                                <span class="avatar-icon"><a href="#"><i class="bi bi-linkedin"></i></a></span>
+                                            <div class="col-4">
+                                                <div class="avatar-preview">
+                                                    <img class="img-fluid" src="assets/img/avatar/avatar_lui.png" alt="">
+                                                    <span class="avatar-nome">Luian</span>
+                                                    <span class="avatar-func">Desenvolvedor PHP</span>
+                                                    <span class="avatar-icon"><a href="#"><i
+                                                                class="bi bi-linkedin"></i></a></span>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="col-4">
-                                            <div class="avatar-preview">
-                                                <img class="img-fluid" src="assets/img/avatar/avatar_gui.png" alt="">
-                                                <span class="avatar-nome">Guilherme</span>
-                                                <span class="avatar-func">Desenvolvedor <b>Flutter</b></span>
-                                                <span class="avatar-icon"><a href="#"><i class="bi bi-linkedin"></i></a></span>
+                                            <div class="col-4">
+                                                <div class="avatar-preview">
+                                                    <img class="img-fluid" src="assets/img/avatar/avatar_gui.png" alt="">
+                                                    <span class="avatar-nome">Guilherme</span>
+                                                    <span class="avatar-func">Desenvolvedor Flutter</span>
+                                                    <span class="avatar-icon"><a href="#"><i
+                                                                class="bi bi-linkedin"></i></a></span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="tab-pane fade" id="pills-missao" role="tabpanel" aria-labelledby="pills-missao-tab" tabindex="0">
-                                <span>
+                                <div class="tab-pane fade" id="pills-missao" role="tabpanel" aria-labelledby="pills-missao-tab" tabindex="0">
+                                    <span>
 
-                                    Oferecer serviços e soluções customizadas de alta qualidade, concretizando o retorno
-                                    do investimento de nossos clientes. Acreditamos na sua ideia e queremos
-                                    desevolve-lá.
+                                        Oferecer serviços e soluções customizadas de alta qualidade, concretizando o
+                                        retorno
+                                        do investimento de nossos clientes. Acreditamos na sua ideia e queremos
+                                        desevolve-lá.
 
-                                </span>
-                            </div>
-                            <div class="tab-pane fade" id="pills-visao" role="tabpanel" aria-labelledby="pills-visao-tab" tabindex="0"><span>
-                                    Ser uma empresa sólida com maior referência de tecnologia no Brasil, que proporcione
-                                    qualidade de vida aos colaboradores e promova as novas tecnologia e ideias.
-                                </span></div>
-                            <div class="tab-pane fade" id="pills-valores" role="tabpanel" aria-labelledby="pills-valores-tab" tabindex="0"><span>
+                                    </span>
+                                    <div class="avatar">
+                                        <div class="row d-flex justify-content-center">
+                                            <div class="col-4">
+                                                <div class="avatar-preview" style="">
+                                                    <img class="img-fluid" src="assets/img/avatar/avatar_thi.png" alt="">
+                                                    <span class="avatar-nome">Thiago</span>
+                                                    <span class="avatar-func">Product Owner</span>
+                                                    <span class="avatar-icon"><a href="#"><i
+                                                                class="bi bi-linkedin"></i></a></span>
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <div class="avatar-preview">
+                                                    <img class="img-fluid" src="assets/img/avatar/avatar_lui.png" alt="">
+                                                    <span class="avatar-nome">Luian</span>
+                                                    <span class="avatar-func">Desenvolvedor PHP</span>
+                                                    <span class="avatar-icon"><a href="#"><i
+                                                                class="bi bi-linkedin"></i></a></span>
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <div class="avatar-preview">
+                                                    <img class="img-fluid" src="assets/img/avatar/avatar_gui.png" alt="">
+                                                    <span class="avatar-nome">Guilherme</span>
+                                                    <span class="avatar-func">Desenvolvedor Flutter</span>
+                                                    <span class="avatar-icon"><a href="#"><i
+                                                                class="bi bi-linkedin"></i></a></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="pills-visao" role="tabpanel" aria-labelledby="pills-visao-tab" tabindex="0"><span>
+                                        Ser uma empresa sólida com maior referência de tecnologia no Brasil, que
+                                        proporcione
+                                        qualidade de vida aos colaboradores e promova as novas tecnologia e ideias.
+                                    </span>
+                                    <div class="avatar">
+                                        <div class="row d-flex justify-content-center">
+                                            <div class="col-4">
+                                                <div class="avatar-preview" style="">
+                                                    <img class="img-fluid" src="assets/img/avatar/avatar_thi.png" alt="">
+                                                    <span class="avatar-nome">Thiago</span>
+                                                    <span class="avatar-func">Product Owner</span>
+                                                    <span class="avatar-icon"><a href="#"><i
+                                                                class="bi bi-linkedin"></i></a></span>
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <div class="avatar-preview">
+                                                    <img class="img-fluid" src="assets/img/avatar/avatar_lui.png" alt="">
+                                                    <span class="avatar-nome">Luian</span>
+                                                    <span class="avatar-func">Desenvolvedor PHP</span>
+                                                    <span class="avatar-icon"><a href="#"><i
+                                                                class="bi bi-linkedin"></i></a></span>
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <div class="avatar-preview">
+                                                    <img class="img-fluid" src="assets/img/avatar/avatar_gui.png" alt="">
+                                                    <span class="avatar-nome">Guilherme</span>
+                                                    <span class="avatar-func">Desenvolvedor Flutter</span>
+                                                    <span class="avatar-icon"><a href="#"><i
+                                                                class="bi bi-linkedin"></i></a></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="pills-valores" role="tabpanel" aria-labelledby="pills-valores-tab" tabindex="0">
 
                                     <ul>
                                         <li> Transparência e confiabilidade nas relações.</li>
 
                                         <li>Respeito com os colaboradores e clientes da Fixee.</li>
 
-                                        <li>Desafios - Busca pro desafios tecnológicos de impacto social e de retorno
-                                            para nossos clientes.</li>
-
-
+                                        <li>Busca por desafios tecnológicos de impacto social e dê retorno para nossos clientes.</li>
                                     </ul>
-
-                                </span></div>
+                                    <div class="avatar">
+                                        <div class="row d-flex justify-content-center">
+                                            <div class="col-4">
+                                                <div class="avatar-preview" style="">
+                                                    <img class="img-fluid" src="assets/img/avatar/avatar_thi.png" alt="">
+                                                    <span class="avatar-nome">Thiago</span>
+                                                    <span class="avatar-func">Product Owner</span>
+                                                    <span class="avatar-icon"><a href="#"><i class="bi bi-linkedin"></i></a></span>
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <div class="avatar-preview">
+                                                    <img class="img-fluid" src="assets/img/avatar/avatar_lui.png" alt="">
+                                                    <span class="avatar-nome">Luian</span>
+                                                    <span class="avatar-func">Desenvolvedor PHP</span>
+                                                    <span class="avatar-icon"><a href="#"><i class="bi bi-linkedin"></i></a></span>
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <div class="avatar-preview">
+                                                    <img class="img-fluid" src="assets/img/avatar/avatar_gui.png" alt="">
+                                                    <span class="avatar-nome">Guilherme</span>
+                                                    <span class="avatar-func">Desenvolvedor Flutter</span>
+                                                    <span class="avatar-icon"><a href="#"><i class="bi bi-linkedin"></i></a></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-
-
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Projetos -->
-        <section class="section my-5" id="projetos">
+        <section class="section" id="projetos">
             <div class="container">
-                <div class="row mb-5 px-3">
-                    <div class="col-12 col-lg-6">
-                        <div class="d-flex justify-content-center">
-                            <h6 class="title-section">Projetos</h6>
-                        </div>
-                        <div class="d-flex justify-content-center">
-                            <span class="text-section fw-bold mt-5" style="text-align: justify;">
+                <div class="row">
+                    <div class="col-12 col-lg-5">
+                        <div class="row">
+                            <div class="d-flex justify-content-center">
+                                <h6 class="title-section">Projetos</h6>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <span class="text-section fw-bold mt-5" style="text-align: justify;">
                                 A Fixee começou sua história em um ambiente acadêmico com o objetivo de solucionar
                                 problemas reais em pequenos negócios. Enxegarmos que o mercado atual não entende todas
                                 as ideias que surgem em nossa geração, acreditamos no seu projeto, nada é impossivel.
                             </span>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-4 offset-lg-1">
-                        <div class="container-port">
+                    <div class="col-12 col-lg-7">
+
+                        <div class="container-proj">
                             <div class="button" onclick="shiftLeft()"><i class="bi bi-chevron-left fs-5"></i></div>
-                            <div class="cards-wrapper">
+                            <div class="row cards-wrapper">
                                 <ul class="cards__container">
                                     <li class="box img-fluid">
                                         <img src="assets/img/projeto/img1.png" alt="">
@@ -514,133 +610,153 @@
                                         <img src="assets/img/projeto/img5.png" alt="">
                                     </li>
                                     <!-- <li class="box box--hide">
-                                    <img src="assets/img/banner/php.png" alt="">
-                                </li>
-                                <li class="box box--hide">
-                                    <img src="assets/img/banner/laravel.png" alt="">
-                                </li> -->
+                                        <img src="assets/img/banner/php.png" alt="">
+                                    </li>
+                                    <li class="box box--hide">
+                                        <img src="assets/img/banner/laravel.png" alt="">
+                                    </li> -->
                                 </ul>
 
                             </div>
                             <div class="button" onclick="shiftRight()"><i class="bi bi-chevron-right fs-5"></i></div>
                         </div>
+
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Portfolio -->
-        <section id="portfolio" class="portfolio section-one">
+        <section class="section section-one" id="portfolio">
             <div class="container">
 
-                <div class="d-flex justify-content-center mb-5 mt-2">
-                    <h6 class="title-section">Portfólio</h6>
-                </div>
-
                 <div class="row">
-                    <div class="col-lg-12 d-flex justify-content-center">
-                        <ul id="portfolio-btn">
-                            <li class="filter-active" onclick="filterItem('all')">Todos</li>
-                            <li onclick="filterItem('app')">HTML</li>
-                            <li onclick="filterItem('card')">php</li>
-                            <li onclick="filterItem('web')">flutter</li>
-                        </ul>
+                    <div class="d-flex justify-content-center mb-5 mt-2">
+                        <h6 class="title-section">Portfólio</h6>
+                    </div>
+
+                    <div class="col-6">
+
+                        <div class="row">
+                            <div class="d-flex justify-content-center">
+                                <ul id="portfolio-btn">
+                                    <li class="filter-active" onclick="filterItem('all')">Todos</li>
+                                    <li onclick="filterItem('app')">HTML</li>
+                                    <li onclick="filterItem('card')">php</li>
+                                    <li onclick="filterItem('web')">flutter</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="row portfolio-slider owl-carousel">
+
+                            <div class="col-4 portfolio-item filterDiv app">
+                                <div class="portfolio-wrap">
+                                    <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+                                    <div class="portfolio-info">
+                                        <h4>Template Fixee</h4>
+                                        <p>HTML</p>
+                                        <div class="portfolio-links">
+                                            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                                            class="bi bi-eye"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-4 portfolio-item filterDiv web">
+                                <div class="portfolio-wrap">
+                                    <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+                                    <div class="portfolio-info">
+                                        <h4>Web 3</h4>
+                                        <p>Web</p>
+                                        <div class="portfolio-links">
+                                            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                                            class="bi bi-eye"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-4 portfolio-item filterDiv app">
+                                <div class="portfolio-wrap">
+                                    <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+                                    <div class="portfolio-info">
+                                        <h4>Card 2</h4>
+                                        <p>Card</p>
+                                        <div class="portfolio-links">
+                                            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                                            class="bi bi-eye"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-4 portfolio-item filterDiv app">
+                                <div class="portfolio-wrap">
+                                    <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+                                    <div class="portfolio-info">
+                                        <h4>App 1</h4>
+                                        <p>App</p>
+                                        <div class="portfolio-links">
+                                            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                                            class="bi bi-eye"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-4 portfolio-item filterDiv web">
+                                <div class="portfolio-wrap">
+                                    <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+                                    <div class="portfolio-info">
+                                        <h4>Web 3</h4>
+                                        <p>Web</p>
+                                        <div class="portfolio-links">
+                                            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                                            class="bi bi-eye"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-4 portfolio-item filterDiv app">
+                                <div class="portfolio-wrap">
+                                    <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+                                    <div class="portfolio-info">
+                                        <h4>Card 2</h4>
+                                        <p>Card</p>
+                                        <div class="portfolio-links">
+                                            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                                            class="bi bi-eye"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-6">
+                        <div class="row">
+                            <div class="d-flex justify-content-center">
+                                <span class="text-section fw-bold" style="text-align: justify;">
+                                A Fixee começou sua história em um ambiente acadêmico com o objetivo de solucionar
+                                problemas reais em pequenos negócios. Enxegarmos que o mercado atual não entende todas
+                                as ideias que surgem em nossa geração, acreditamos no seu projeto, nada é impossivel.
+                            </span>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <div class="row portfolio-container">
-
-                    <div class="col-4 col-md-3 col-lg-2 portfolio-item filterDiv app">
-                        <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Template Fixee</h4>
-                                <p>HTML</p>
-                                <div class="portfolio-links">
-                                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
-                                            class="bi bi-eye"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-4 col-md-3 col-lg-2 portfolio-item filterDiv web">
-                        <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Web 3</h4>
-                                <p>Web</p>
-                                <div class="portfolio-links">
-                                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
-                                            class="bi bi-eye"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-4 col-md-3 col-lg-2 portfolio-item filterDiv app">
-                        <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Card 2</h4>
-                                <p>Card</p>
-                                <div class="portfolio-links">
-                                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
-                                            class="bi bi-eye"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-4 col-md-3 col-lg-2 portfolio-item filterDiv app">
-                        <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>App 1</h4>
-                                <p>App</p>
-                                <div class="portfolio-links">
-                                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
-                                            class="bi bi-eye"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-4 col-md-3 col-lg-2 portfolio-item filterDiv web">
-                        <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Web 3</h4>
-                                <p>Web</p>
-                                <div class="portfolio-links">
-                                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
-                                            class="bi bi-eye"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-4 col-md-3 col-lg-2 portfolio-item filterDiv app">
-                        <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Card 2</h4>
-                                <p>Card</p>
-                                <div class="portfolio-links">
-                                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
-                                            class="bi bi-eye"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
 
             </div>
         </section>
 
         <!-- Footer -->
-        <section class="section footer-section pb-5">
+        <section class="section" id="footer">
             <div class="container">
                 <div class="row d-flex justify-content-center py-5 mx-5">
                     <div class="col-12 col-sm-6 col-lg-4">
@@ -743,6 +859,15 @@
     <script src="assets/js/slider_carousel_projetos.js"></script>
 
     <script src="assets/js/portfolio_cards.js"></script>
+
+    <script>
+        $(".portfolio-slider").owlCarousel({
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            autoplayHoverPause: true,
+        });
+    </script>
 </body>
 
 </html>
