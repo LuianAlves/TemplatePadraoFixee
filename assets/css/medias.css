@@ -13,7 +13,11 @@
         height: 140vh;
     }
     #projetos {
-        height: 200vh;
+        padding-bottom: 700px;
+    }
+    .box {
+        width: 10.5rem !important;
+        height: 14rem !important;
     }
     #portfolio {
         height: 100vh;
