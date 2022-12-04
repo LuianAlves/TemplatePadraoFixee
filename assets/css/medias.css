@@ -12,14 +12,14 @@
         /* padding-bottom: 50px; */
         height: 140vh;
     }
-    #home {
-        height: 75vh;
+    #projetos {
+        height: 200vh;
     }
-    #home {
-        height: 75vh;
+    #portfolio {
+        height: 100vh;
     }
-    #home {
-        height: 75vh;
+    #portfolio .text-section {
+        margin-bottom: 50px;
     }
     /*  */
     .text-title {
