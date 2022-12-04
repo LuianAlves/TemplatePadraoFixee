@@ -1,10 +1,27 @@
 /* Max Width 576px */
 
 @media only screen and (max-width: 576px) {
-    /* Section */
-    /* .section-one {
-        height: 70vh;
-    } */
+    /* Sections */
+    #home {
+        height: 75vh;
+    }
+    #servicos {
+        height: 165vh;
+    }
+    #empresa {
+        /* padding-bottom: 50px; */
+        height: 140vh;
+    }
+    #home {
+        height: 75vh;
+    }
+    #home {
+        height: 75vh;
+    }
+    #home {
+        height: 75vh;
+    }
+    /*  */
     .text-title {
         font-size: 20px;
     }
