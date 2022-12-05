@@ -528,11 +528,76 @@
 }
 
 
-/* Min Width 1200px */
+/* -------------------------------------------------------- */
 
-@media only screen and (min-height: 1400px) {
-    /* Section */
-    /* .section-one {
-        height: 50vh;
-    } */
+@media only screen and (max-height: 510px) {
+    #home {
+        height: 100vh;
+    }
+    #servicos {
+        height: 185vh;
+    }
+    #empresa {
+        height: 200vh;
+    }
+    #projetos {
+        height: 175vh !important;
+    }
+    #portfolio {
+        height: 135vh;
+    }
+}
+
+@media (min-height: 510px) and (max-height: 576px) {
+    #home {
+        height: 95vh;
+    }
+    #servicos {
+        height: 165vh;
+    }
+    #empresa {
+        height: 175vh;
+    }
+    #projetos {
+        height: 160vh !important;
+    }
+    #portfolio {
+        height: 120vh;
+    }
+}
+
+@media (min-height: 576px) and (max-height: 640px) {
+    #home {
+        height: 85vh;
+    }
+    #servicos {
+        height: 150vh;
+    }
+    #empresa {
+        height: 155vh;
+    }
+    #projetos {
+        height: 133vh !important;
+    }
+    #portfolio {
+        height: 110vh;
+    }
+}
+
+@media (min-height: 640px) {
+    #home {
+        height: 72.5vh;
+    }
+    #servicos {
+        height: 135vh;
+    }
+    #empresa {
+        height: 140vh;
+    }
+    #projetos {
+        height: 120vh !important;
+    }
+    #portfolio {
+        height: 95vh;
+    }
 }
