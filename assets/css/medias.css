@@ -3,7 +3,7 @@
 @media only screen and (max-width: 360px) {
     /* Sections */
     #home {
-        height: 75vh;
+        height: 65vh;
     }
     #home .text-title {
         font-size: 18px;
@@ -67,7 +67,10 @@
 @media (min-width: 360px) and (max-width: 480px) {
     /* Sections */
     #home {
-        height: 75vh;
+        height: 60vh;
+    }
+    #home .btn-primary {
+        font-size: 18px;
     }
     #servicos {
         height: 120vh;
@@ -84,9 +87,9 @@
     #projetos {
         padding-bottom: 725px;
     }
-    .box {
+    #projetos .box {
         width: 10.5rem !important;
-        height: 14rem !important;
+        height: 15rem !important;
     }
     #portfolio {
         height: 95vh;
@@ -95,7 +98,7 @@
         margin-bottom: 50px;
     }
     #portfolio #portfolio-btn li {
-        font-size: 10px !important;
+        font-size: 11px !important;
     }
     #portfolio .portfolio-wrap img {
         height: 100px;
@@ -148,28 +151,61 @@
 }
 
 
-/* Min Width 576px */
+/* Width 480px - 576px */
 
-@media only screen and (max-width: 768px) {
-    /* Section */
-    /* .section-one {
-        height: 75vh;
-    } */
-    .text-title {
-        font-size: 21px;
+@media (min-width: 480px) and (max-width: 576px) {
+    #home {
+        height: 60vh;
     }
-    .text-text {
+    #home .text-title {
+        font-size: 24px;
+    }
+    #home .text-text {
+        font-size: 18px;
+    }
+    #home .btn-primary {
+        font-size: 20px;
+        padding: 15px 25px;
+    }
+    #servicos {
+        height: 110vh;
+    }
+    #empresa {
+        height: 135vh;
+    }
+    #empresa .nav-pills button {
         font-size: 16px;
+    }
+    #empresa .tab-pane span,
+    #empresa .tab-pane ul {
+        font-size: 17px;
+    }
+    #empresa .avatar-preview {
+        margin-top: 35px;
+    }
+    #projetos {
+        padding-bottom: 800px;
+    }
+    #projetos .box {
+        width: 11rem !important;
+        height: 15rem !important;
+    }
+    #portfolio {
+        height: 95vh;
+    }
+    #portfolio #portfolio-btn li {
+        font-size: 15px !important;
+    }
+    #portfolio .portfolio-wrap img {
+        height: 100px;
+        width: 100px;
     }
     .title-section {
         /* margin-top: 18px; */
-        font-size: 26px;
-    }
-    .section-one .title-section {
-        /* margin-top: 36px; */
+        font-size: 28px;
     }
     .text-section {
-        font-size: 18px;
+        font-size: 19.5px;
     }
     /* Button */
     .btn-primary {
