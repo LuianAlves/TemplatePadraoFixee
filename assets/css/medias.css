@@ -87,7 +87,7 @@
 @media (min-width: 360px) and (max-width: 480px) {
     /* Sections */
     #home {
-        height: 50vh;
+        height: 65vh;
     }
     #home .btn-primary {
         font-size: 14px;
@@ -104,10 +104,10 @@
         width: 80px !important;
     }
     #servicos {
-        height: 92vh;
+        height: 130vh;
     }
     #empresa {
-        height: 100vh;
+        height: 135vh;
     }
     #empresa .nav-pills button {
         font-size: 13px !important;
@@ -117,7 +117,7 @@
     }
     #projetos {
         /* padding-bottom: 880px; */
-        height: 85vh !important;
+        height: 115vh !important;
     }
     #projetos .text-section {
         margin-bottom: 50px !important;
@@ -128,10 +128,10 @@
         height: 15rem !important;
     }
     #portfolio {
-        height: 70vh;
+        height: 80vh;
     }
     #portfolio .text-section {
-        margin-bottom: 50px;
+        /* margin-bottom: 50px; */
     }
     #portfolio #portfolio-btn li {
         font-size: 11px !important;
