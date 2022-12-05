@@ -10,11 +10,11 @@ $(".portfolio-slider").owlCarousel({
             nav: false
         },
         600: {
-            items: 3,
+            items: 6,
             nav: false
         },
         991: {
-            items: 4,
+            items: 3,
             nav: false
         },
     },

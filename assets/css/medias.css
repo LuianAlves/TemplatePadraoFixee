@@ -1,3 +1,15 @@
+/* Width 0px - 992px */
+
+@media only screen and (max-width: 992px) {
+    .container-nav .navigation {
+        display: block;
+    }
+    #toggle-men {
+        display: block;
+    }
+}
+
+
 /* Max Width 360px */
 
 @media only screen and (max-width: 360px) {
@@ -10,6 +22,10 @@
     }
     #home .text-text {
         font-size: 14px;
+    }
+    .logo {
+        width: 150px;
+        height: 70px;
     }
     #servicos {
         height: 120vh;
@@ -34,9 +50,13 @@
         font-size: 12px;
     }
     #projetos {
-        padding-bottom: 775px;
+        height: 115vh !important;
+    }
+    #projetos .text-section {
+        margin-bottom: 50px !important;
     }
     #projetos .box {
+        margin: 0 -3rem;
         width: 10.25rem !important;
         height: 12.5rem !important;
     }
@@ -67,16 +87,27 @@
 @media (min-width: 360px) and (max-width: 480px) {
     /* Sections */
     #home {
-        height: 60vh;
+        height: 50vh;
     }
     #home .btn-primary {
-        font-size: 18px;
+        font-size: 14px;
+    }
+    .logo {
+        width: 140px;
+        height: 65px;
+    }
+    #banner .owl-carousel {
+        margin-top: 10px;
+    }
+    #banner .owl-carousel .owl-item img {
+        height: 30px;
+        width: 80px !important;
     }
     #servicos {
-        height: 120vh;
+        height: 92vh;
     }
     #empresa {
-        height: 135vh;
+        height: 100vh;
     }
     #empresa .nav-pills button {
         font-size: 13px !important;
@@ -85,14 +116,19 @@
         margin-top: 20px;
     }
     #projetos {
-        padding-bottom: 725px;
+        /* padding-bottom: 880px; */
+        height: 85vh !important;
+    }
+    #projetos .text-section {
+        margin-bottom: 50px !important;
     }
     #projetos .box {
+        margin: 0 -3rem;
         width: 10.5rem !important;
         height: 15rem !important;
     }
     #portfolio {
-        height: 95vh;
+        height: 70vh;
     }
     #portfolio .text-section {
         margin-bottom: 50px;
@@ -125,26 +161,6 @@
     .list-cards .card-header {
         font-size: 14px;
     }
-    /* Nav tabs */
-    .nav-pills .nav-item {
-        font-size: 13px !important;
-    }
-    /* Button */
-    .btn-primary {
-        font-size: 16px;
-    }
-    /* Owl Carousel - Banner second section */
-    #banner .owl-carousel {
-        margin-top: 10px;
-    }
-    #banner .owl-carousel .owl-item img {
-        height: 30px;
-        width: 80px !important;
-    }
-    .logo {
-        width: 120px;
-        height: 55px;
-    }
     .btn-config .dropdown {
         z-index: 997;
     }
@@ -155,26 +171,37 @@
 
 @media (min-width: 480px) and (max-width: 576px) {
     #home {
-        height: 60vh;
+        height: 50vh;
     }
     #home .text-title {
-        font-size: 24px;
+        font-size: 22px;
     }
     #home .text-text {
-        font-size: 18px;
+        font-size: 16px;
     }
     #home .btn-primary {
-        font-size: 20px;
-        padding: 15px 25px;
+        font-size: 16.5px;
+        padding: 10px 25px;
+    }
+    .logo {
+        width: 140px;
+        height: 65px;
+    }
+    #banner .owl-carousel {
+        margin-top: 10px;
+    }
+    #banner .owl-carousel .owl-item img {
+        height: 40px !important;
+        width: 80px !important;
     }
     #servicos {
-        height: 110vh;
+        height: 90vh;
     }
     #empresa {
-        height: 135vh;
+        height: 105vh;
     }
     #empresa .nav-pills button {
-        font-size: 16px;
+        font-size: 14px;
     }
     #empresa .tab-pane span,
     #empresa .tab-pane ul {
@@ -184,157 +211,320 @@
         margin-top: 35px;
     }
     #projetos {
-        padding-bottom: 800px;
+        height: 85vh !important;
+    }
+    #projetos .text-section {
+        margin-bottom: 50px !important;
     }
     #projetos .box {
+        margin: 0 -2.5rem;
         width: 11rem !important;
         height: 15rem !important;
     }
     #portfolio {
-        height: 95vh;
+        height: 67vh;
     }
     #portfolio #portfolio-btn li {
-        font-size: 15px !important;
+        font-size: 13px !important;
     }
     #portfolio .portfolio-wrap img {
         height: 100px;
         width: 100px;
     }
     .title-section {
-        /* margin-top: 18px; */
-        font-size: 28px;
+        font-size: 22px;
     }
     .text-section {
-        font-size: 19.5px;
-    }
-    /* Button */
-    .btn-primary {
-        font-size: 14px;
-        padding: 10px 25px;
-    }
-    /* Owl Carousel - Banner second section */
-    #banner .owl-carousel {
-        margin-top: 25px;
-    }
-    #banner .owl-carousel .owl-item img {
-        height: 30px;
-        width: 80px !important;
-    }
-    .logo {
-        width: 120px;
-        height: 55px;
+        font-size: 15px;
     }
 }
 
 
-/* Min Width 768px */
+/* Width 576px - 768px */
 
-@media only screen and (min-width: 768px) {
-    /* Section */
-    /* .section-one {
-        height: 80vh;
-    } */
-    .text-title {
-        font-size: 24px;
+@media (min-width: 576px) and (max-width: 768px) {
+    #home {
+        height: 55vh;
     }
-    .text-text {
-        font-size: 17px;
+    #home .text-title {
+        font-size: 23px;
     }
-    .title-section {
-        /* margin-top: 38px; */
-        font-size: 24px;
-    }
-    .section-one .title-section {
-        /* margin-top: 48px; */
-    }
-    .text-section {
-        font-size: 18px;
-    }
-    /* Button */
-    .btn-primary {
+    #home .text-text {
         font-size: 16px;
-        padding: 12px 25px;
     }
-    /* Owl Carousel - Banner second section */
+    #home .btn-primary {
+        font-size: 17px;
+        padding: 12px 30px;
+    }
+    .logo {
+        width: 140px;
+        height: 65px;
+    }
     #banner .owl-carousel {
         margin-top: 25px;
     }
     #banner .owl-carousel .owl-item img {
         height: 40px;
-        width: 100px !important;
+        width: 80px !important;
+    }
+    #servicos {
+        height: 92vh;
+    }
+    #empresa {
+        height: 110vh;
+    }
+    #empresa .nav-pills button {
+        font-size: 14.5px;
+    }
+    #empresa .tab-pane span,
+    #empresa .tab-pane ul {
+        font-size: 16px;
+    }
+    #empresa .avatar-preview {
+        margin-top: 20px;
+    }
+    #empresa .avatar-preview .avatar-nome {
+        font-size: 15px;
+    }
+    #empresa .avatar-preview .avatar-func {
+        font-size: 13px;
+    }
+    #projetos {
+        height: 85vh !important;
+    }
+    #projetos .text-section {
+        margin-bottom: 50px !important;
+    }
+    #projetos .box {
+        margin: 0 -2.5rem;
+        width: 11.5rem !important;
+        height: 17rem !important;
+    }
+    #portfolio {
+        height: 75vh;
+    }
+    #portfolio #portfolio-btn li {
+        font-size: 13.5px !important;
+    }
+    #portfolio .portfolio-wrap img {
+        height: 100px;
+        width: 100px;
+    }
+    .title-section {
+        font-size: 24px;
+    }
+    .text-section {
+        font-size: 16px;
     }
 }
 
 
-/* Max Width 992px */
+/* Width 768px - 992px */
 
-@media only screen and (max-width: 992px) {
-    .container-nav .navigation {
-        display: block;
+@media (min-width: 768px) and (max-width: 992px) {
+    #home {
+        height: 55vh;
     }
-    #toggle-men {
-        display: block;
+    #home .text-title {
+        font-size: 26px;
+    }
+    #home .text-text {
+        font-size: 16px;
+    }
+    #home .btn-primary {
+        font-size: 17px;
+        padding: 13px 30px;
+    }
+    .logo {
+        width: 140px;
+        height: 65px;
+    }
+    #banner .owl-carousel {
+        margin-top: 25px;
+    }
+    #banner .owl-carousel .owl-item img {
+        height: 40px;
+        width: 85px !important;
+    }
+    #servicos {
+        height: 92.5vh;
+    }
+    #empresa {
+        height: 120vh;
+    }
+    #empresa .nav-pills button {
+        font-size: 15px;
+    }
+    #empresa .avatar-preview {
+        margin-top: 25px;
+    }
+    #empresa .avatar-preview .avatar-nome {
+        font-size: 17px;
+    }
+    #empresa .avatar-preview .avatar-func {
+        font-size: 15px;
     }
     #projetos {
-        height: 90vh;
+        height: 90vh !important;
     }
-    #projetos .button {
-        margin: 0;
-    }
-    #projetos .container-proj {
-        position: relative;
-        top: 75px;
+    #projetos .text-section {
+        margin-bottom: 50px !important;
     }
     #projetos .box {
+        margin: 0 -2rem;
         width: 13rem;
         height: 20rem;
     }
-}
-
-
-/* Min Width 992px */
-
-@media only screen and (min-width: 992px) {
-    /* Section */
-    /* .section-one {
+    #portfolio {
         height: 80vh;
-    } */
-    .text-title {
-        font-size: 30px;
     }
-    .text-text {
-        font-size: 17px;
+    #portfolio #portfolio-btn li {
+        font-size: 14px !important;
+        margin-bottom: 25px;
+    }
+    #portfolio .portfolio-wrap img {
+        height: 110px;
+        width: 110px;
     }
     .title-section {
-        /* margin-top: 38px; */
         font-size: 26px;
     }
     .text-section {
-        font-size: 18px;
-    }
-    /* Button */
-    .btn-primary {
         font-size: 16px;
-        padding: 12px 25px;
     }
-    /* Owl Carousel - Banner second section */
+}
+
+
+/* Width 992px - 1200px */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    #home {
+        height: 60vh;
+    }
+    #home .text-title {
+        font-size: 28px;
+    }
+    #home .text-text {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    #home .btn-primary {
+        font-size: 17px;
+        padding: 12px 30px;
+    }
+    .logo {
+        width: 150px;
+        height: 65px;
+    }
     #banner .owl-carousel {
         margin-top: 30px;
     }
     #banner .owl-carousel .owl-item img {
-        height: 50px;
-        width: 120px !important;
+        height: 40px;
+        width: 100px !important;
+    }
+    #servicos {
+        height: 75vh;
+    }
+    #empresa {
+        height: 70vh;
+    }
+    #projetos {
+        height: 70vh;
+    }
+    #projetos .text-section {
+        margin-bottom: 0;
+    }
+    #projetos .container-proj {
+        margin-top: 100px !important;
+    }
+    #projetos .box {
+        margin: 0 -3.5rem;
+        width: 13rem;
+        height: 20rem;
+    }
+    #portfolio {
+        height: 55vh;
+    }
+    #portfolio #portfolio-btn li {
+        font-size: 14px !important;
+        margin-top: 35px;
+    }
+    #portfolio .portfolio-wrap img {
+        height: 120px;
+        width: 120px;
+    }
+    .title-section {
+        font-size: 24.5px;
+    }
+    .text-section {
+        font-size: 17px;
     }
 }
 
 
-/* Min Width 1200px */
+/* Width 1200px */
 
-@media only screen and (min-width: 1200px) {
-    /* Section */
-    /* .section-one {
-        height: 85vh;
-    } */
+@media (min-width: 1200px) {
+    #home {
+        height: 65vh;
+    }
+    #home .text-title {
+        font-size: 28px;
+    }
+    #home .text-text {
+        margin-top: 15px;
+        font-size: 18.5px;
+    }
+    #home .btn-primary {
+        font-size: 20px;
+        padding: 15px 35px;
+    }
+    .logo {
+        width: 160px;
+        height: 60px;
+    }
+    #banner .owl-carousel {
+        margin-top: 30px;
+    }
+    #banner .owl-carousel .owl-item img {
+        height: 40px;
+        width: 120px !important;
+    }
+    #servicos {
+        height: 60vh;
+    }
+    #empresa {
+        height: 70vh;
+    }
+    #projetos {
+        height: 60vh;
+    }
+    #projetos .container-proj {
+        margin-top: 60px !important;
+    }
+    #projetos .box {
+        margin: 0 -3rem;
+        width: 13rem;
+        height: 20rem;
+    }
+    #portfolio {
+        height: 50vh;
+    }
+    #portfolio #portfolio-btn li {
+        font-size: 14px !important;
+        /* margin-top: 18px; */
+    }
+    #portfolio .portfolio-wrap img {
+        height: 140px;
+        width: 140px;
+    }
+    .title-section {
+        font-size: 26px;
+    }
+    .text-section {
+        font-size: 16px;
+    }
 }
 
 
