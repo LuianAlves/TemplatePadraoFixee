@@ -1,29 +1,114 @@
-/* Max Width 576px */
+/* Max Width 360px */
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 360px) {
+    /* Sections */
+    #home {
+        height: 75vh;
+    }
+    #home .text-title {
+        font-size: 18px;
+    }
+    #home .text-text {
+        font-size: 14px;
+    }
+    #servicos {
+        height: 135vh;
+    }
+    #empresa {
+        height: 135vh;
+    }
+    #empresa .nav-pills button {
+        font-size: 12px !important;
+    }
+    #empresa .tab-pane span,
+    #empresa .tab-pane ul {
+        font-size: 14px;
+    }
+    #empresa .avatar-preview {
+        margin-top: 20px;
+    }
+    #empresa .avatar-preview .avatar-nome {
+        font-size: 12px;
+    }
+    #empresa .avatar-preview .avatar-func {
+        font-size: 12px;
+    }
+    #projetos {
+        padding-bottom: 625px;
+    }
+    #projetos .box {
+        width: 10.25rem !important;
+        height: 12.5rem !important;
+    }
+    #portfolio {
+        height: 100vh;
+    }
+    #portfolio .text-section {
+        margin-bottom: 35px;
+    }
+    #portfolio #portfolio-btn li {
+        font-size: 10px !important;
+    }
+    #portfolio .portfolio-wrap img {
+        height: 100px;
+        width: 100px;
+    }
+    .title-section {
+        font-size: 20px !important;
+    }
+    .text-section {
+        font-size: 16px !important;
+    }
+}
+
+
+/* Empresa Width 400px - 480px */
+
+@media (min-width: 400px) and (max-width: 480px) {
+    #empresa {
+        height: 140vh !important;
+    }
+}
+
+
+/* Width 360px - 480px */
+
+@media (min-width: 360px) and (max-width: 480px) {
     /* Sections */
     #home {
         height: 75vh;
     }
     #servicos {
-        height: 165vh;
+        height: 135vh;
     }
     #empresa {
-        /* padding-bottom: 50px; */
-        height: 140vh;
+        height: 135vh;
+    }
+    #empresa .nav-pills button {
+        font-size: 13px !important;
+    }
+    #empresa .avatar-preview {
+        margin-top: 20px;
     }
     #projetos {
-        padding-bottom: 700px;
+        padding-bottom: 625px;
     }
     .box {
         width: 10.5rem !important;
         height: 14rem !important;
     }
     #portfolio {
-        height: 100vh;
+        height: 105vh;
     }
     #portfolio .text-section {
         margin-bottom: 50px;
+    }
+    #portfolio #portfolio-btn li {
+        font-size: 10px !important;
+    }
+    #portfolio .portfolio-wrap img {
+        height: 100px;
+        width: 100px;
     }
     /*  */
     .text-title {
