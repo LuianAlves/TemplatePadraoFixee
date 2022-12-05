@@ -12,10 +12,10 @@
         font-size: 14px;
     }
     #servicos {
-        height: 135vh;
+        height: 120vh;
     }
     #empresa {
-        height: 135vh;
+        height: 125vh;
     }
     #empresa .nav-pills button {
         font-size: 12px !important;
@@ -34,7 +34,7 @@
         font-size: 12px;
     }
     #projetos {
-        padding-bottom: 625px;
+        padding-bottom: 775px;
     }
     #projetos .box {
         width: 10.25rem !important;
@@ -62,15 +62,6 @@
 }
 
 
-/* Empresa Width 400px - 480px */
-
-@media (min-width: 400px) and (max-width: 480px) {
-    #empresa {
-        height: 140vh !important;
-    }
-}
-
-
 /* Width 360px - 480px */
 
 @media (min-width: 360px) and (max-width: 480px) {
@@ -79,7 +70,7 @@
         height: 75vh;
     }
     #servicos {
-        height: 135vh;
+        height: 120vh;
     }
     #empresa {
         height: 135vh;
@@ -91,14 +82,14 @@
         margin-top: 20px;
     }
     #projetos {
-        padding-bottom: 625px;
+        padding-bottom: 725px;
     }
     .box {
         width: 10.5rem !important;
         height: 14rem !important;
     }
     #portfolio {
-        height: 105vh;
+        height: 95vh;
     }
     #portfolio .text-section {
         margin-bottom: 50px;
