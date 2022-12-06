@@ -344,7 +344,7 @@
     }
     #banner .owl-carousel .owl-item img {
         height: 40px;
-        width: 85px !important;
+        width: 100px !important;
     }
     #servicos {
         /* height: 92.5vh; */
@@ -398,6 +398,14 @@
     #home {
         height: 75vh;
     }
+    #banner .owl-carousel {
+        margin-top: 10px;
+    }
+    #banner .owl-carousel .owl-item img {
+        height: 50px !important;
+        width: 120px !important;
+    }
+
 }
 
 /* Width 992px - 1200px */
