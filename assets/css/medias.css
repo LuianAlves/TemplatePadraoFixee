@@ -323,7 +323,7 @@
 
 @media (min-width: 1200px) and (max-width: 1400px) {
     #home {
-        height: 95vh;
+        height: 85vh;
     }
     #home .text-title {
         font-size: 26px;
@@ -396,7 +396,7 @@
 
 @media (min-width: 1400px) {
     #home {
-        height: 95vh;
+        height: 75vh;
     }
 }
 
