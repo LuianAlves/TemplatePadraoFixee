@@ -27,6 +27,13 @@
         width: 150px;
         height: 70px;
     }
+    #banner .owl-carousel {
+        margin-top: 10px;
+    }
+    #banner .owl-carousel .owl-item img {
+        height: 30px;
+        width: 50px !important;
+    }
     #servicos {
         /* height: 120vh; */
     }
@@ -101,7 +108,7 @@
     }
     #banner .owl-carousel .owl-item img {
         height: 30px;
-        width: 80px !important;
+        width: 50px !important;
     }
     #servicos {
         /* height: 130vh; */
@@ -191,8 +198,8 @@
         margin-top: 10px;
     }
     #banner .owl-carousel .owl-item img {
-        height: 40px !important;
-        width: 80px !important;
+        height: 35px !important;
+        width: 50px !important;
     }
     #servicos {
         /* height: 90vh; */
@@ -405,138 +412,4 @@
         height: 50px !important;
         width: 120px !important;
     }
-
 }
-
-/* Width 992px - 1200px */
-
-
-/* @media (min-width: 992px) and (max-width: 1200px) {
-    #home {
-        height: 60vh;
-    }
-    #home .text-title {
-        font-size: 28px;
-    }
-    #home .text-text {
-        font-size: 18px;
-        margin-top: 15px;
-    }
-    #home .btn-primary {
-        font-size: 17px;
-        padding: 12px 30px;
-    }
-    .logo {
-        width: 150px;
-        height: 65px;
-    }
-    #banner .owl-carousel {
-        margin-top: 30px;
-    }
-    #banner .owl-carousel .owl-item img {
-        height: 40px;
-        width: 100px !important;
-    }
-    #servicos {
-        height: 75vh;
-    }
-    #empresa {
-        height: 70vh;
-    }
-    #projetos {
-        height: 70vh;
-    }
-    #projetos .text-section {
-        margin-bottom: 0;
-    }
-    #projetos .container-proj {
-        margin-top: 100px !important;
-    }
-    #projetos .box {
-        margin: 0 -3.5rem;
-        width: 13rem;
-        height: 20rem;
-    }
-    #portfolio {
-        height: 55vh;
-    }
-    #portfolio #portfolio-btn li {
-        font-size: 14px !important;
-        margin-top: 35px;
-    }
-    #portfolio .portfolio-wrap img {
-        height: 120px;
-        width: 120px;
-    }
-    .title-section {
-        font-size: 24.5px;
-    }
-    .text-section {
-        font-size: 17px;
-    }
-} */
-
-
-/* Width 1200px */
-
-
-/* @media (min-width: 1200px) {
-    #home {
-        height: 65vh;
-    }
-    #home .text-title {
-        font-size: 28px;
-    }
-    #home .text-text {
-        margin-top: 15px;
-        font-size: 18.5px;
-    }
-    #home .btn-primary {
-        font-size: 20px;
-        padding: 15px 35px;
-    }
-    .logo {
-        width: 160px;
-        height: 60px;
-    }
-    #banner .owl-carousel {
-        margin-top: 30px;
-    }
-    #banner .owl-carousel .owl-item img {
-        height: 40px;
-        width: 120px !important;
-    }
-    #servicos {
-        height: 60vh;
-    }
-    #empresa {
-        height: 70vh;
-    }
-    #projetos {
-        height: 60vh;
-    }
-    #projetos .container-proj {
-        margin-top: 60px !important;
-    }
-    #projetos .box {
-        margin: 0 -3rem;
-        width: 13rem;
-        height: 20rem;
-    }
-    #portfolio {
-        height: 50vh;
-    }
-    #portfolio #portfolio-btn li {
-        font-size: 14px !important;
-    }
-    #portfolio .portfolio-wrap img {
-        height: 140px;
-        width: 140px;
-    }
-    .title-section {
-        font-size: 26px;
-    }
-    .text-section {
-        font-size: 16px;
-    }
-} */
