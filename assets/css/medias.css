@@ -28,10 +28,10 @@
         height: 70px;
     }
     #servicos {
-        height: 120vh;
+        /* height: 120vh; */
     }
     #empresa {
-        height: 125vh;
+        /* height: 125vh; */
     }
     #empresa .nav-pills button {
         font-size: 12px !important;
@@ -50,7 +50,7 @@
         font-size: 12px;
     }
     #projetos {
-        height: 115vh !important;
+        /* height: 115vh !important; */
     }
     #projetos .text-section {
         margin-bottom: 50px !important;
@@ -61,7 +61,7 @@
         height: 12.5rem !important;
     }
     #portfolio {
-        height: 100vh;
+        /* height: 100vh; */
     }
     #portfolio .text-section {
         margin-bottom: 35px;
@@ -104,7 +104,7 @@
         width: 80px !important;
     }
     #servicos {
-        height: 130vh;
+        /* height: 130vh; */
     }
     #empresa {
         height: 135vh;
@@ -117,7 +117,7 @@
     }
     #projetos {
         /* padding-bottom: 880px; */
-        height: 115vh !important;
+        /* height: 115vh !important; */
     }
     #projetos .text-section {
         margin-bottom: 50px !important;
@@ -128,7 +128,7 @@
         height: 15rem !important;
     }
     #portfolio {
-        height: 80vh;
+        /* height: 80vh; */
     }
     #portfolio .text-section {
         /* margin-bottom: 50px; */
@@ -195,10 +195,10 @@
         width: 80px !important;
     }
     #servicos {
-        height: 90vh;
+        /* height: 90vh; */
     }
     #empresa {
-        height: 105vh;
+        /* height: 105vh; */
     }
     #empresa .nav-pills button {
         font-size: 14px;
@@ -211,7 +211,7 @@
         margin-top: 35px;
     }
     #projetos {
-        height: 85vh !important;
+        /* height: 85vh !important; */
     }
     #projetos .text-section {
         margin-bottom: 50px !important;
@@ -222,7 +222,7 @@
         height: 15rem !important;
     }
     #portfolio {
-        height: 67vh;
+        /* height: 67vh; */
     }
     #portfolio #portfolio-btn li {
         font-size: 13px !important;
@@ -268,10 +268,10 @@
         width: 80px !important;
     }
     #servicos {
-        height: 92vh;
+        /* height: 92vh; */
     }
     #empresa {
-        height: 110vh;
+        /* height: 110vh; */
     }
     #empresa .nav-pills button {
         font-size: 14.5px;
@@ -290,7 +290,7 @@
         font-size: 13px;
     }
     #projetos {
-        height: 85vh !important;
+        /* height: 85vh !important; */
     }
     #projetos .text-section {
         margin-bottom: 50px !important;
@@ -301,7 +301,7 @@
         height: 17rem !important;
     }
     #portfolio {
-        height: 75vh;
+        /* height: 75vh; */
     }
     #portfolio #portfolio-btn li {
         font-size: 13.5px !important;
@@ -347,10 +347,10 @@
         width: 85px !important;
     }
     #servicos {
-        height: 92.5vh;
+        /* height: 92.5vh; */
     }
     #empresa {
-        height: 120vh;
+        /* height: 120vh; */
     }
     #empresa .nav-pills button {
         font-size: 15px;
@@ -365,7 +365,7 @@
         font-size: 15px;
     }
     #projetos {
-        height: 90vh !important;
+        /* height: 90vh !important; */
     }
     #projetos .text-section {
         margin-bottom: 50px !important;
@@ -376,7 +376,7 @@
         height: 20rem;
     }
     #portfolio {
-        height: 80vh;
+        /* height: 80vh; */
     }
     #portfolio #portfolio-btn li {
         font-size: 14px !important;

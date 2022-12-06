@@ -34,6 +34,8 @@ a:hover {
 .section {
     position: relative;
     overflow: hidden;
+    height: 100%;
+    padding-bottom: 50px;
 }
 
 .title-section {
@@ -479,7 +481,7 @@ svg path {
 --------------------------------------------------------------*/
 
 #servicos {
-    height: 90vh;
+    /* height: 90vh; */
 }
 
 #servicos .title-section {
@@ -541,7 +543,7 @@ svg path {
 --------------------------------------------------------------*/
 
 #empresa {
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 #empresa .title-section {
@@ -626,7 +628,7 @@ svg path {
 --------------------------------------------------------------*/
 
 #projetos {
-    height: 95vh;
+    /* height: 95vh; */
     padding-top: 100px;
 }
 
@@ -922,9 +924,9 @@ svg path {
 # Section PORTFOLIO
 --------------------------------------------------------------*/
 
-#portfolio {
+/* #portfolio {
     height: 70vh;
-}
+} */
 
 #portfolio .title-section {
     margin-top: 90px;
