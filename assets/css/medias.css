@@ -61,13 +61,11 @@
     #portfolio #portfolio-btn li {
         font-size: 10px !important;
     }
-    #portfolio .portfolio-wrap {
-        height: 100px;
-        width: 100px;
+    #portfolio .portfolio-item .portfolio-content h3 {
+        text-align: center;
     }
-    #portfolio .portfolio-wrap img {
-        height: 100px;
-        width: 100px;
+    #portfolio .portfolio-item .portfolio-content .linguagem {
+        text-align: center;
     }
     .title-section {
         font-size: 20px !important;
@@ -119,13 +117,11 @@
     #portfolio #portfolio-btn li {
         font-size: 11px !important;
     }
-    #portfolio .portfolio-wrap img {
-        height: 100px;
-        width: 100px;
+    #portfolio .portfolio-item .portfolio-content h3 {
+        text-align: center;
     }
-    #portfolio .portfolio-wrap {
-        height: 100px;
-        width: 100px;
+    #portfolio .portfolio-item .portfolio-content .linguagem {
+        text-align: center;
     }
     /*  */
     .text-title {
@@ -202,13 +198,11 @@
     #portfolio #portfolio-btn li {
         font-size: 13px !important;
     }
-    #portfolio .portfolio-wrap img {
-        height: 100px;
-        width: 100px;
+    #portfolio .portfolio-item .portfolio-content h3 {
+        text-align: center;
     }
-    #portfolio .portfolio-wrap {
-        height: 100px;
-        width: 100px;
+    #portfolio .portfolio-item .portfolio-content .linguagem {
+        text-align: center;
     }
     .title-section {
         font-size: 22px;
@@ -273,14 +267,12 @@
     #portfolio #portfolio-btn li {
         font-size: 13.5px !important;
     }
-    /* #portfolio .portfolio-wrap img {
-        height: 100px;
-        width: 100px;
+    #portfolio .portfolio-item .portfolio-content h3 {
+        text-align: center;
     }
-    #portfolio .portfolio-wrap {
-        height: 100px;
-        width: 100px;
-    } */
+    #portfolio .portfolio-item .portfolio-content .linguagem {
+        text-align: center;
+    }
     .title-section {
         font-size: 24px;
     }
@@ -341,14 +333,12 @@
         font-size: 14px !important;
         margin-bottom: 25px;
     }
-    /* #portfolio .portfolio-wrap {
-        height: 110px;
-        width: 110px;
+    #portfolio .portfolio-item .portfolio-content h3 {
+        text-align: center;
     }
-    #portfolio .portfolio-wrap img {
-        height: 110px;
-        width: 110px;
-    } */
+    #portfolio .portfolio-item .portfolio-content .linguagem {
+        text-align: center;
+    }
     .title-section {
         font-size: 26px;
     }
