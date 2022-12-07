@@ -17,12 +17,6 @@ input[type="checkbox"] {
     color: #fff;
 }
 
-.dark .section-one,
-.dark .list-cards .card {
-    background-color: var(--bg-dark);
-    background: var(--bg-linear);
-}
-
 .dark svg {
     background: transparent;
     border: none;
@@ -145,6 +139,12 @@ input[type="checkbox"] {
 /*--------------------------------------------------------------
 # Section Serviços
 --------------------------------------------------------------*/
+
+.dark .section-one,
+.dark .list-cards .card {
+    background-color: var(--bg-dark);
+    background: var(--bg-linear);
+}
 
 .dark .list-cards .icon-card i {
     color: #fff;
