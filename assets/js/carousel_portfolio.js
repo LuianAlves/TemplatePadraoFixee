@@ -6,15 +6,15 @@ $(".portfolio-slider").owlCarousel({
 
     responsive: {
         0: {
-            items: 2,
+            items: 1,
             nav: false
         },
         600: {
-            items: 6,
+            items: 1,
             nav: false
         },
         991: {
-            items: 3,
+            items: 1,
             nav: false
         },
     },

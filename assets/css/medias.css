@@ -34,12 +34,6 @@
         height: 30px;
         width: 50px !important;
     }
-    #servicos {
-        /* height: 120vh; */
-    }
-    #empresa {
-        /* height: 125vh; */
-    }
     #empresa .nav-pills button {
         font-size: 12px !important;
     }
@@ -56,9 +50,6 @@
     #empresa .avatar-preview .avatar-func {
         font-size: 12px;
     }
-    #projetos {
-        /* height: 115vh !important; */
-    }
     #projetos .text-section {
         margin-bottom: 50px !important;
     }
@@ -67,14 +58,12 @@
         width: 10.25rem !important;
         height: 12.5rem !important;
     }
-    #portfolio {
-        /* height: 100vh; */
-    }
-    #portfolio .text-section {
-        margin-bottom: 35px;
-    }
     #portfolio #portfolio-btn li {
         font-size: 10px !important;
+    }
+    #portfolio .portfolio-wrap {
+        height: 100px;
+        width: 100px;
     }
     #portfolio .portfolio-wrap img {
         height: 100px;
@@ -110,9 +99,6 @@
         height: 30px;
         width: 50px !important;
     }
-    #servicos {
-        /* height: 130vh; */
-    }
     #empresa {
         height: 135vh;
     }
@@ -122,10 +108,6 @@
     #empresa .avatar-preview {
         margin-top: 20px;
     }
-    #projetos {
-        /* padding-bottom: 880px; */
-        /* height: 115vh !important; */
-    }
     #projetos .text-section {
         margin-bottom: 50px !important;
     }
@@ -134,16 +116,14 @@
         width: 10.5rem !important;
         height: 15rem !important;
     }
-    #portfolio {
-        /* height: 80vh; */
-    }
-    #portfolio .text-section {
-        /* margin-bottom: 50px; */
-    }
     #portfolio #portfolio-btn li {
         font-size: 11px !important;
     }
     #portfolio .portfolio-wrap img {
+        height: 100px;
+        width: 100px;
+    }
+    #portfolio .portfolio-wrap {
         height: 100px;
         width: 100px;
     }
@@ -201,12 +181,6 @@
         height: 35px !important;
         width: 50px !important;
     }
-    #servicos {
-        /* height: 90vh; */
-    }
-    #empresa {
-        /* height: 105vh; */
-    }
     #empresa .nav-pills button {
         font-size: 14px;
     }
@@ -217,9 +191,6 @@
     #empresa .avatar-preview {
         margin-top: 35px;
     }
-    #projetos {
-        /* height: 85vh !important; */
-    }
     #projetos .text-section {
         margin-bottom: 50px !important;
     }
@@ -228,13 +199,14 @@
         width: 11rem !important;
         height: 15rem !important;
     }
-    #portfolio {
-        /* height: 67vh; */
-    }
     #portfolio #portfolio-btn li {
         font-size: 13px !important;
     }
     #portfolio .portfolio-wrap img {
+        height: 100px;
+        width: 100px;
+    }
+    #portfolio .portfolio-wrap {
         height: 100px;
         width: 100px;
     }
@@ -274,12 +246,6 @@
         height: 40px;
         width: 80px !important;
     }
-    #servicos {
-        /* height: 92vh; */
-    }
-    #empresa {
-        /* height: 110vh; */
-    }
     #empresa .nav-pills button {
         font-size: 14.5px;
     }
@@ -296,9 +262,6 @@
     #empresa .avatar-preview .avatar-func {
         font-size: 13px;
     }
-    #projetos {
-        /* height: 85vh !important; */
-    }
     #projetos .text-section {
         margin-bottom: 50px !important;
     }
@@ -307,16 +270,17 @@
         width: 11.5rem !important;
         height: 17rem !important;
     }
-    #portfolio {
-        /* height: 75vh; */
-    }
     #portfolio #portfolio-btn li {
         font-size: 13.5px !important;
     }
-    #portfolio .portfolio-wrap img {
+    /* #portfolio .portfolio-wrap img {
         height: 100px;
         width: 100px;
     }
+    #portfolio .portfolio-wrap {
+        height: 100px;
+        width: 100px;
+    } */
     .title-section {
         font-size: 24px;
     }
@@ -353,12 +317,6 @@
         height: 40px;
         width: 100px !important;
     }
-    #servicos {
-        /* height: 92.5vh; */
-    }
-    #empresa {
-        /* height: 120vh; */
-    }
     #empresa .nav-pills button {
         font-size: 15px;
     }
@@ -371,9 +329,6 @@
     #empresa .avatar-preview .avatar-func {
         font-size: 15px;
     }
-    #projetos {
-        /* height: 90vh !important; */
-    }
     #projetos .text-section {
         margin-bottom: 50px !important;
     }
@@ -382,17 +337,18 @@
         width: 13rem;
         height: 20rem;
     }
-    #portfolio {
-        /* height: 80vh; */
-    }
     #portfolio #portfolio-btn li {
         font-size: 14px !important;
         margin-bottom: 25px;
     }
-    #portfolio .portfolio-wrap img {
+    /* #portfolio .portfolio-wrap {
         height: 110px;
         width: 110px;
     }
+    #portfolio .portfolio-wrap img {
+        height: 110px;
+        width: 110px;
+    } */
     .title-section {
         font-size: 26px;
     }

@@ -653,128 +653,105 @@
         <!-- Portfolio -->
         <section class="section section-one" id="portfolio">
             <div class="container">
+                <div class="row">
+                    <div class="d-flex justify-content-center">
+                        <h6 class="title-section">Portfólio</h6>
+                    </div>
+                    <ul id="portfolio-btn">
+                        <li class="filter-active" onclick="filterItem('all')">Todos</li>
+                        <li onclick="filterItem('html')">HTML</li>
+                        <li onclick="filterItem('php')">php</li>
+                        <li onclick="filterItem('flutter')">flutter</li>
+                    </ul>
+                </div>
 
                 <div class="row">
-
-                    <div class="col-12 col-lg-6 order-1 order-lg-0">
-
-                        <div class="row">
-                            <div class="d-flex justify-content-center">
-                                <ul id="portfolio-btn">
-                                    <li class="filter-active" onclick="filterItem('all')">Todos</li>
-                                    <li onclick="filterItem('app')">HTML</li>
-                                    <li onclick="filterItem('card')">php</li>
-                                    <li onclick="filterItem('web')">flutter</li>
-                                </ul>
-                            </div>
-                        </div>
+                    <div class="col-12">
 
                         <div class="row portfolio-slider owl-carousel">
 
-                            <div class="col-4 portfolio-item filterDiv app">
-                                <div class="portfolio-wrap">
-                                    <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-                                    <div class="portfolio-info">
-                                        <h4>Template Fixee</h4>
-                                        <p>HTML</p>
-                                        <div class="portfolio-links">
-                                            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
-                                            class="bi bi-eye"></i></a>
+                            <div class="portfolio-item filterDiv php">
+                                <div class="row">
+                                    <div class="col-5">
+                                        <div class="portfolio-wrap">
+                                            <img src="assets/img/portfolio/port_aps.jpeg" class="img-fluid" alt="">
+                                            <div class="portfolio-info">
+                                                <h4>Sistema de Faculdade</h4>
+                                                <p>LARAVEL</p>
+                                                <div class="portfolio-links">
+                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                                                    class="bi bi-eye"></i></a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
+                                    <div class="col-6 pt-4 pt-lg-0 portfolio-content" style="text-align: justify;">
+                                        <h3>Sistema de Faculdade</h3>
+                                        <div class="linguagem">
+                                            <p>
+                                                <span>LARAVEL/PHP</span>
+                                                <span>HTML/CSS/JS</span>
+                                                <span>JQUERY</span>
+                                            </p>
+                                        </div>
+                                        <p class="text-light fst-italic">
+                                            Este sistema foi desenvolvido para controlar notas e faltas de alunos, gerando relatórios e gráficos demonstrativos.
+                                        </p>
+                                        <ul>
+                                            <li><i class="bi bi-check-circle"></i> Cadastrar campus, cursos, disciplinas, turmas ..</li>
+                                            <li><i class="bi bi-check-circle"></i> Cadastrar usuários, alunos, professores, administração ..</li>
+                                            <li><i class="bi bi-check-circle"></i> Cadastrar período de provas, ínicio de ano letivo ..</li>
+                                        </ul>
+                                        <p>
+                                            O sistema possuí vários níveis de acesso, tais como: Dev, Administração, Professor e Aluno. Tendo o usuário <b>DEV</b> acesso total, <b>Administração</b>quase total, <b>Professor</b> visualização de alunos matriculados
+                                            e lançamento de notas e <b>Aluno</b> visualização de matrícula, notas e requisição de documentos.
+                                        </p>
+                                    </div>
                                 </div>
+
                             </div>
 
-                            <div class="col-4 portfolio-item filterDiv web">
-                                <div class="portfolio-wrap">
-                                    <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-                                    <div class="portfolio-info">
-                                        <h4>Web 3</h4>
-                                        <p>Web</p>
-                                        <div class="portfolio-links">
-                                            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
-                                            class="bi bi-eye"></i></a>
+                            <div class="portfolio-item filterDiv html">
+                                <div class="row">
+                                    <div class="col-5">
+                                        <div class="portfolio-wrap">
+                                            <img src="assets/img/portfolio/port_fixee.png" class="img-fluid" alt="">
+                                            <div class="portfolio-info">
+                                                <h4>Template Fixee</h4>
+                                                <p>HTML</p>
+                                                <div class="portfolio-links">
+                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                                                    class="bi bi-eye"></i></a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
+                                    <div class="col-6 pt-4 pt-lg-0 portfolio-content" style="text-align: justify;">
+                                        <h3>Template Fixee</h3>
+                                        <div class="linguagem">
+                                            <p>
+                                                <span>HTML / CSS / JS</span>
+                                            </p>
+                                        </div>
+                                        <p class="text-light fst-italic">
+                                            Essa Landing Page foi desenvolvida em HTML/CSS e também em FLUTTER totalmente responsiva.
+                                        </p>
+                                        <ul>
+                                            <li><i class="bi bi-check-circle"></i> Diversas animações presente no template ..</li>
+                                            <li><i class="bi bi-check-circle"></i> Modo Noturno totalmente otimizado ..</li>
+                                        </ul>
+                                        <p>
+                                            Landing Page utilizada desenvolvida especialmente para ser um diferencial no mercado. Tendo cores bem atrativas, responsividade para qualquer dispositivo, animações interativas e muito mais.
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="col-4 portfolio-item filterDiv app">
-                                <div class="portfolio-wrap">
-                                    <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-                                    <div class="portfolio-info">
-                                        <h4>Card 2</h4>
-                                        <p>Card</p>
-                                        <div class="portfolio-links">
-                                            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
-                                            class="bi bi-eye"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-4 portfolio-item filterDiv app">
-                                <div class="portfolio-wrap">
-                                    <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-                                    <div class="portfolio-info">
-                                        <h4>App 1</h4>
-                                        <p>App</p>
-                                        <div class="portfolio-links">
-                                            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
-                                            class="bi bi-eye"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-4 portfolio-item filterDiv web">
-                                <div class="portfolio-wrap">
-                                    <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-                                    <div class="portfolio-info">
-                                        <h4>Web 3</h4>
-                                        <p>Web</p>
-                                        <div class="portfolio-links">
-                                            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
-                                            class="bi bi-eye"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-4 portfolio-item filterDiv app">
-                                <div class="portfolio-wrap">
-                                    <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-                                    <div class="portfolio-info">
-                                        <h4>Card 2</h4>
-                                        <p>Card</p>
-                                        <div class="portfolio-links">
-                                            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
-                                            class="bi bi-eye"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
 
                         </div>
 
-                    </div>
-
-                    <div class="col-12 col-lg-5 offset-lg-1 order-0 order-lg-1">
-                        <div class="row">
-                            <div class="d-flex justify-content-center mb-5 mt-2">
-                                <h6 class="title-section">Portfólio</h6>
-                            </div>
-                            <div class="d-flex justify-content-center">
-                                <span class="text-section fw-bold" style="text-align: justify;">
-                                A Fixee começou sua história em um ambiente acadêmico com o objetivo de solucionar
-                                problemas reais em pequenos negócios. Enxegarmos que o mercado atual não entende todas
-                                as ideias que surgem em nossa geração, acreditamos no seu projeto, nada é impossivel.
-                            </span>
-                            </div>
-                        </div>
                     </div>
                 </div>
-
 
             </div>
         </section>
