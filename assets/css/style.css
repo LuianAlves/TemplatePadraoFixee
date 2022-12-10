@@ -446,6 +446,11 @@ svg path {
 # Section BANNER
 --------------------------------------------------------------*/
 
+#banner .gif-animado {
+    width: 600px;
+    margin-bottom: 50px;
+}
+
 #banner {
     margin: auto 20px auto;
 }
@@ -466,6 +471,11 @@ svg path {
     margin-top: 20px;
 }
 
+#banner .owl-carousel .owl-item img {
+    width: 100px !important;
+    height: 35px !important;
+}
+
 .carousel img {
     width: 100px;
     height: 50px;
@@ -480,12 +490,8 @@ svg path {
 # Section SERVIÇOS
 --------------------------------------------------------------*/
 
-#servicos {
-    /* height: 90vh; */
-}
-
 #servicos .title-section {
-    margin-top: 55px;
+    margin-top: 35px;
 }
 
 #servicos .text-section {
@@ -502,13 +508,13 @@ svg path {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    height: 100px;
-    width: 90%;
+    height: 120px;
+    width: 120px;
     border-radius: 25px;
     color: #fff;
     background: #fff;
     border: none;
-    box-shadow: 10px 10px 10px #14d4ff61;
+    box-shadow: 10px 10px 20px rgba(2, 90, 119, 0.7);
     padding: 0;
 }
 
@@ -528,8 +534,8 @@ svg path {
 }
 
 .list-cards .icon-card i {
-    font-size: 40px !important;
-    color: #0599bacd;
+    font-size: 52px !important;
+    color: #000;
 }
 
 .list-cards .title-card {
@@ -538,99 +544,101 @@ svg path {
 }
 
 
-/*--------------------------------------------------------------
-# Section SOBRE NÓS
---------------------------------------------------------------*/
-
-#empresa {
-    /* height: 100vh; */
-}
-
-#empresa .title-section {
-    margin-top: 60px;
-}
-
-#empresa .gif {
-    top: calc(20% - 15px);
-}
-
-#empresa .gif img {
-    width: 100%;
-    height: 100%;
-}
-
-
 /**
-* Nav tabs
+* Counter de skills
 */
 
-.nav-pills .nav-link {
-    color: #fff;
-    font-size: 14px;
+.counter-row {
+    margin-top: 50px;
 }
 
-.nav-pills .nav-link.active {
-    background-color: transparent;
-    border-bottom: 2px solid var(--text-primary);
-}
-
-.tab-content .tab-pane {
-    text-align: justify;
-    margin: auto 50px;
-}
-
-
-/**
-* Avatars
-*/
-
-.avatar {
-    display: flex;
-    margin: 15px auto;
-    padding: auto;
-}
-
-.avatar .avatar-preview {
+.counter-box {
+    color: rgb(47, 47, 47);
     text-align: center;
 }
 
-.avatar .avatar-preview img {
-    box-shadow: 5px 5px 15px #fff;
-    background: transparent;
+.counter-ico {
+    margin: 1rem 0;
+}
+
+.counter-ico .ico-circle {
+    line-height: 1.5;
+    box-shadow: 0 0 0 10px #cde1f8;
+    height: 50px;
+    width: 50px;
+    padding-top: 5px;
+    font-size: 28px;
     border-radius: 50%;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
 }
 
-.avatar .avatar-nome {
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
-    font-size: 14px;
+.counter-num .counter {
+    font-size: 26px;
     font-weight: bold;
+    margin-bottom: 0;
 }
 
-.avatar .avatar-func {
-    font-size: 12px;
+.counter-num span {
+    font-weight: bold;
+    font-size: 13px;
 }
 
-.avatar .avatar-icon {
-    display: flex;
-    justify-content: center;
-    font-size: 20px;
+
+/*--------------------------------------------------------------
+# Section BANNER DE PROMOÇÕES
+--------------------------------------------------------------*/
+
+.bg-image-desconto {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 30vh;
 }
 
-.avatar .avatar-icon a {
-    color: var(--text-primary);
+
+/* 
+.section-promocao {
+    position: relative;
+    padding: 1.5rem 0;
 }
+
+.bg-image {
+    background-repeat: no-repeat;
+   background-attachment: fixed;
+    background-size: cover; 
+    background-position: center center;
+}
+
+.overlay-mf {
+    background-color: #022c2d;
+}
+
+.overlay-mf {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+}
+ */
 
 
 /*--------------------------------------------------------------
 # Section PROJETOS
 --------------------------------------------------------------*/
 
-#projetos {
-    /* height: 95vh; */
-    padding-top: 100px;
+#projetos .avatar-projetos {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 75px;
 }
+
+
+/* Carousel de imagens */
 
 .container-proj {
     display: flex;
@@ -668,17 +676,6 @@ svg path {
     border: 4px solid #0a5174;
 }
 
-.dark .button i:hover {
-    padding: 7px;
-    border: 4px solid #f1f2f5;
-}
-
-.dark .button i {
-    color: #f1f2f5a6;
-    background: var(--bg-dark);
-    border: 2px solid #f1f2f5a6;
-}
-
 .cards__container {
     display: flex;
     align-items: center;
@@ -688,8 +685,8 @@ svg path {
 .box {
     display: flex;
     align-items: center;
-    margin: 0 -3.5rem;
-    width: 14rem;
+    margin: 2.5rem -1.5rem;
+    width: 15rem;
     height: 22.5rem;
     box-shadow: 0px 0px 2rem 0px #888888;
     display: flex;
@@ -924,6 +921,10 @@ svg path {
 # Section PORTFOLIO
 --------------------------------------------------------------*/
 
+#portfolio .portfolio-slider .show {
+    display: block;
+}
+
 #portfolio .title-section {
     margin-top: 90px;
     margin-bottom: 50px;
@@ -1126,6 +1127,87 @@ svg path {
 
 .show {
     display: block;
+}
+
+
+/*--------------------------------------------------------------
+# Section SOBRE NÓS
+--------------------------------------------------------------*/
+
+#empresa .title-section {
+    margin-top: 60px;
+}
+
+#empresa .gif {
+    top: calc(20% - 15px);
+}
+
+#empresa .gif img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/**
+* Nav tabs
+*/
+
+.nav-pills .nav-link {
+    color: #fff;
+    font-size: 14px;
+}
+
+.nav-pills .nav-link.active {
+    background-color: transparent;
+    border-bottom: 2px solid var(--text-primary);
+}
+
+.tab-content .tab-pane {
+    text-align: justify;
+    margin: auto 50px;
+}
+
+
+/**
+* Avatars
+*/
+
+.avatar {
+    display: flex;
+    margin: 15px auto;
+    padding: auto;
+}
+
+.avatar .avatar-preview {
+    text-align: center;
+}
+
+.avatar .avatar-preview img {
+    box-shadow: 5px 5px 15px #fff;
+    background: transparent;
+    border-radius: 50%;
+}
+
+.avatar .avatar-nome {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.avatar .avatar-func {
+    font-size: 12px;
+}
+
+.avatar .avatar-icon {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.avatar .avatar-icon a {
+    color: var(--text-primary);
 }
 
 

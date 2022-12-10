@@ -150,6 +150,37 @@ input[type="checkbox"] {
     color: #fff;
 }
 
+.dark .ico-circle {
+    color: #cde1f8;
+}
+
+.dark .counter-num .counter {
+    color: #cde1f8;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.dark .counter-num span {
+    color: #cde1f8;
+}
+
+
+/*--------------------------------------------------------------
+# Section Projetos
+--------------------------------------------------------------*/
+
+.dark .button i:hover {
+    padding: 7px;
+    border: 4px solid #f1f2f5;
+}
+
+.dark .button i {
+    color: #f1f2f5a6;
+    background: var(--bg-dark);
+    border: 2px solid #f1f2f5a6;
+}
+
 
 /*--------------------------------------------------------------
 # Section Serviços

@@ -31,8 +31,8 @@
         margin-top: 10px;
     }
     #banner .owl-carousel .owl-item img {
-        height: 30px;
-        width: 50px !important;
+        height: 35px;
+        width: 100px !important;
     }
     #empresa .nav-pills button {
         font-size: 12px !important;
@@ -94,8 +94,8 @@
         margin-top: 10px;
     }
     #banner .owl-carousel .owl-item img {
-        height: 30px;
-        width: 50px !important;
+        height: 35px;
+        width: 100px !important;
     }
     #empresa {
         height: 135vh;
@@ -173,10 +173,10 @@
     #banner .owl-carousel {
         margin-top: 10px;
     }
-    #banner .owl-carousel .owl-item img {
+    /* #banner .owl-carousel .owl-item img {
         height: 35px !important;
         width: 50px !important;
-    }
+    } */
     #empresa .nav-pills button {
         font-size: 14px;
     }
@@ -236,10 +236,10 @@
     #banner .owl-carousel {
         margin-top: 25px;
     }
-    #banner .owl-carousel .owl-item img {
-        height: 40px;
-        width: 80px !important;
-    }
+    /* #banner .owl-carousel .owl-item img {
+        height: 35px;
+        width: 130px !important;
+    } */
     #empresa .nav-pills button {
         font-size: 14.5px;
     }
