@@ -951,7 +951,7 @@ svg path {
     font-weight: 600;
     line-height: 1;
     text-transform: uppercase;
-    color: #fff;
+    color: rgb(53, 53, 53);
     background: rgba(255, 255, 255, 0.1);
     margin: 0 3px 10px 3px;
     transition: all 0.3s ease-in-out;
@@ -960,7 +960,7 @@ svg path {
 
 #portfolio #portfolio-btn li:hover,
 #portfolio #portfolio-btn li.filter-active {
-    background: #0599bacd;
+    background: #d8d9d9cd;
 }
 
 #portfolio #portfolio-btn li:last-child {
