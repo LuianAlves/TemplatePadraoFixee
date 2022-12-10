@@ -591,6 +591,7 @@ svg path {
 --------------------------------------------------------------*/
 
 .bg-image-desconto {
+    /* background-color: #027769; */
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
