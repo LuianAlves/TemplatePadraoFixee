@@ -4,10 +4,10 @@
     /* Text */
     --text-primary: #14D5FF;
     /* Icons */
-    --icon-whats: linear-gradient( 227.07deg, #1abf4e 0.43%, #28b183 99.56%);
+    --icon-whats: linear-gradient(227.07deg, #1abf4e 0.43%, #28b183 99.56%);
     --icon-lua: rgb(209, 131, 5);
     /* Others */
-    --bg-scrollbar: linear-gradient( 227.07deg, #b7b6b76e 0.43%, #b3b3b54a 99.56%);
+    --bg-scrollbar: linear-gradient(227.07deg, #b7b6b76e 0.43%, #b3b3b54a 99.56%);
 }
 
 
@@ -397,9 +397,11 @@ ul {
     0% {
         transform: scale(.9);
     }
+
     70% {
         transform: scale(.85);
     }
+
     100% {
         transform: scale(.9);
     }
@@ -427,15 +429,19 @@ svg path {
     0% {
         d: path("M 0,400 C 0,400 0,200 0,200 C 206.13333333333333,232 412.26666666666665,264 549,262 C 685.7333333333333,260 753.0666666666666,224.00000000000003 890,208 C 1026.9333333333334,191.99999999999997 1233.4666666666667,196 1440,200 C 1440,200 1440,400 1440,400 Z");
     }
+
     25% {
         d: path("M 0,400 C 0,400 0,200 0,200 C 189.86666666666667,200 379.73333333333335,200 535,200 C 690.2666666666667,200 810.9333333333334,200 956,200 C 1101.0666666666666,200 1270.5333333333333,200 1440,200 C 1440,200 1440,400 1440,400 Z");
     }
+
     50% {
         d: path("M 0,400 C 0,400 0,200 0,200 C 163.86666666666667,216.66666666666666 327.73333333333335,233.33333333333331 469,237 C 610.2666666666667,240.66666666666669 728.9333333333334,231.33333333333334 887,223 C 1045.0666666666666,214.66666666666666 1242.5333333333333,207.33333333333331 1440,200 C 1440,200 1440,400 1440,400 Z");
     }
+
     75% {
         d: path("M 0,400 C 0,400 0,200 0,200 C 137.33333333333331,192.8 274.66666666666663,185.6 456,195 C 637.3333333333334,204.4 862.6666666666667,230.39999999999998 1034,234 C 1205.3333333333333,237.60000000000002 1322.6666666666665,218.8 1440,200 C 1440,200 1440,400 1440,400 Z");
     }
+
     100% {
         d: path("M 0,400 C 0,400 0,200 0,200 C 206.13333333333333,232 412.26666666666665,264 549,262 C 685.7333333333333,260 753.0666666666666,224.00000000000003 890,208 C 1026.9333333333334,191.99999999999997 1233.4666666666667,196 1440,200 C 1440,200 1440,400 1440,400 Z");
     }
@@ -591,29 +597,12 @@ svg path {
 --------------------------------------------------------------*/
 
 .bg-image-desconto {
-    /* background-color: #027769; */
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    height: 30vh;
-}
-
-
-/* 
-.section-promocao {
-    position: relative;
-    padding: 1.5rem 0;
-}
-
-.bg-image {
-    background-repeat: no-repeat;
-   background-attachment: fixed;
-    background-size: cover; 
-    background-position: center center;
+    width: 100%;
+    height: 350px;
 }
 
 .overlay-mf {
-    background-color: #022c2d;
+    /* background-color: #9c9fa7; */
 }
 
 .overlay-mf {
@@ -623,10 +612,12 @@ svg path {
     padding: 0;
     height: 100%;
     width: 100%;
-    opacity: 0.7;
+    opacity: 0.5;
 }
- */
 
+.section-promocao {
+    position: relative;
+}
 
 /*--------------------------------------------------------------
 # Section PROJETOS
@@ -634,7 +625,9 @@ svg path {
 
 #projetos {
     margin-top: 35px;
+    padding-bottom: 0px;
 }
+
 #projetos .avatar-projetos {
     display: flex;
     justify-content: center;
@@ -644,12 +637,13 @@ svg path {
 }
 
 #projetos .avatar-projetos .avatar-title {
-     font-weight: bold;
-     font-size: 18px;
-     text-align: center;
-     margin-top: 45px;
-     margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 25px;
 }
+
 #projetos .avatar-projetos img {
     width: 120px;
     height: 120px;
@@ -819,10 +813,12 @@ svg path {
         transform: scale(0.75) translateX(0%);
         opacity: 1;
     }
+
     50% {
         transform: scale(0.5) translateX(-150%);
         opacity: 0.5;
     }
+
     100% {
         transform: scale(0.25) translateX(0%);
         opacity: 0;
@@ -834,10 +830,12 @@ svg path {
         transform: scale(0.75) translateX(0%);
         opacity: 1;
     }
+
     50% {
         transform: scale(0.5) translateX(150%);
         opacity: 0.5;
     }
+
     100% {
         transform: scale(0.25) translateX(0%);
         opacity: 0;
@@ -848,6 +846,7 @@ svg path {
     from {
         transform: scale(0.75) translateX(100%);
     }
+
     to {
         transform: scale(0.75) translateX(0);
     }
@@ -857,6 +856,7 @@ svg path {
     from {
         transform: scale(0.75) translateX(100%);
     }
+
     to {
         transform: scale(0.85) translateX(0);
     }
@@ -866,6 +866,7 @@ svg path {
     from {
         transform: scale(0.85) translateX(100%);
     }
+
     to {
         transform: scale(1) translateX(0);
     }
@@ -875,6 +876,7 @@ svg path {
     from {
         transform: scale(1) translateX(100%);
     }
+
     to {
         transform: scale(0.85) translateX(0);
     }
@@ -884,6 +886,7 @@ svg path {
     from {
         transform: scale(0.85) translateX(100%);
     }
+
     to {
         transform: scale(0.75) translateX(0);
     }
@@ -893,6 +896,7 @@ svg path {
     from {
         transform: scale(0.75) translateX(-100%);
     }
+
     to {
         transform: scale(0.75) translateX(0);
     }
@@ -902,6 +906,7 @@ svg path {
     from {
         transform: scale(0.75) translateX(-100%);
     }
+
     to {
         transform: scale(0.85) translateX(0);
     }
@@ -911,6 +916,7 @@ svg path {
     from {
         transform: scale(0.85) translateX(-100%);
     }
+
     to {
         transform: scale(1) translateX(0);
     }
@@ -920,6 +926,7 @@ svg path {
     from {
         transform: scale(1) translateX(-100%);
     }
+
     to {
         transform: scale(0.85) translateX(0);
     }
@@ -929,6 +936,7 @@ svg path {
     from {
         transform: scale(0.85) translateX(-100%);
     }
+
     to {
         transform: scale(0.75) translateX(0);
     }
@@ -969,8 +977,8 @@ svg path {
     font-weight: 600;
     line-height: 1;
     text-transform: uppercase;
-    color: rgb(53, 53, 53);
-    background: rgba(255, 255, 255, 0.1);
+    color: var(--text-primary);
+    background: rgba(103, 148, 220, 0.1);
     margin: 0 3px 10px 3px;
     transition: all 0.3s ease-in-out;
     border-radius: 4px;
@@ -978,7 +986,7 @@ svg path {
 
 #portfolio #portfolio-btn li:hover,
 #portfolio #portfolio-btn li.filter-active {
-    background: #d8d9d9cd;
+    background: #130748cd;
 }
 
 #portfolio #portfolio-btn li:last-child {
