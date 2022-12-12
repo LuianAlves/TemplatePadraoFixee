@@ -624,7 +624,7 @@ svg path {
 --------------------------------------------------------------*/
 
 #projetos {
-    margin-top: 35px;
+    margin-top: 70px;
     padding-bottom: 0px;
 }
 
@@ -653,11 +653,13 @@ svg path {
 }
 
 #projetos .avatar-projetos .avatar-icon i {
+    display: flex;
+    justify-content: center;
     color: var(--bg-dark);
     font-size: 72px;
     background: #d9d9d9;
     border-radius: 50%;
-    padding: 15px 20px;
+    padding: 25px 10px;
 
 }
 
@@ -724,7 +726,7 @@ svg path {
 
 .box:hover {
     width: 15rem;
-    height: 25rem;
+    /* height: 25rem; */
     opacity: 1;
 }
 
