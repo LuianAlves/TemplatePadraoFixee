@@ -632,8 +632,6 @@ svg path {
     display: flex;
     justify-content: center;
     margin-bottom: 75px;
-
-
 }
 
 #projetos .avatar-projetos .avatar-title {
@@ -653,6 +651,7 @@ svg path {
     font-weight: 1000;
     color: var(--bg-dark);
 }
+
 #projetos .avatar-projetos .avatar-icon i {
     color: var(--bg-dark);
     font-size: 72px;
@@ -1006,6 +1005,13 @@ svg path {
     margin-right: 0;
 }
 
+#portfolio .row-port {
+    padding-top: 50px;
+    padding-left: 40px;
+    background: linear-gradient(201.73deg, #000d3c0d -9.10%, #02776926 107.32%);
+    border-radius: 10px;
+}
+
 #portfolio .portfolio-item {
     width: 100%;
 }
@@ -1146,7 +1152,7 @@ svg path {
     font-size: 12px;
     font-family: "Arial";
     color: #ffffff;
-    background: rgba(255, 255, 255, 0.257);
+    background: rgba(4, 4, 4, 0.115);
     padding: 5px 12px;
     margin-right: 5px;
     border-radius: 7px;

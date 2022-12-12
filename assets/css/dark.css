@@ -169,6 +169,11 @@ input[type="checkbox"] {
 --------------------------------------------------------------*/
 
 
+.dark #portfolio .row-port {
+    background-color: #cde1f811;
+}
+
+
 .dark #portfolio #portfolio-btn li {
     background: rgba(210, 211, 211, 0.1);
 }
