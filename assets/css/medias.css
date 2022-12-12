@@ -31,8 +31,8 @@
         margin-top: 10px;
     }
     #banner .owl-carousel .owl-item img {
-        height: 35px;
-        width: 100px !important;
+        height: 25px !important;
+        width: 70px !important;
     }
     #empresa .nav-pills button {
         font-size: 12px !important;
@@ -118,8 +118,8 @@
         margin-top: 10px;
     }
     #banner .owl-carousel .owl-item img {
-        height: 35px;
-        width: 100px !important;
+        height: 25px !important;
+        width: 85px !important;
     }
     #empresa {
         height: 135vh;
