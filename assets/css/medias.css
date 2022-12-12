@@ -130,6 +130,9 @@
     #empresa .avatar-preview {
         margin-top: 20px;
     }
+    .bg-image-desconto {
+        height: 175px;
+    }
     #projetos .text-section {
         margin-bottom: 50px !important;
     }
@@ -232,6 +235,9 @@
     #empresa .avatar-preview {
         margin-top: 35px;
     }
+    .bg-image-desconto {
+        height: 220px;
+    }
     #projetos .text-section {
         margin-bottom: 50px !important;
     }
@@ -304,6 +310,9 @@
     }
     #empresa .avatar-preview .avatar-func {
         font-size: 13px;
+    }
+    .bg-image-desconto {
+        height: 250px;
     }
     #projetos .text-section {
         margin-bottom: 50px !important;
