@@ -1007,10 +1007,16 @@ svg path {
     margin-right: 0;
 }
 
-#portfolio .row-port {
+.dark #portfolio .row-port {
     padding-top: 50px;
     padding-left: 40px;
     background: linear-gradient(201.73deg, #000d3c0d -9.10%, #02776926 107.32%);
+    border-radius: 10px;
+}
+ #portfolio .row-port {
+    padding-top: 50px;
+    padding-left: 40px;
+    background: #f1f2f548;
     border-radius: 10px;
 }
 
