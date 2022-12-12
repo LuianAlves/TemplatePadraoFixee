@@ -632,10 +632,27 @@ svg path {
 # Section PROJETOS
 --------------------------------------------------------------*/
 
+#projetos {
+    margin-top: 35px;
+}
 #projetos .avatar-projetos {
     display: flex;
     justify-content: center;
     margin-bottom: 75px;
+
+
+}
+
+#projetos .avatar-projetos .avatar-title {
+     font-weight: bold;
+     font-size: 18px;
+     text-align: center;
+     margin-top: 45px;
+     margin-bottom: 25px;
+}
+#projetos .avatar-projetos img {
+    width: 120px;
+    height: 120px;
 }
 
 
