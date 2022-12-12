@@ -27,24 +27,6 @@ input[type="checkbox"] {
     color: var(--text-primary) !important;
 }
 
-.dark #form .card {
-    background: var(--bg-linear) !important;
-}
-
-.dark #form input,
-.dark #form textarea {
-    background: transparent;
-    border-color: var(--text-primary);
-    color: #fff;
-}
-
-.dark .input-group span {
-    background-color: transparent;
-    color: #fff;
-    border-color: var(--text-primary);
-}
-
-
 /* back to top */
 
 .dark #backToTop {
@@ -147,7 +129,7 @@ input[type="checkbox"] {
 }
 
 .dark .list-cards .icon-card i {
-    color: #fff;
+    color: #cde1f8;
 }
 
 .dark .ico-circle {
@@ -183,7 +165,21 @@ input[type="checkbox"] {
 
 
 /*--------------------------------------------------------------
-# Section Serviços
+# Section Portfolio
+--------------------------------------------------------------*/
+
+
+.dark #portfolio #portfolio-btn li {
+    background: rgba(210, 211, 211, 0.1);
+}
+
+.dark #portfolio #portfolio-btn li:hover,
+.dark #portfolio #portfolio-btn li.filter-active {
+    background: #7a7a7ecd;
+}
+
+/*--------------------------------------------------------------
+# Section Footer
 --------------------------------------------------------------*/
 
 
@@ -192,13 +188,13 @@ input[type="checkbox"] {
 */
 
 .dark #footer .footer-link {
-    color: #fff;
+    color: #cde1f8;
     opacity: 0.8;
 }
 
 .dark #footer ul .li-icons .footer-icon .bi {
-    color: #fff;
-    border: 1px solid #fff;
+    color: #cde1f8;
+    border: 1px solid #cde1f8;
     opacity: 0.8;
 }
 
@@ -213,7 +209,7 @@ input[type="checkbox"] {
 */
 
 .dark .second-footer .footer-text {
-    background: #fff;
+    background: #cde1f8;
     opacity: 0.8;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
