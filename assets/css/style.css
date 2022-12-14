@@ -591,7 +591,110 @@ svg path {
 --------------------------------------------------------------*/
 
 .section-banner-one {
-    height: 50vh;
+    height: 45vh;
+}
+
+.section-banner-one .row {
+    margin: auto 15px;
+}
+
+.section-banner-one .first-col .row {
+    margin-top: 30px;
+}
+
+.section-banner-one .first-col .row .text-banner {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.section-banner-one .first-col .row .title-banner {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 48px;
+}
+
+.section-banner-one .first-col .row .col-11,
+.section-banner-one .first-col .row .col-6 {
+    margin-top: 15px;
+}
+
+.section-banner-one .first-col .row .mini-text-banner {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.section-banner-one .first-col .row .btn-banner {
+    position: absolute;
+    top: 45%;
+    left: 3%;
+    font-weight: bold;
+    padding: 15px 25px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    background: #FF7700;
+}
+
+.section-banner-one .first-col .row .l-text {
+    position: absolute;
+    top: 93%;
+    left: 20%;
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.section-banner-one .second-col .row .circle-banner-primary {
+    display: flex;
+    justify-content: center;
+}
+
+.section-banner-one .second-col .row .circle-banner-primary .circle-banner {
+    position: absolute !important;
+    padding: 185px;
+    border-radius: 50%;
+    top: -5%;
+    z-index: 1;
+    background-color: var(--text-primary);
+}
+
+.section-banner-one .second-col .row .circle-text-banner {
+    display: flex;
+    justify-content: start;
+    margin-left: 100px;
+}
+
+.section-banner-one .second-col .row .first-circle-text-banner {
+    margin-top: 100px;
+}
+
+.section-banner-one .second-col .row .circle-btn-banner {
+    margin-top: 30px;
+}
+
+.section-banner-one .second-col .row .circle-text-banner .circle-btn {
+    font-weight: bold;
+    z-index: 2;
+    padding: 5px 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    background: #FF7700;
+    cursor: default;
+}
+
+.section-banner-one .second-col .row .circle-text-banner .circle-text {
+    color: #000;
+    font-size: 22px;
+    font-weight: 800;
+    text-transform: uppercase;
+    z-index: 2 !important;
+    line-height: 1;
 }
 
 
