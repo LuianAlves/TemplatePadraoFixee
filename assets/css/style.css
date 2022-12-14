@@ -397,11 +397,9 @@ ul {
     0% {
         transform: scale(.9);
     }
-
     70% {
         transform: scale(.85);
     }
-
     100% {
         transform: scale(.9);
     }
@@ -429,19 +427,15 @@ svg path {
     0% {
         d: path("M 0,400 C 0,400 0,200 0,200 C 206.13333333333333,232 412.26666666666665,264 549,262 C 685.7333333333333,260 753.0666666666666,224.00000000000003 890,208 C 1026.9333333333334,191.99999999999997 1233.4666666666667,196 1440,200 C 1440,200 1440,400 1440,400 Z");
     }
-
     25% {
         d: path("M 0,400 C 0,400 0,200 0,200 C 189.86666666666667,200 379.73333333333335,200 535,200 C 690.2666666666667,200 810.9333333333334,200 956,200 C 1101.0666666666666,200 1270.5333333333333,200 1440,200 C 1440,200 1440,400 1440,400 Z");
     }
-
     50% {
         d: path("M 0,400 C 0,400 0,200 0,200 C 163.86666666666667,216.66666666666666 327.73333333333335,233.33333333333331 469,237 C 610.2666666666667,240.66666666666669 728.9333333333334,231.33333333333334 887,223 C 1045.0666666666666,214.66666666666666 1242.5333333333333,207.33333333333331 1440,200 C 1440,200 1440,400 1440,400 Z");
     }
-
     75% {
         d: path("M 0,400 C 0,400 0,200 0,200 C 137.33333333333331,192.8 274.66666666666663,185.6 456,195 C 637.3333333333334,204.4 862.6666666666667,230.39999999999998 1034,234 C 1205.3333333333333,237.60000000000002 1322.6666666666665,218.8 1440,200 C 1440,200 1440,400 1440,400 Z");
     }
-
     100% {
         d: path("M 0,400 C 0,400 0,200 0,200 C 206.13333333333333,232 412.26666666666665,264 549,262 C 685.7333333333333,260 753.0666666666666,224.00000000000003 890,208 C 1026.9333333333334,191.99999999999997 1233.4666666666667,196 1440,200 C 1440,200 1440,400 1440,400 Z");
     }
@@ -596,28 +590,10 @@ svg path {
 # Section BANNER DE PROMOÇÕES
 --------------------------------------------------------------*/
 
-.bg-image-desconto {
-    width: 100%;
-    height: 350px;
+.section-banner-one {
+    height: 50vh;
 }
 
-.overlay-mf {
-    /* background-color: #9c9fa7; */
-}
-
-.overlay-mf {
-    position: absolute;
-    top: 0;
-    left: 0px;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0.5;
-}
-
-.section-promocao {
-    position: relative;
-}
 
 /*--------------------------------------------------------------
 # Section PROJETOS
@@ -660,7 +636,6 @@ svg path {
     background: #d9d9d9;
     border-radius: 50%;
     padding: 25px 10px;
-
 }
 
 
@@ -827,12 +802,10 @@ svg path {
         transform: scale(0.75) translateX(0%);
         opacity: 1;
     }
-
     50% {
         transform: scale(0.5) translateX(-150%);
         opacity: 0.5;
     }
-
     100% {
         transform: scale(0.25) translateX(0%);
         opacity: 0;
@@ -844,12 +817,10 @@ svg path {
         transform: scale(0.75) translateX(0%);
         opacity: 1;
     }
-
     50% {
         transform: scale(0.5) translateX(150%);
         opacity: 0.5;
     }
-
     100% {
         transform: scale(0.25) translateX(0%);
         opacity: 0;
@@ -860,7 +831,6 @@ svg path {
     from {
         transform: scale(0.75) translateX(100%);
     }
-
     to {
         transform: scale(0.75) translateX(0);
     }
@@ -870,7 +840,6 @@ svg path {
     from {
         transform: scale(0.75) translateX(100%);
     }
-
     to {
         transform: scale(0.85) translateX(0);
     }
@@ -880,7 +849,6 @@ svg path {
     from {
         transform: scale(0.85) translateX(100%);
     }
-
     to {
         transform: scale(1) translateX(0);
     }
@@ -890,7 +858,6 @@ svg path {
     from {
         transform: scale(1) translateX(100%);
     }
-
     to {
         transform: scale(0.85) translateX(0);
     }
@@ -900,7 +867,6 @@ svg path {
     from {
         transform: scale(0.85) translateX(100%);
     }
-
     to {
         transform: scale(0.75) translateX(0);
     }
@@ -910,7 +876,6 @@ svg path {
     from {
         transform: scale(0.75) translateX(-100%);
     }
-
     to {
         transform: scale(0.75) translateX(0);
     }
@@ -920,7 +885,6 @@ svg path {
     from {
         transform: scale(0.75) translateX(-100%);
     }
-
     to {
         transform: scale(0.85) translateX(0);
     }
@@ -930,7 +894,6 @@ svg path {
     from {
         transform: scale(0.85) translateX(-100%);
     }
-
     to {
         transform: scale(1) translateX(0);
     }
@@ -940,7 +903,6 @@ svg path {
     from {
         transform: scale(1) translateX(-100%);
     }
-
     to {
         transform: scale(0.85) translateX(0);
     }
@@ -950,7 +912,6 @@ svg path {
     from {
         transform: scale(0.85) translateX(-100%);
     }
-
     to {
         transform: scale(0.75) translateX(0);
     }
@@ -1010,7 +971,8 @@ svg path {
 .dark #portfolio .row-port {
     background: linear-gradient(201.73deg, #000d3c0d -9.10%, #02776926 107.32%);
 }
- #portfolio .row-port {
+
+#portfolio .row-port {
     padding-top: 50px;
     padding-left: 40px;
     background: #f1f2f57c;
