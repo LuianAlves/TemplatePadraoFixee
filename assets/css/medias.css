@@ -7,6 +7,10 @@
     #toggle-men {
         display: block;
     }
+    .section-banner .first-col,
+    .section-banner .second-col {
+        text-align: center;
+    }
 }
 
 
@@ -64,24 +68,19 @@
     #projetos .box:hover {
         width: 10.75rem !important;
     }
-
-#projetos .avatar-projetos .avatar-title {
-    font-size: 15px;
-}
-
-#projetos .avatar-projetos .avatar-nome {
-    font-size: 11px;
-}
-
-#projetos .avatar-projetos .avatar-icon i {
-    font-size: 36px;
-    background: #d9d9d9;
-    border-radius: 50%;
-
-    padding-top: 35px;
-    padding-bottom: 35px;
-}
-
+    #projetos .avatar-projetos .avatar-title {
+        font-size: 15px;
+    }
+    #projetos .avatar-projetos .avatar-nome {
+        font-size: 11px;
+    }
+    #projetos .avatar-projetos .avatar-icon i {
+        font-size: 36px;
+        background: #d9d9d9;
+        border-radius: 50%;
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
     #portfolio #portfolio-btn li {
         font-size: 10px !important;
     }
@@ -145,23 +144,19 @@
         width: 12.25rem !important;
         height: 19rem !important;
     }
-    
-#projetos .avatar-projetos .avatar-title {
-    font-size: 15px;
-}
-
-#projetos .avatar-projetos .avatar-nome {
-    font-size: 13px;
-}
-
-#projetos .avatar-projetos .avatar-icon i {
-    font-size: 48px;
-    background: #d9d9d9;
-    border-radius: 50%;
-
-    padding-top: 35px;
-    padding-bottom: 35px;
-}
+    #projetos .avatar-projetos .avatar-title {
+        font-size: 15px;
+    }
+    #projetos .avatar-projetos .avatar-nome {
+        font-size: 13px;
+    }
+    #projetos .avatar-projetos .avatar-icon i {
+        font-size: 48px;
+        background: #d9d9d9;
+        border-radius: 50%;
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
     #portfolio #portfolio-btn li {
         font-size: 11px !important;
     }

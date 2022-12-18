@@ -590,14 +590,18 @@ svg path {
 # Section BANNER DE PROMOÇÕES
 --------------------------------------------------------------*/
 
-.section-banner-one {
+.section-banner {
     width: 100%;
-    height: 100%;
+    padding-bottom: 0px;
 }
 
-.section-banner-one .row {
-    height: 37.5vh;
-    /* margin: auto 15px; */
+.section-banner .first-col,
+.section-banner .second-col {
+    margin-top: 30px;
+}
+
+.section-banner .second-col {
+    text-align: center;
 }
 
 
@@ -605,67 +609,30 @@ svg path {
 * FIRST COL
 */
 
-.section-banner-one .row .first-col {
-    height: 55vh;
-    /* background-color: rgb(90, 10, 10); */
+.section-banner .first-col span {
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
-.section-banner-one .first-col .row {
-    position: relative;
-    display: flex;
-    justify-content: start;
-    align-items: start;
-    padding: 10%;
-    height: 100%;
-}
-
-.section-banner-one .first-col .row .banner-texts ul {
-    position: relative;
-    list-style: none;
-}
-
-.section-banner-one .first-col .row .banner-texts ul li {
-    position: relative;
-    color: #fff;
-    font-size: 18px;
+.section-banner .first-col h3 {
+    font-size: 46px;
     font-weight: 800;
     text-transform: uppercase;
 }
 
-.section-banner-one .first-col .row .banner-texts ul .banner-title {
-    font-size: 40px;
-    line-height: 2.25;
-}
-
-.section-banner-one .first-col .row .banner-texts ul .banner-mini-text {
-    font-size: 14px;
-    line-height: 1.5;
-    font-weight: 600;
-    text-align: justify;
-    text-transform: none;
-}
-
-.section-banner-one .first-col .row .banner-texts ul button {
-    color: white;
-    background: #FF7700;
-    padding: 15px 25px;
+.section-banner .first-col p {
     font-size: 15px;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-top: 10%;
-    margin-left: -15px;
-    border-radius: 20px;
-    border: none;
+    font-weight: 600;
 }
 
-.section-banner-one .first-col .row .banner-texts ul .banner-light-text {
-    position: absolute;
-    left: 25%;
-    top: 107%;
-    width: 100%;
-    font-size: 10px;
-    font-weight: 450;
-    line-height: 2;
+.section-banner .first-col .btn-primary {
+    margin-top: 0;
+    background: #FF7700;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 
@@ -673,144 +640,40 @@ svg path {
 * SECOND COL
 */
 
-.section-banner-one .row .second-col {
-    height: 50vh;
-    /* background-color: #fff; */
-}
-
-.section-banner-one .second-col .row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.section-banner-one .second-col .row .circle-banner {
-    position: relative;
-    background: var(--text-primary);
-    border-radius: 50%;
-    top: -15%;
-    width: 85%;
-    height: 150%;
-}
-
-.section-banner-one .second-col .row .circle-texts {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
-
-.section-banner-one .second-col .row .circle-texts ul {
-    position: relative;
-    list-style: none;
-}
-
-.section-banner-one .second-col .row .circle-texts ul li {
-    position: relative;
-    color: #000;
-    font-size: 24px;
-    font-weight: 800;
-    text-transform: uppercase;
-    line-height: 1.25;
-}
-
-.section-banner-one .second-col .row .circle-texts ul li h6 {
-    font-size: 30px;
-    font-weight: 900;
-    line-height: 1.9;
-}
-
-.section-banner-one .second-col .row .circle-texts ul li h6 span {
-    position: relative;
-    font-size: 22.5px;
-}
-
-.section-banner-one .second-col .row .circle-texts ul li button {
-    font-weight: bold;
-    color: #fff;
-    background: #FF7700;
-    padding: 5px 10px;
-    font-size: 15px;
-    text-transform: uppercase;
-    border: none;
-    border-radius: 25px;
-    cursor: default;
-}
-
-
-/**
-* THIRD  COL
-*/
-
-.section-banner-one .row .third-col {
-    height: 50vh;
-    /* background-color: blue; */
-}
-
-.section-banner-one .third-col .row {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-}
-
-.section-banner-one .third-col .row .circle-one {
-    position: relative;
-    z-index: 2;
-    background-color: #14d5ff;
-    padding: 50% 67.5%;
-    border-radius: 50%;
-    right: -100%;
-    top: -15%;
-}
-
-.section-banner-one .third-col .row .circle-two {
-    position: relative;
-    z-index: 1;
-    background-color: #FF7700;
-    padding: 50%;
-    border-radius: 50%;
-    top: -120%;
-    right: -30%;
-}
-
-.section-banner-one .third-col .row .text-end-banner {
-    position: absolute;
-    top: 12.5%;
-    right: 12.5%;
-    width: 20%;
-}
-
-.section-banner-one .third-col .row .text-end-banner ul {
-    list-style: none;
-}
-
-.section-banner-one .third-col .row .text-end-banner ul li {
-    font-size: 16px;
-    font-weight: 800;
-    line-height: 1.5;
-}
-
-.section-banner-one .third-col .row .text-end-banner ul li b {
-    font-size: 20px !important;
-    line-height: 1.25;
-}
-
-.section-banner-one .third-col .row .text-end-banner ul li .bi-check2-circle {
-    color: var(--text-primary);
-    margin-right: 10px;
-}
-
-.section-banner-one .third-col .row .text-end-banner ul .icon-banner {
-    margin-top: 25%;
-    color: var(--text-primary);
-}
-
-.section-banner-one .third-col .row .text-end-banner ul li span {
-    color: #fff;
-    font-size: 14px;
-    margin-left: 10px;
+.section-banner .second-col h6 {
+    font-size: 29px;
     font-weight: 600;
+    text-transform: uppercase;
+}
+
+.section-banner .second-col h6 span {
+    display: block;
+    color: #FF7700;
+}
+
+.section-banner .second-col .decrecent-time {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px auto;
+}
+
+.section-banner .second-col .decrecent-time .decrecent-item h3 {
+    color: #FF7700;
+    font-size: 46px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.section-banner .second-col .decrecent-time .decrecent-item p {
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.section-banner .second-col p {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 
