@@ -651,27 +651,57 @@ svg path {
     color: #FF7700;
 }
 
+
+/* Banner Landing Page */
+
 .section-banner .second-col .decrecent-time {
     display: flex;
     justify-content: space-around;
     margin: 15px auto;
 }
 
-.section-banner .second-col .decrecent-time .decrecent-item h3 {
+.section-banner .second-col .decrecent-time b {
     color: #FF7700;
     font-size: 46px;
-    font-weight: 800;
+    font-weight: 600;
     text-transform: uppercase;
 }
 
-.section-banner .second-col .decrecent-time .decrecent-item p {
+.section-banner .second-col .decrecent-time span {
     color: #fff;
     font-weight: 600;
     text-transform: uppercase;
 }
 
-.section-banner .second-col p {
+
+/* Banner Indicação */
+
+.section-banner .second-col .icon-indicacao ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px auto;
+    font-weight: 600;
+    font-size: 20px;
+    list-style: none;
+}
+
+.section-banner .second-col .icon-indicacao ul li {
+    text-transform: uppercase;
+}
+
+.section-banner .second-col .icon-indicacao ul i {
+    color: #FF7700;
+    margin: auto 7.5px;
+}
+
+.section-banner .second-col .banner-lg {
     font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.section-banner .second-col .banner-indicacao {
+    font-size: 10px;
     font-weight: 600;
     text-transform: uppercase;
 }

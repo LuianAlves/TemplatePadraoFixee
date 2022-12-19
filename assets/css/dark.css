@@ -27,6 +27,7 @@ input[type="checkbox"] {
     color: var(--text-primary) !important;
 }
 
+
 /* back to top */
 
 .dark #backToTop {
@@ -149,6 +150,37 @@ input[type="checkbox"] {
 
 
 /*--------------------------------------------------------------
+# Banner de descontos
+--------------------------------------------------------------*/
+
+
+/**
+* FIRST COL
+*/
+
+.dark .section-banner .first-col .btn-primary {
+    background: var(--text-primary);
+}
+
+
+/**
+* SECOND COL
+*/
+
+.dark .section-banner .second-col h6 span {
+    color: var(--text-primary);
+}
+
+.dark .section-banner .second-col .decrecent-time .decrecent-item h3 {
+    color: var(--text-primary);
+}
+
+.dark .section-banner .second-col .icon-indicacao ul i {
+    color: var(--text-primary);
+}
+
+
+/*--------------------------------------------------------------
 # Section Projetos
 --------------------------------------------------------------*/
 
@@ -172,24 +204,30 @@ input[type="checkbox"] {
     background: var(--bg-linear);
 }
 
+
 /*--------------------------------------------------------------
 # Section Portfolio
 --------------------------------------------------------------*/
-
 
 .dark #portfolio .row-port {
     background-color: #cde1f811;
 }
 
-
 .dark #portfolio #portfolio-btn li {
     background: rgba(210, 211, 211, 0.1);
+    color: #cde1f8;
 }
 
 .dark #portfolio #portfolio-btn li:hover,
 .dark #portfolio #portfolio-btn li.filter-active {
     background: #7a7a7ecd;
 }
+
+.dark #portfolio .portfolio-item .portfolio-content .linguagem span {
+    color: #cde1f8;
+    background: rgba(210, 211, 211, 0.1);
+}
+
 
 /*--------------------------------------------------------------
 # Section Footer
