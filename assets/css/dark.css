@@ -177,14 +177,9 @@ input[type="checkbox"] {
 * SECOND COL
 */
 
-.dark .section-banner .second-col h6 span {
-    color: var(--text-primary);
-}
-
-.dark .section-banner .second-col .decrecent-time .decrecent-item h3 {
-    color: var(--text-primary);
-}
-
+.dark .section-banner .second-col h6 span,
+.dark .section-banner .second-col .decrecent-time .decrecent-item h3,
+.dark .section-banner .second-col .decrecent-time b,
 .dark .section-banner .second-col .icon-indicacao ul i {
     color: var(--text-primary);
 }
