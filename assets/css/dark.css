@@ -76,6 +76,8 @@ input[type="checkbox"] {
 * Btn dark mode
 */
 
+
+/* 
 .dark .container-nav .menu-config {
     background: #2a2727;
 }
@@ -103,6 +105,14 @@ input[type="checkbox"] {
 
 .dark .btn-config .bi-sun-fill {
     color: var(--text-primary);
+} */
+
+.dark .bi-lightbulb-fill {
+    display: block;
+}
+
+.dark .bi-lightbulb {
+    display: none;
 }
 
 

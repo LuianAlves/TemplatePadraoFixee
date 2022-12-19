@@ -229,28 +229,18 @@ ul {
 # Botão de modo dark/light
 --------------------------------------------------------------*/
 
-.btn-config {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.container-nav .menu-config {
+.icon-dark-mode {
     position: fixed;
-    top: 70px;
+    top: 50px;
     bottom: 100px;
     right: 25px;
-    width: 200px;
-    height: 0px;
-    background: #fff;
-    border-radius: 10px;
-    overflow: hidden;
-    z-index: 1000;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-    transition: .3s;
+    width: 50px;
+    /* height: 0px; */
+    z-index: 1001;
 }
 
-.container-nav .menu-config.active {
+
+/* .container-nav .menu-config.active {
     height: 55px;
 }
 
@@ -303,6 +293,40 @@ ul {
 
 .btn-config .modo-claro {
     display: none;
+} */
+
+.bi-lightbulb-fill {
+    display: none;
+}
+
+.bi-lightbulb {
+    display: block;
+}
+
+.bi-lightbulb-fill,
+.bi-lightbulb {
+    font-size: 36px;
+    cursor: pointer;
+}
+
+.bi-lightbulb-fill {
+    color: rgba(255, 251, 0, 0.425);
+    filter: drop-shadow(0 0px 0px rgb(240, 240, 5)) drop-shadow(0 0 2px rgb(255, 255, 2)) drop-shadow(0 0 15px rgb(255, 255, 2)) drop-shadow(0 0 30px rgb(255, 255, 2));
+}
+
+.bi-lightbulb-fill:hover {
+    color: rgb(78, 78, 78);
+    filter: drop-shadow(0 0px 0px #cde1f8) drop-shadow(0 0 2px #cde1f8) drop-shadow(0 0 15px #cde1f8) drop-shadow(0 0 30px #cde1f8);
+}
+
+.bi-lightbulb {
+    color: #cde1f893;
+    filter: drop-shadow(0 0 2px #cde1f886) drop-shadow(0 0 10px #cde1f885) drop-shadow(0 0 25px #cde1f8);
+}
+
+.bi-lightbulb:hover {
+    color: rgb(196, 193, 13);
+    filter: drop-shadow(0 0px 0px rgb(240, 240, 5)) drop-shadow(0 0 2px rgb(255, 255, 2)) drop-shadow(0 0 15px rgb(255, 255, 2)) drop-shadow(0 0 30px rgb(255, 255, 2));
 }
 
 #icon-config {
