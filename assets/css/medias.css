@@ -62,10 +62,10 @@
     }
     #projetos .box {
         margin: 0 -3rem;
-        width: 11rem !important;
+        width: 10.5rem !important;
     }
     #projetos .box video {
-        height: 8.25rem;
+        height: 8rem;
     }
     #projetos .avatar-projetos .avatar-title {
         font-size: 15px;
