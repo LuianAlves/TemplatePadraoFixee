@@ -62,11 +62,10 @@
     }
     #projetos .box {
         margin: 0 -3rem;
-        width: 10rem !important;
-        height: 14rem !important;
+        width: 11rem !important;
     }
-    #projetos .box:hover {
-        width: 10.75rem !important;
+    #projetos .box video {
+        height: 8.25rem;
     }
     #projetos .avatar-projetos .avatar-title {
         font-size: 15px;
@@ -138,11 +137,9 @@
     #projetos .box {
         margin: 0 -3rem;
         width: 12rem !important;
-        height: 18rem !important;
     }
-    #projetos .box:hover {
-        width: 12.25rem !important;
-        height: 19rem !important;
+    #projetos .box video {
+        height: 9.25rem;
     }
     #projetos .avatar-projetos .avatar-title {
         font-size: 15px;
@@ -239,11 +236,6 @@
     #projetos .box {
         margin: 0 -2.5rem;
         width: 13rem !important;
-        height: 18rem !important;
-    }
-    #projetos .box:hover {
-        width: 14rem !important;
-        height: 18.75rem !important;
     }
     #portfolio #portfolio-btn li {
         font-size: 13px !important;
@@ -312,15 +304,15 @@
     #projetos .text-section {
         margin-bottom: 50px !important;
     }
-    #projetos .box {
+    /* #projetos .box {
         margin: 0 -2.5rem;
         width: 15rem !important;
         height: 20rem !important;
-    }
+    } 
     #projetos .box:hover {
         width: 16rem !important;
         height: 21rem !important;
-    }
+    }*/
     #portfolio #portfolio-btn li {
         font-size: 13.5px !important;
     }
@@ -381,14 +373,9 @@
     #projetos .text-section {
         margin-bottom: 50px !important;
     }
-    #projetos .box:hover {
-        width: 18rem;
-        height: 22rem;
-    }
     #projetos .box {
         margin: 0 -2rem;
         width: 16.5rem;
-        height: 21rem;
     }
     #portfolio #portfolio-btn li {
         font-size: 14px !important;
@@ -418,5 +405,8 @@
     #banner .owl-carousel .owl-item img {
         height: 50px !important;
         width: 120px !important;
+    }
+    .section-banner {
+        padding-bottom: 30px;
     }
 }
