@@ -138,7 +138,8 @@
 }
 
 #splash #img-splash.fade {
-opacity: 1;
+    opacity: 1;
+    transition: 4s;
 }
 
 #btnWhatsapp {
@@ -146,5 +147,13 @@ opacity: 1;
 }
 
 #btnWhatsapp.fade {
+    opacity: 1;
+}
+
+#backToTop {
+    opacity: 0;
+}
+
+#backToTop.fade {
     opacity: 1;
 }
