@@ -1,0 +1,150 @@
+#splash div {
+    margin: 175px auto;
+}
+
+#splash .drop {
+    position: relative;
+    z-index: 10000;
+    width: 35px;
+    height: 35px;
+    top: -50px;
+    margin: 0 auto;
+    background: #fff;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    -moz-animation-name: drip;
+    -webkit-animation-name: drip;
+    animation-name: drip;
+    -moz-animation-timing-function: cubic-bezier(1, 0, .91, .19);
+    -webkit-animation-timing-function: cubic-bezier(1, 0, .91, .19);
+    animation-timing-function: cubic-bezier(1, 0, .91, .19);
+    -moz-animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+}
+
+#splash img {
+    position: absolute;
+    z-index: 10000;
+    inset: 0;
+    margin: auto;
+    -moz-animation-timing-function: cubic-bezier(1, 0, .91, .19);
+    -webkit-animation-timing-function: cubic-bezier(1, 0, .91, .19);
+    animation-timing-function: cubic-bezier(1, 0, .91, .19);
+    -moz-animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -moz-animation: imgSplash 1.5s infinite;
+    -webkit-animation: imgSplash 1.5s infinite;
+    animation: imgSplash 3s infinite;
+}
+
+
+@keyframes imgSplash {
+    0% {
+        transform: scale(.9);
+    }
+    70% {
+        transform: scale(.7);
+    }
+    100% {
+        transform: scale(.9);
+    }
+}
+
+#splash .drop:before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 25px solid rgba(255, 255, 255, 1);
+    top: -17px;
+    left: 3px;
+}
+
+
+#splash .water {
+    position: relative;
+    opacity: 0;
+    top: 0;
+    width: 1px;
+    height: 2px;
+    border: #fff 7px solid;
+    -moz-border-radius: 300px/ 150px;
+    -webkit-border-radius: 300px/ 150px;
+    border-radius: 300px/ 150px;
+    -moz-animation-name: ripple;
+    -webkit-animation-name: ripple;
+    animation-name: ripple;
+    -moz-animation-delay: 3s;
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+    -moz-animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+}
+
+@keyframes ripple {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        width: 600px;
+        width: 300px;
+        border-width: 1px;
+        top: -100px;
+        opacity: 0;
+    }
+}
+
+@keyframes drip {
+    to {
+        top: 190px;
+    }
+}
+
+/* Splash Screen Fade */
+.scrollbar-c {
+    overflow: hidden;
+}
+.scrollbar-c.body-over {
+    overflow: auto;
+}
+
+#section-splash {
+    position: relative;
+    height: 100vh;;
+}
+
+#section-splash.fade {
+    height: 0;
+    overflow: auto;
+}
+
+#home.fade {
+    opacity: 1;
+}
+
+#splash.fade {
+    height: 0px;
+}
+
+#splash #img-splash {
+    opacity: 0;
+}
+
+#splash #img-splash.fade {
+opacity: 1;
+}
+
+#btnWhatsapp {
+    opacity: 0;
+}
+
+#btnWhatsapp.fade {
+    opacity: 1;
+}
