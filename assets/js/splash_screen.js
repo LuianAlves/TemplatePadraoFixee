@@ -6,7 +6,7 @@ setTimeout(() => {
     document.getElementById("btnWhatsapp").classList.toggle('fade')
     document.getElementById("toggle-men").classList.toggle('fade')
     document.getElementsByClassName("scrollbar-c")[0].classList.toggle('body-over')
-}, 5000000);
+}, 12000);
 
 setTimeout(() => {
     document.getElementById("img-splash").classList.toggle('fade')
