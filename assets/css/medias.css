@@ -31,6 +31,14 @@
         width: 150px;
         height: 70px;
     }
+    #banner iframe {
+        width: 350px;
+        height: 300px;
+    }
+    #empresa iframe {
+        padding: 0 35px;
+        height: 250px;
+    }
     #banner .owl-carousel {
         margin-top: 10px;
     }
@@ -121,6 +129,14 @@
     #banner .owl-carousel .owl-item img {
         height: 25px !important;
         width: 85px !important;
+    }
+    #banner iframe {
+        width: 550px;
+        height: 350px;
+    }
+    #empresa iframe {
+        padding: 0 35px;
+        height: 300px;
     }
     #empresa {
         height: 135vh;
@@ -219,10 +235,14 @@
     #banner .owl-carousel {
         margin-top: 10px;
     }
-    /* #banner .owl-carousel .owl-item img {
-        height: 35px !important;
-        width: 50px !important;
-    } */
+    #banner iframe {
+        width: 550px;
+        height: 300px;
+    }
+    #empresa iframe {
+        padding: 0 45px;
+        height: 350px;
+    }
     #empresa .nav-pills button {
         font-size: 14px;
     }
@@ -287,10 +307,14 @@
     #banner .owl-carousel {
         margin-top: 25px;
     }
-    /* #banner .owl-carousel .owl-item img {
-        height: 35px;
-        width: 130px !important;
-    } */
+    #banner iframe {
+        width: 650px;
+        height: 350px;
+    }
+    #empresa iframe {
+        padding: 35px;
+        height: 400px;
+    }
     #empresa .nav-pills button {
         font-size: 14.5px;
     }
@@ -360,6 +384,15 @@
         width: 140px;
         height: 65px;
     }
+    #banner iframe {
+        width: 650px;
+        height: 400px;
+    }
+    #empresa iframe {
+        padding: 0 35px;
+        margin-top: 50px;
+        height: 450px;
+    }
     #banner .owl-carousel {
         margin-top: 25px;
     }
@@ -414,6 +447,14 @@
     #banner .owl-carousel .owl-item img {
         height: 50px !important;
         width: 120px !important;
+    }
+    #banner iframe {
+        width: 600px;
+        height: 400px;
+    }
+    #empresa iframe {
+        padding: 35px;
+        height: 450px;
     }
     .section-banner {
         padding-bottom: 30px;
