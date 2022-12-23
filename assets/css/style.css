@@ -357,6 +357,7 @@ ul {
     z-index: 997;
     animation: pulse 1.5s infinite;
     -webkit-animation: pulse 1.5s infinite;
+    -moz-animation: pulse 1.5s infinite;
 }
 
 .btn-primary:hover {
@@ -389,8 +390,16 @@ svg {
 
 svg path {
     animation: pathAnim 5s;
+    -webkit-animation: pathAnim 5s;
+    -moz-animation: pathAnim 5s;
+    
     animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    
     animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
 }
 
 @keyframes pathAnim {
@@ -836,50 +845,74 @@ svg path {
 
 .move-out-from-left {
     animation: moveOutLeft 0.5s ease-in-out;
+    -webkit-animation: moveOutLeft 0.5s ease-in-out;
+    -moz-animation: moveOutLeft 0.5s ease-in-out;
 }
 
 .move-out-from-right {
     animation: moveOutRight 0.5s ease-in-out;
+    -webkit-animation: moveOutRight 0.5s ease-in-out;
+    -moz-animation: moveOutRight 0.5s ease-in-out;
 }
 
 .move-to-position5-from-left {
     animation: moveToP5Left 0.5s ease-in-out;
+    -webkit-animation: moveToP5Left 0.5s ease-in-out;
+    -moz-animation: moveToP5Left 0.5s ease-in-out;
 }
 
 .move-to-position4-from-left {
     animation: moveToP4Left 0.5s ease-in-out;
+    -webkit-animation: moveToP4Left 0.5s ease-in-out;
+    -moz-animation: moveToP4Left 0.5s ease-in-out;
 }
 
 .move-to-position3-from-left {
     animation: moveToP3Left 0.5s ease-in-out;
+    -webkit-animation: moveToP3Left 0.5s ease-in-out;
+    -moz-animation: moveToP3Left 0.5s ease-in-out;
 }
 
 .move-to-position2-from-left {
     animation: moveToP2Left 0.5s ease-in-out;
+    -webkit-animation: moveToP2Left 0.5s ease-in-out;
+    -moz-animation: moveToP2Left 0.5s ease-in-out;
 }
 
 .move-to-position1-from-left {
     animation: moveToP1Left 0.5s ease-in-out;
+    -webkit-animation: moveToP1Left 0.5s ease-in-out;
+    -moz-animation: moveToP1Left 0.5s ease-in-out;
 }
 
 .move-to-position5-from-right {
     animation: moveToP5Right 0.5s ease-in-out;
+    -webkit-animation: moveToP5Right 0.5s ease-in-out;
+    -moz-animation: moveToP5Right 0.5s ease-in-out;
 }
 
 .move-to-position4-from-right {
     animation: moveToP4Right 0.5s ease-in-out;
+    -webkit-animation: moveToP4Right 0.5s ease-in-out;
+    -moz-animation: moveToP4Right 0.5s ease-in-out;
 }
 
 .move-to-position3-from-right {
     animation: moveToP3Right 0.5s ease-in-out;
+    -webkit-animation: moveToP3Right 0.5s ease-in-out;
+    -moz-animation: moveToP3Right 0.5s ease-in-out;
 }
 
 .move-to-position2-from-right {
     animation: moveToP2Right 0.5s ease-in-out;
+    -webkit-animation: moveToP2Right 0.5s ease-in-out;
+    -moz-animation: moveToP2Right 0.5s ease-in-out;
 }
 
 .move-to-position1-from-right {
     animation: moveToP1Right 0.5s ease-in-out;
+    -webkit-animation: moveToP1Right 0.5s ease-in-out;
+    -moz-animation: moveToP1Right 0.5s ease-in-out;
 }
 
 @keyframes moveOutLeft {
@@ -1349,79 +1382,3 @@ svg path {
     color: #fff;
 }
 
-/*  */
-
-img{
-	max-width: 100%;
-	vertical-align: middle;
-}
-/*.gallery*/
-.gallery{
-	width: 100%;
-	display: block;
-	min-height: 100vh;
-	background-color: #2a2932;
-	padding: 100px 0;
-}
-.gallery .gallery-filter{
-	padding: 0 15px;
-	width: 100%;
-	text-align: center;
-	margin-bottom: 40px;
-}
-.gallery .gallery-filter .filter-item{
-	color: #ffffff;
-	font-size: 17px;
-  border: 2px solid white;
-	text-transform: uppercase;
-	display: inline-block;
-  border-radius: 20px;
-  margin-right: 8px;
-	cursor: pointer;
-  padding: 8px 20px 8px 20px;
-	line-height: 1.2;
-	transition: all 0.3s ease;
-}
-.gallery .gallery-filter .filter-item.active{
-	color: white;
-	border-color : #16b5ef;
-  background: #16b5ef;
-}
-.gallery .gallery-item{
-	width: calc(100% / 3);
-	padding: 15px;
-
-}
-.gallery .gallery-item-inner img{
-	width: 100%;
-  border: 3px solid #d4dad9;
-}
-.gallery .gallery-item.show{
-	animation: fadeIn 0.5s ease;
-}
-@keyframes fadeIn{
-	0%{
-		opacity: 0;
-	}
-	100%{
-		opacity: 1;
-	}
-}
-.gallery .gallery-item.hide{
-	display: none;
-}
-
-/*responsive*/
-@media(max-width: 491px){
-	.gallery .gallery-item{
-		width: 50%;
-	}
-}
-@media(max-width: 467px){
-    .gallery .gallery-item{
-		width: 100%;
-	}
-	.gallery .gallery-filter .filter-item{
-		margin-bottom: 10px;
-	}
-}

@@ -1,7 +1,7 @@
 $(".portfolio-slider").owlCarousel({
     loop: true,
     autoplay: true,
-    autoplayTimeout: 5000,
+    autoplayTimeout: 8000,
     autoplayHoverPause: true,
 
     responsive: {
