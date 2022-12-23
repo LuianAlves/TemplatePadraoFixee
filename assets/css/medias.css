@@ -67,6 +67,9 @@
     #projetos .box video {
         height: 8rem;
     }
+    #projetos .box video:hover {
+        height: 12rem;
+    }
     #projetos .avatar-projetos .avatar-title {
         font-size: 15px;
     }
@@ -140,6 +143,9 @@
     }
     #projetos .box video {
         height: 9.25rem;
+    }
+    #projetos .box video:hover {
+        height: 13.25rem;
     }
     #projetos .avatar-projetos .avatar-title {
         font-size: 15px;
@@ -236,6 +242,9 @@
     #projetos .box {
         margin: 0 -2.5rem;
         width: 13rem !important;
+    }
+    #projetos .box video:hover {
+        height: 14rem;
     }
     #portfolio #portfolio-btn li {
         font-size: 13px !important;

@@ -782,14 +782,16 @@ svg path {
     opacity: 0.8;
 }
 
-.box:hover {
-    /* width: 15rem; */
-    /* height: 25rem; */
-    opacity: 1;
-}
-
 .box video {
     height: 12rem;
+    border-radius: 15px;
+    transition: 3s;
+}
+
+.box video:hover {
+    height: 20rem;
+    opacity: 1;
+    transition: 3s;
 }
 
 .box:nth-child(2n) {
