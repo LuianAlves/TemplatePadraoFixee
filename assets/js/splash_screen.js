@@ -9,3 +9,9 @@ setTimeout(() => {
 setTimeout(() => {
     document.getElementById("img-splash").classList.toggle('fade')
 }, 5500);
+
+
+setTimeout(() => {
+    AOS.init();
+}, 15000);
+

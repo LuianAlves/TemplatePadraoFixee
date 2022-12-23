@@ -29,9 +29,6 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 
-    <!-- Data AOS Fade -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
     <!-- Css File -->
     <link rel="stylesheet" href="assets/css/style.css">
 
@@ -42,6 +39,9 @@
 
     <!-- Css splash screen -->
     <link rel="stylesheet" href="assets/css/splash_screen.css">
+
+    <!-- Data AOS Fade -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- Dark Mode -->
     <script src="assets/js/dark.js" defer></script>
@@ -584,7 +584,7 @@
         <section class="section" id="portfolio">
             <div class="container">
                 <div class="row">
-                    <div class="d-flex justify-content-center" data-aos="fade-down-right"data-aos-easing="ease-out-cubic" data-aos-offset="200" data-aos-duration="2000">
+                    <div class="d-flex justify-content-center" data-aos="fade-down-right" data-aos-easing="ease-out-cubic" data-aos-offset="200" data-aos-duration="2000">
                         <h6 class="title-section">Portfólio</h6>
                     </div>
                 </div>
@@ -593,18 +593,17 @@
 
                     <div class="col-12">
 
-                        <div class="row portfolio-slider owl-carousel">
+                        <div class="row portfolio-slider owl-carousel" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-offset="200" data-aos-duration="2000">
 
                             <div class="portfolio-item">
                                 <div class="row">
-                                    <div class="col-10 col-lg-5 offset-lg-0 order-1 order-lg-0" data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-offset="200" data-aos-duration="2000">
+                                    <div class="col-10 col-lg-5 offset-lg-0 order-1 order-lg-0">
                                         <div class="portfolio-wrap">
                                             <img src="assets/img/portfolio/port_aps.jpeg" class="img-fluid" alt="">
                                         </div>
                                     </div>
                                     <div class="col-10 col-lg-6 offset-lg-0 order-0 order-lg-1 pt-4 pt-lg-0 portfolio-content"
-                                        style="text-align: justify;" data-aos="flip-down"
-                                        data-aos-easing="ease-out-cubic" data-aos-offset="200" data-aos-duration="2000">
+                                        style="text-align: justify;">
                                         <h3>Sistema de Faculdade</h3>
                                         <div class="linguagem">
                                             <p>
@@ -639,14 +638,14 @@
 
                             <div class="portfolio-item">
                                 <div class="row">
-                                    <div class="col-10 col-lg-5 offset-lg-0 order-1 order-lg-0" data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-offset="200" data-aos-duration="2000">
+                                    <div class="col-10 col-lg-5 offset-lg-0 order-1 order-lg-0">
                                         <div class="portfolio-wrap">
                                             <img src="assets/img/portfolio/port_fixee.png" class="img-fluid" alt="">
                                         </div>
                                     </div>
                                     <div class="col-10 col-lg-6 offset-lg-0 order-0 order-lg-1 pt-4 pt-lg-0 portfolio-content"
-                                        style="text-align: justify;">  data-aos="flip-down"
-                                        data-aos-easing="ease-out-cubic" data-aos-offset="200" data-aos-duration="2000"
+                                        style="text-align: justify;"  data-aos="flip-down"
+                                        data-aos-easing="ease-out-cubic" data-aos-offset="200" data-aos-duration="2000">
                                         <h3>Template Fixee</h3>
                                         <div class="linguagem">
                                             <p>
@@ -689,7 +688,7 @@
                 <div class="row d-flex align-items-center">
                     <div class="col-12 col-lg-6 order-1">
                         <div class="row"  data-aos="fade-up"
-                         data-aos-easing="ease-out-cubic" data-aos-offset="200" data-aos-duration="2000">
+                         data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                             <div id="iframe-page">
                                 <iframe
                                     src="https://www.youtube.com/embed/KCXAmDjNRFg?autoplay=1&mute=1&controls=0&rel=0&showinfo=0&loop=1&disablekb=1"></iframe>
@@ -698,10 +697,10 @@
                     </div>
                     <div class="col-12 col-lg-6 order-0">
                         <div class="row tabs-empresa">
-                            <div class="d-flex justify-content-center" data-aos="fade-down-right" data-aos-easing="ease-out-cubic" data-aos-offset="200" data-aos-duration="2000">
+                            <div class="d-flex justify-content-center" data-aos="fade-down-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                                 <h6 class="title-section">Sobre a Fixee</h6>
                             </div>
-                            <div class="d-flex justify-content-center" data-aos="fade-down-left" data-aos-easing="ease-out-cubic" data-aos-offset="200" data-aos-duration="2000">
+                            <div class="d-flex justify-content-center" data-aos="fade-down-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                                 <ul class="nav nav-pills my-5" id="pills-tab" role="tablist">
                                     <li class="nav-item" role="presentation">
                                         <button class="nav-link active" id="pills-home-sobre" data-bs-toggle="pill"
@@ -726,7 +725,7 @@
                                 </ul>
                             </div>
 
-                            <div class="tab-content" id="pills-tabContent" style="min-height: 400px;" data-aos="fade-down-right" data-aos-easing="ease-out-cubic" data-aos-offset="300" data-aos-duration="3000">
+                            <div class="tab-content" id="pills-tabContent" style="min-height: 400px;" data-aos="fade-down-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                                 <div class="tab-pane fade show active" id="pills-sobre" role="tabpanel"
                                     aria-labelledby="pills-sobre-tab" tabindex="0">
                                     <span>
@@ -874,6 +873,12 @@
     <a id="btnWhatsapp" href="https://wa.me/5511988313151"><i class="bi bi-whatsapp"></i></a>
 
     <!-- ------------------------------------------- Scrips ------------------------------------------- -->
+    <!-- AOS Fade -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        
+    </script>
+
     <!-- Splash Screen -->
     <script src="assets/js/splash_screen.js"></script>
 
@@ -882,11 +887,7 @@
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
         crossorigin="anonymous"></script>
 
-    <!-- AOS Fade -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
+
 
     <!-- Pure Counter Services -->
     <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
