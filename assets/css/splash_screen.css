@@ -1,139 +1,139 @@
-#splash div {
-    height: 50vh;
-    margin: 250px auto;
+#section-splash {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #011721;
+    font-family: "Poppins", sans-serif !important;
+    height: 100vh;
 }
 
-#splash .drop {
+/* -------------------------------------------------- 
+                        WAVE TEXT    
+   --------------------------------------------------
+*/ 
+
+#splash {
+    position: relative;    animation: waveTextPulse 4s infinite;
+}
+
+#splash h2 {
+    position: absolute;
+    color: transparent;
+    transform: translate(-45%, -45%);
+    font-size: 6em;
+    font-weight: 800;
+
+}
+
+#splash h2:nth-child(1) {
+    color: transparent;
+    -webkit-text-stroke: 2px #fff;
+}
+
+#splash h2:nth-child(2) {
+    color: var(--text-primary);
+    animation: waveText 4s ease-in-out infinite;
+}
+
+@keyframes waveText {
+    0%, 100% {
+        clip-path: polygon(0% 45%, 15% 44%, 32% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
+    }
+    50% {
+        clip-path: polygon(0% 60%, 16% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
+    }
+} 
+
+@keyframes waveTextPulse {
+   
+        0% {
+            transform: scale(.925);
+        }
+        70% {
+            transform: scale(.875);
+        }
+        100% {
+            transform: scale(.925);
+        }
+    
+}
+
+/* -------------------------------------------------- 
+                        CUBES   
+   --------------------------------------------------
+*/ 
+
+#splash-2 {
+    position: absolute;
+    bottom: 7.5%;
+    left: 7.5%;
+}
+
+#splash-3 {
+    position: absolute;
+    top: 7.5%;
+    right: 7.5%;
+}
+
+.cubes {
     position: relative;
-    z-index: 10000;
-    width: 35px;
-    height: 35px;
-    top: -80px;
-    margin: 0 auto;
-    background: #fff;
-    -moz-border-radius: 20px;
-    -webkit-border-radius: 20px;
-    border-radius: 20px;
-    -moz-animation-name: drip;
-    -webkit-animation-name: drip;
-    animation-name: drip;
-    -moz-animation-timing-function: cubic-bezier(.1, 0, .91, .19);
-    -webkit-animation-timing-function: cubic-bezier(.1, 0, .91, .19);
-    animation-timing-function: cubic-bezier(.1, 0, .91, .19);
-    -moz-animation-duration: 5s;
-    -webkit-animation-duration: 5s;
-    animation-duration: 5s;
+    width: 50px;
+    height: 50px;
+    transform-style: preserve-3d;
+    transform: rotateX(-30deg);
+    animation: cubes 15s linear infinite;
 }
 
-#splash .drop:before {
+@keyframes cubes {
+    0% {
+        transform: rotateX(-30deg) rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateX(-30deg) rotateY(360deg);
+    }
+}
+
+.cubes div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+}
+
+.cubes div span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#151515, var(--text-primary));
+    filter: drop-shadow(0 0 25px var(--text-primary)) drop-shadow(0 0 35px var(--text-primary));
+    transform: rotateY(calc(90deg * var(--i))) translateZ(25px);
+}
+
+.cubes .cubes-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    background: #222;
+    transform: rotateX(90deg) translateZ(25px);
+}
+
+.cubes .cubes-top:before {
     content: "";
     position: absolute;
-    width: 0px;
-    height: 0px;
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
-    border-bottom: 25px solid rgba(255, 255, 255, 1);
-    top: -17px;
-    left: 3px;
-}
-
-#splash .water {
-    position: relative;
-    opacity: 0;
-    top: 250px;
-    width: 1px;
-    height: 2px;
-    border: #fff 7px solid;
-    -moz-border-radius: 300px/ 150px;
-    -webkit-border-radius: 300px/ 150px;
-    border-radius: 300px/ 150px;
-    -moz-animation-name: ripple;
-    -webkit-animation-name: ripple;
-    animation-name: ripple;
-    -moz-animation-delay: 5s;
-    -webkit-animation-delay: 5s;
-    animation-delay: 5s;
-    -moz-animation-duration: 5s;
-    -webkit-animation-duration: 5s;
-    animation-duration: 5s;
-}
-
-@keyframes ripple {
-    from {
-        opacity: 1;
-    }
-
-    to {
-        width: 600px;
-        width: 300px;
-        border-width: 1px;
-        top: -500px;
-        opacity: 0;
-    }
-}
-
-@keyframes drip {
-    to {
-        top: 500px;
-    }
-}
-#splash #circle-animado {
-    width: 300px;
-    height: 300px;
-    position: absolute;
-    inset: 0;
-    margin: auto;
-    border-radius: 50%;
-    -moz-animation: imgSplash 1.5s infinite;
-    -webkit-animation: imgSplash 1.5s infinite;
-    animation: imgSplash 5s infinite;
-}
-
-#splash #circle {
-    position: absolute;
-    inset: 0;
-    margin: auto;
-    -moz-animation: circle 10s linear infinite;
-    -webkit-animation: circle 10s linear infinite;
-    animation: circle 10s linear infinite;
-}
-
-@keyframes circle {
-    0% {
-        transform: rotate(0deg)translate(-125px)rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg)translate(-125px)rotate(-360deg);
-    }
-}
-
-#splash img {
-    position: absolute;
-    z-index: 10000;
-    inset: 0;
-    margin: auto;
-    overflow: hidden;
-    -moz-animation-timing-function: cubic-bezier(1, 0, .91, .19);
-    -webkit-animation-timing-function: cubic-bezier(1, 0, .91, .19);
-    animation-timing-function: cubic-bezier(1, 0, .91, .19);
-    -moz-animation-duration: 5s;
-    -webkit-animation-duration: 5s;
-    animation-duration: 5s;
-    -moz-animation: imgSplash 1.5s infinite;
-    -webkit-animation: imgSplash 1.5s infinite;
-    animation: imgSplash 5s infinite;
-}
-
-@keyframes imgSplash {
-    0% {
-        transform: scale(.9);
-    }
-    70% {
-        transform: scale(.75);
-    }
-    100% {
-        transform: scale(.9);
-    }
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    background: var(--text-primary);
+    transform: translateZ(-100px);
+    filter: blur(20px);
 }
 
 #section-splash {
@@ -163,21 +163,30 @@
     height: 0px;
 }
 
-#splash #img-splash {
-    opacity: 0;
-}
 
-#splash #img-splash.fade {
-    opacity: 1;
-    transition: 4s;
-}
+@media only screen and (max-width: 768px) {
+    #splash h2 {
+        font-size: 4.5em;
+    }
+    
+    .cubes {
+        width: 30px;
+        height: 30px;
+    }
 
+    .cubes div span {
+        transform: rotateY(calc(90deg * var(--i))) translateZ(15px);
+    }
 
-/* Responsividade Splash Screen */
+    .cubes .cubes-top {
+        width: 30px;
+        height: 30px;
+        transform: rotateX(90deg) translateZ(15px);
+    }
 
-@media only screen and (max-width: 576px) {
-    #splash img {
-        width: 200px;
-        height: 100px;
+    .cubes .cubes-top:before {
+        width: 30px;
+        height: 30px;
+        transform: translateZ(-75px);
     }
 }

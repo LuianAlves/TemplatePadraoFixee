@@ -4,14 +4,9 @@ setTimeout(() => {
     document.getElementById("splash").classList.toggle('fade')
     document.getElementById("main").classList.toggle('fade')
     document.getElementById("home").classList.toggle('fade')
-}, 15000);
-
-setTimeout(() => {
-    document.getElementById("img-splash").classList.toggle('fade')
-}, 5500);
-
+}, 7500);
 
 setTimeout(() => {
     AOS.init();
-}, 15000);
+}, 7500);
 
