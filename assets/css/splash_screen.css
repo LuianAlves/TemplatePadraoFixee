@@ -13,7 +13,8 @@
 */ 
 
 #splash {
-    position: relative;    animation: waveTextPulse 4s infinite;
+    position: relative;    
+    animation: waveTextPulse 4s infinite;
 }
 
 #splash h2 {
@@ -169,6 +170,16 @@
         font-size: 4.5em;
     }
     
+    #splash-2 {
+        bottom: 15%;
+        left: 10%;
+    }
+    
+    #splash-3 {
+        top: 15%;
+        right: 10%;
+    }
+
     .cubes {
         width: 30px;
         height: 30px;
