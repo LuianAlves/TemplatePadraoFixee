@@ -1,12 +1,9 @@
 :root {
-    /* Background */
     --bg-primary: linear-gradient(201.73deg, #000D3C -9.1%, #027769 107.32%);
-    /* Text */
+    --bg-dark: #1a1a1a;
+    --bg-linear: linear-gradient(227.07deg, #1a1a1a 0.43%, #3a3732 99.56%);
     --text-primary: #14D5FF;
-    /* Icons */
     --icon-whats: linear-gradient(227.07deg, #1abf4e 0.43%, #28b183 99.56%);
-    --icon-lua: rgb(209, 131, 5);
-    /* Others */
     --bg-scrollbar: linear-gradient(227.07deg, #b7b6b76e 0.43%, #b3b3b54a 99.56%);
 }
 
@@ -1382,3 +1379,915 @@ svg path {
     color: #fff;
 }
 
+
+/*--------------------------------------------------------------
+# CONFIGURAÇÕES DARK MODE
+--------------------------------------------------------------*/
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.dark {
+    background: var(--bg-dark);
+    color: #fff;
+}
+
+.dark svg {
+    background: transparent;
+    border: none;
+}
+
+.dark .text-muted,
+.dark .list-cards .card-header {
+    color: var(--text-primary) !important;
+}
+
+
+/* back to top */
+
+.dark #backToTop {
+    background: var(--bg-linear);
+    color: #14D5FF;
+}
+
+.dark #btnWhatsapp {
+    background: var(--bg-linear);
+    color: #14D5FF;
+}
+
+
+/*--------------------------------------------------------------
+# HEADER
+--------------------------------------------------------------*/
+
+
+/**
+*  Menu Mobile
+*/
+
+.dark .container-nav .navigation {
+    background: var(--bg-dark);
+}
+
+.dark .container-nav .navigation ul li a {
+    color: #f1f2f5a6;
+}
+
+.dark .container-nav .navigation ul li a .icon-nav .bi {
+    color: var(--text-primary);
+}
+
+.dark #toggle-men {
+    background: var(--bg-dark);
+    border: 5px solid #515253;
+}
+
+.dark #toggle-men::before {
+    color: #14d4ff85;
+}
+
+
+/**
+* Btn dark mode
+*/
+
+.dark .bi-lightbulb-fill {
+    display: block;
+}
+
+.dark .bi-lightbulb {
+    display: none;
+}
+
+
+/*--------------------------------------------------------------
+# Section Banner
+--------------------------------------------------------------*/
+
+.dark .dark-imgs {
+    display: block;
+}
+
+.dark .light-imgs {
+    display: none;
+}
+
+
+/*--------------------------------------------------------------
+# Section Serviços
+--------------------------------------------------------------*/
+
+.dark .section-one,
+.dark .list-cards .card {
+    background-color: var(--bg-dark);
+    background: var(--bg-linear);
+}
+
+.dark .list-cards .icon-card i {
+    color: #cde1f8;
+}
+
+.dark .ico-circle {
+    color: #cde1f8;
+}
+
+.dark .counter-num .counter {
+    color: #cde1f8;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.dark .counter-num span {
+    color: #cde1f8;
+}
+
+
+/*--------------------------------------------------------------
+# Banner de descontos
+--------------------------------------------------------------*/
+
+
+/**
+* FIRST COL
+*/
+
+.dark .section-banner .first-col .btn-primary {
+    background: var(--text-primary);
+}
+
+
+/**
+* SECOND COL
+*/
+
+.dark .section-banner .second-col h6 span,
+.dark .section-banner .second-col .decrecent-time .decrecent-item h3,
+.dark .section-banner .second-col .decrecent-time b,
+.dark .section-banner .second-col .icon-indicacao ul i {
+    color: var(--text-primary);
+}
+
+
+/*--------------------------------------------------------------
+# Section Projetos
+--------------------------------------------------------------*/
+
+.dark .button i:hover {
+    padding: 7px;
+    border: 4px solid #f1f2f5;
+}
+
+.dark .button i {
+    color: #f1f2f5a6;
+    background: var(--bg-dark);
+    border: 2px solid #f1f2f5a6;
+}
+
+.dark #projetos .avatar-projetos .avatar-nome {
+    color: #cde1f8;
+}
+
+.dark #projetos .avatar-projetos .avatar-icon i {
+    color: #cde1f8;
+    background: var(--bg-linear);
+}
+
+
+/*--------------------------------------------------------------
+# Section Portfolio
+--------------------------------------------------------------*/
+
+.dark #portfolio .row-port {
+    background-color: #cde1f811;
+}
+
+.dark #portfolio #portfolio-btn li {
+    background: rgba(210, 211, 211, 0.1);
+    color: #cde1f8;
+}
+
+.dark #portfolio #portfolio-btn li:hover,
+.dark #portfolio #portfolio-btn li.filter-active {
+    background: #7a7a7ecd;
+}
+
+.dark #portfolio .portfolio-item .portfolio-content .linguagem span {
+    color: #cde1f8;
+    background: rgba(210, 211, 211, 0.1);
+}
+
+
+/*--------------------------------------------------------------
+# Section Footer
+--------------------------------------------------------------*/
+
+
+/**
+* Primeiro footer
+*/
+
+.dark #footer .footer-link {
+    color: #cde1f8;
+    opacity: 0.8;
+}
+
+.dark #footer ul .li-icons .footer-icon .bi {
+    color: #cde1f8;
+    border: 1px solid #cde1f8;
+    opacity: 0.8;
+}
+
+.dark #footer ul .li-icons .footer-icon .bi:hover {
+    background: var(--text-primary);
+    border: 1px solid var(--text-primary);
+}
+
+
+/**
+* Segundo footer
+*/
+
+.dark .second-footer .footer-text {
+    background: #cde1f8;
+    opacity: 0.8;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.dark #footer ul .li-logo .logo-footer-dark {
+    width: 185px;
+    height: 70px;
+}
+
+.dark .logo-footer-light {
+    display: none;
+}
+
+.dark .logo-footer-dark {
+    display: block;
+}
+
+
+/*--------------------------------------------------------------
+# CONFIGURAÇÕES DE RESPOSIVIDADE
+--------------------------------------------------------------*/
+
+/* Width 0px - 992px */
+
+@media only screen and (max-width: 992px) {
+    .container-nav .navigation {
+        display: block;
+    }
+    #toggle-men {
+        display: block;
+    }
+    .section-banner .first-col,
+    .section-banner .second-col {
+        text-align: center;
+    }
+}
+
+
+/* Max Width 360px */
+
+@media only screen and (max-width: 576px) {
+    /* Sections */
+    #home {
+        height: 80vh;
+    }
+    #home .text-title {
+        font-size: 18px;
+    }
+    #home .text-text {
+        font-size: 14px;
+    }
+    .logo {
+        width: 150px;
+        height: 70px;
+    }
+    #banner iframe {
+        width: 350px;
+        height: 300px;
+    }
+    #empresa iframe {
+        padding: 0 35px;
+        height: 250px;
+    }
+    #banner .owl-carousel {
+        margin-top: 10px;
+    }
+    #banner .owl-carousel .owl-item img {
+        height: 20px !important;
+        width: 60px !important;
+    }
+    #empresa .nav-pills button {
+        font-size: 12px !important;
+    }
+    #empresa .tab-pane span,
+    #empresa .tab-pane ul {
+        font-size: 14px;
+    }
+    #empresa .avatar-preview {
+        margin-top: 20px;
+    }
+    #empresa .avatar-preview .avatar-nome {
+        font-size: 12px;
+    }
+    #empresa .avatar-preview .avatar-func {
+        font-size: 12px;
+    }
+    .bg-image-desconto {
+        height: 130px;
+    }
+    #projetos .text-section {
+        margin-bottom: 50px !important;
+    }
+    #projetos .box {
+        margin: 0 -3rem;
+        width: 10.5rem !important;
+    }
+    #projetos .box video {
+        height: 8rem;
+    }
+    #projetos .box video:hover {
+        height: 12rem;
+    }
+    #projetos .avatar-projetos .avatar-title {
+        font-size: 15px;
+    }
+    #projetos .avatar-projetos .avatar-nome {
+        font-size: 11px;
+    }
+    #projetos .avatar-projetos .avatar-icon i {
+        font-size: 36px;
+        background: #d9d9d9;
+        border-radius: 50%;
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+    #portfolio #portfolio-btn li {
+        font-size: 10px !important;
+    }
+    #portfolio .portfolio-item .portfolio-content h3 {
+        text-align: center;
+    }
+    #portfolio .portfolio-item .portfolio-content .linguagem {
+        text-align: center;
+    }
+    .title-section {
+        font-size: 20px !important;
+    }
+    .text-section {
+        font-size: 16px !important;
+    }
+}
+
+
+/* Width 360px - 480px */
+
+@media (min-width: 576px) and (max-width: 768px) {
+    /* Sections */
+    #home {
+        height: 80vh;
+    }
+    #home .btn-primary {
+        font-size: 14px;
+    }
+    .logo {
+        width: 140px;
+        height: 65px;
+    }
+    #banner .owl-carousel {
+        margin-top: 10px;
+    }
+    #banner .owl-carousel .owl-item img {
+        height: 25px !important;
+        width: 85px !important;
+    }
+    #banner iframe {
+        width: 550px;
+        height: 350px;
+    }
+    #empresa iframe {
+        padding: 0 35px;
+        height: 300px;
+    }
+    #empresa {
+        height: 135vh;
+    }
+    #empresa .nav-pills button {
+        font-size: 13px !important;
+    }
+    #empresa .avatar-preview {
+        margin-top: 20px;
+    }
+    .bg-image-desconto {
+        height: 175px;
+    }
+    #projetos .text-section {
+        margin-bottom: 50px !important;
+    }
+    #projetos .box {
+        margin: 0 -3rem;
+        width: 12rem !important;
+    }
+    #projetos .box video {
+        height: 9.25rem;
+    }
+    #projetos .box video:hover {
+        height: 13.25rem;
+    }
+    #projetos .avatar-projetos .avatar-title {
+        font-size: 15px;
+    }
+    #projetos .avatar-projetos .avatar-nome {
+        font-size: 13px;
+    }
+    #projetos .avatar-projetos .avatar-icon i {
+        font-size: 48px;
+        background: #d9d9d9;
+        border-radius: 50%;
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+    #portfolio #portfolio-btn li {
+        font-size: 11px !important;
+    }
+    #portfolio .portfolio-item .portfolio-content h3 {
+        text-align: center;
+    }
+    #portfolio .portfolio-item .portfolio-content .linguagem {
+        text-align: center;
+    }
+    /*  */
+    .text-title {
+        font-size: 20px;
+    }
+    .text-text {
+        font-size: 16px;
+    }
+    .title-section {
+        /* margin-top: 15px; */
+        font-size: 20px !important;
+    }
+    .text-section {
+        font-size: 15px !important;
+    }
+    /* Cards */
+    .list-cards {
+        font-size: 12px;
+    }
+    .list-cards .card-header {
+        font-size: 14px;
+    }
+    .btn-config .dropdown {
+        z-index: 997;
+    }
+}
+
+
+/* Width 480px - 576px */
+
+@media (min-width: 768px) and (max-width: 992px) {
+    #home {
+        height: 80vh;
+    }
+    #home .text-title {
+        font-size: 22px;
+    }
+    #home .text-text {
+        font-size: 16px;
+    }
+    #home .btn-primary {
+        font-size: 16.5px;
+        padding: 10px 25px;
+    }
+    .logo {
+        width: 140px;
+        height: 65px;
+    }
+    #banner .owl-carousel {
+        margin-top: 10px;
+    }
+    #banner iframe {
+        width: 550px;
+        height: 300px;
+    }
+    #empresa iframe {
+        padding: 0 45px;
+        height: 350px;
+    }
+    #empresa .nav-pills button {
+        font-size: 14px;
+    }
+    #empresa .tab-pane span,
+    #empresa .tab-pane ul {
+        font-size: 17px;
+    }
+    #empresa .avatar-preview {
+        margin-top: 35px;
+    }
+    .bg-image-desconto {
+        height: 220px;
+    }
+    #projetos .text-section {
+        margin-bottom: 50px !important;
+    }
+    #projetos .box {
+        margin: 0 -2.5rem;
+        width: 13rem !important;
+    }
+    #projetos .box video:hover {
+        height: 14rem;
+    }
+    #portfolio #portfolio-btn li {
+        font-size: 13px !important;
+    }
+    #portfolio .portfolio-item .portfolio-content h3 {
+        text-align: center;
+    }
+    #portfolio .portfolio-item .portfolio-content .linguagem {
+        text-align: center;
+    }
+    .title-section {
+        font-size: 22px;
+    }
+    .text-section {
+        font-size: 15px;
+    }
+}
+
+
+/* Width 576px - 768px */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    #home {
+        height: 87vh;
+    }
+    #home .text-title {
+        font-size: 23px;
+    }
+    #home .text-text {
+        font-size: 16px;
+    }
+    #home .btn-primary {
+        font-size: 17px;
+        padding: 12px 30px;
+    }
+    .logo {
+        width: 140px;
+        height: 65px;
+    }
+    #banner .owl-carousel {
+        margin-top: 25px;
+    }
+    #banner iframe {
+        width: 650px;
+        height: 350px;
+    }
+    #empresa iframe {
+        padding: 35px;
+        height: 400px;
+    }
+    #empresa .nav-pills button {
+        font-size: 14.5px;
+    }
+    #empresa .tab-pane span,
+    #empresa .tab-pane ul {
+        font-size: 16px;
+    }
+    #empresa .avatar-preview {
+        margin-top: 20px;
+    }
+    #empresa .avatar-preview .avatar-nome {
+        font-size: 15px;
+    }
+    #empresa .avatar-preview .avatar-func {
+        font-size: 13px;
+    }
+    .bg-image-desconto {
+        height: 250px;
+    }
+    #projetos .text-section {
+        margin-bottom: 50px !important;
+    }
+    /* #projetos .box {
+        margin: 0 -2.5rem;
+        width: 15rem !important;
+        height: 20rem !important;
+    } 
+    #projetos .box:hover {
+        width: 16rem !important;
+        height: 21rem !important;
+    }*/
+    #portfolio #portfolio-btn li {
+        font-size: 13.5px !important;
+    }
+    #portfolio .portfolio-item .portfolio-content h3 {
+        text-align: center;
+    }
+    #portfolio .portfolio-item .portfolio-content .linguagem {
+        text-align: center;
+    }
+    .title-section {
+        font-size: 24px;
+    }
+    .text-section {
+        font-size: 16px;
+    }
+}
+
+
+/* Width 768px - 992px */
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    #home {
+        height: 85vh;
+    }
+    #home .text-title {
+        font-size: 26px;
+    }
+    #home .text-text {
+        font-size: 16px;
+    }
+    #home .btn-primary {
+        font-size: 17px;
+        padding: 13px 30px;
+    }
+    .logo {
+        width: 140px;
+        height: 65px;
+    }
+    #banner iframe {
+        width: 650px;
+        height: 400px;
+    }
+    #empresa iframe {
+        padding: 0 35px;
+        margin-top: 50px;
+        height: 450px;
+    }
+    #banner .owl-carousel {
+        margin-top: 25px;
+    }
+    #banner .owl-carousel .owl-item img {
+        height: 40px;
+        width: 100px !important;
+    }
+    #empresa .nav-pills button {
+        font-size: 15px;
+    }
+    #empresa .avatar-preview {
+        margin-top: 25px;
+    }
+    #empresa .avatar-preview .avatar-nome {
+        font-size: 17px;
+    }
+    #empresa .avatar-preview .avatar-func {
+        font-size: 15px;
+    }
+    #projetos .text-section {
+        margin-bottom: 50px !important;
+    }
+    #projetos .box {
+        margin: 0 -2rem;
+        width: 16.5rem;
+    }
+    #portfolio #portfolio-btn li {
+        font-size: 14px !important;
+        margin-bottom: 25px;
+    }
+    #portfolio .portfolio-item .portfolio-content h3 {
+        text-align: center;
+    }
+    #portfolio .portfolio-item .portfolio-content .linguagem {
+        text-align: center;
+    }
+    .title-section {
+        font-size: 26px;
+    }
+    .text-section {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1400px) {
+    #home {
+        height: 75vh;
+    }
+    #banner .owl-carousel {
+        margin-top: 10px;
+    }
+    #banner .owl-carousel .owl-item img {
+        height: 50px !important;
+        width: 120px !important;
+    }
+    #banner iframe {
+        width: 600px;
+        height: 400px;
+    }
+    #empresa iframe {
+        padding: 35px;
+        height: 450px;
+    }
+    .section-banner {
+        padding-bottom: 30px;
+    }
+}
+
+/* -------------------------------------------------- 
+    # CONFIGURAÇÃO DA SPLASH SCREEN
+   --------------------------------------------------
+*/ 
+
+#section-splash {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #011721;
+    height: 100%;
+    overflow-y: hidden;
+}
+
+/* -------------------------------------------------- 
+                        WAVE TEXT    
+   --------------------------------------------------
+*/ 
+
+#splash {
+    position: relative;    
+}
+
+#splash h2 {
+    position: absolute;
+    transform: translate(-45%, -45%);
+    font-size: 6em;
+    font-weight: 800;
+
+}
+
+#splash h2:nth-child(1) {
+    color: transparent;
+    -webkit-text-stroke: 2px #fff;
+}
+
+#splash h2:nth-child(2) {
+    color: var(--text-primary);
+    animation: waveText 4s ease-in-out infinite;
+}
+
+@keyframes waveText {
+    0%, 100% {
+        clip-path: polygon(0% 45%, 15% 44%, 32% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
+    }
+    50% {
+        clip-path: polygon(0% 60%, 16% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
+    }
+} 
+
+/* -------------------------------------------------- 
+                        CUBES   
+   --------------------------------------------------
+*/ 
+
+#splash-2 {
+    position: absolute;
+    bottom: 7.5%;
+    left: 7.5%;
+}
+
+#splash-3 {
+    position: absolute;
+    top: 7.5%;
+    right: 7.5%;
+}
+
+.cubes {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    transform-style: preserve-3d;
+    transform: rotateX(-30deg);
+    animation: cubes 15s linear infinite;
+}
+
+@keyframes cubes {
+    0% {
+        transform: rotateX(-30deg) rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateX(-30deg) rotateY(360deg);
+    }
+}
+
+.cubes div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+}
+
+.cubes div span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#151515, var(--text-primary));
+    filter: drop-shadow(0 0 25px var(--text-primary)) drop-shadow(0 0 35px var(--text-primary));
+    transform: rotateY(calc(90deg * var(--i))) translateZ(25px);
+}
+
+.cubes .cubes-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    background: #222;
+    transform: rotateX(90deg) translateZ(25px);
+}
+
+.cubes .cubes-top:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    background: var(--text-primary);
+    transform: translateZ(-100px);
+    filter: blur(20px);
+}
+
+#section-splash {
+    position: relative;
+    height: 100vh;;
+}
+
+#section-splash.fade {
+    height: 0;
+    overflow: auto;
+}
+
+#main, #btnWhatsapp {
+    display: none;
+}
+
+#main.fade {
+    opacity: 1;
+    display: block;
+}
+
+#home.fade {
+    opacity: 1;
+}
+
+#splash.fade {
+    height: 0px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    #splash h2 {
+        font-size: 4.5em;
+    }
+    
+    #splash-2 {
+        bottom: 10%;
+        left: 10%;
+    }
+    
+    #splash-3 {
+        top: 7.5%;
+        right: 7.5%;
+    }
+
+    .cubes {
+        width: 30px;
+        height: 30px;
+    }
+
+    .cubes div span {
+        transform: rotateY(calc(90deg * var(--i))) translateZ(15px);
+    }
+
+    .cubes .cubes-top {
+        width: 30px;
+        height: 30px;
+        transform: rotateX(90deg) translateZ(15px);
+    }
+
+    .cubes .cubes-top:before {
+        width: 30px;
+        height: 30px;
+        transform: translateZ(-75px);
+    }
+}

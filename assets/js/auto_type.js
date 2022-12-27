@@ -1,3 +1,4 @@
+// AUTO TYPE
 var textoT = new Typed(".text-type", {
 
     strings: ["Seu site", "Sua ideia", "Seu app"],
