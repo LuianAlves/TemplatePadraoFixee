@@ -16,7 +16,6 @@
     font-family: "Roboto", sans-serif !important;
     margin: 0;
     padding: 0;
-    /* overflow-x: hidden; */
 }
 
 a:hover {
@@ -51,20 +50,10 @@ a:hover {
 # HEADER
 --------------------------------------------------------------*/
 
-
-/**
-* Section HOME
-*/
-
 #home {
     width: 100%;
     height: 80vh;
 }
-
-
-/**
-* Desktop Menu
-*/
 
 .navbar {
     position: absolute;
@@ -92,18 +81,12 @@ a:hover {
 }
 
 .logo {
-    /* position: absolute; */
     width: 151px;
     height: 70px;
     left: 70px;
     top: 59px;
     transition: 0.5s;
 }
-
-
-/**
-* Mobile Menu
-*/
 
 .container-nav {
     position: relative;
@@ -200,7 +183,6 @@ ul {
 }
 
 #toggle-men.active {
-    /* left: 205px; */
     transition: 0.5s;
 }
 
@@ -222,9 +204,10 @@ ul {
 }
 
 
-/*--------------------------------------------------------------
-# Botão de modo dark/light
---------------------------------------------------------------*/
+/* --------------------------------------------------------------
+                        MODO DARK
+   --------------------------------------------------------------
+*/
 
 .icon-dark-mode {
     position: fixed;
@@ -271,46 +254,6 @@ ul {
     color: rgb(196, 193, 13);
     filter: drop-shadow(0 0px 0px rgb(240, 240, 5)) drop-shadow(0 0 2px rgb(255, 255, 2)) drop-shadow(0 0 15px rgb(255, 255, 2)) drop-shadow(0 0 30px rgb(255, 255, 2));
 }
-
-#icon-config {
-    position: fixed;
-    right: 10px;
-    top: 55px;
-    width: 40px;
-    height: 40px;
-    background: #f5f5f5;
-    cursor: pointer;
-    z-index: 1000;
-    border: 5px solid #0a5174ca;
-    border-radius: 50%;
-    transition: 0.5s;
-}
-
-#icon-config.active {
-    transition: 0.5s;
-}
-
-#icon-config::before {
-    content: "\f085";
-    font-family: fontAwesome;
-    position: absolute;
-    color: #0a5174ca;
-    text-align: center;
-    width: 100%;
-    height: 100%;
-    line-height: 30px;
-    font-size: 18px;
-    transition: 0.5s;
-}
-
-#icon-config.active::before {
-    content: "\f078";
-}
-
-
-/*--------------------------------------------------------------
-# Body Texts
---------------------------------------------------------------*/
 
 .typed-cursor {
     font-size: 40px;
@@ -365,18 +308,21 @@ ul {
     0% {
         transform: scale(.9);
     }
+
     70% {
         transform: scale(.85);
     }
+
     100% {
         transform: scale(.9);
     }
 }
 
 
-/*--------------------------------------------------------------
-# Section ONDA ANIMADA
---------------------------------------------------------------*/
+/* --------------------------------------------------------------
+                    Section ONDA ANIMADA
+   --------------------------------------------------------------
+*/
 
 svg {
     position: absolute;
@@ -389,11 +335,11 @@ svg path {
     animation: pathAnim 5s;
     -webkit-animation: pathAnim 5s;
     -moz-animation: pathAnim 5s;
-    
+
     animation-timing-function: linear;
     -webkit-animation-timing-function: linear;
     -moz-animation-timing-function: linear;
-    
+
     animation-iteration-count: infinite;
     -webkit-animation-iteration-count: infinite;
     -moz-animation-iteration-count: infinite;
@@ -403,24 +349,29 @@ svg path {
     0% {
         d: path("M 0,400 C 0,400 0,200 0,200 C 206.13333333333333,232 412.26666666666665,264 549,262 C 685.7333333333333,260 753.0666666666666,224.00000000000003 890,208 C 1026.9333333333334,191.99999999999997 1233.4666666666667,196 1440,200 C 1440,200 1440,400 1440,400 Z");
     }
+
     25% {
         d: path("M 0,400 C 0,400 0,200 0,200 C 189.86666666666667,200 379.73333333333335,200 535,200 C 690.2666666666667,200 810.9333333333334,200 956,200 C 1101.0666666666666,200 1270.5333333333333,200 1440,200 C 1440,200 1440,400 1440,400 Z");
     }
+
     50% {
         d: path("M 0,400 C 0,400 0,200 0,200 C 163.86666666666667,216.66666666666666 327.73333333333335,233.33333333333331 469,237 C 610.2666666666667,240.66666666666669 728.9333333333334,231.33333333333334 887,223 C 1045.0666666666666,214.66666666666666 1242.5333333333333,207.33333333333331 1440,200 C 1440,200 1440,400 1440,400 Z");
     }
+
     75% {
         d: path("M 0,400 C 0,400 0,200 0,200 C 137.33333333333331,192.8 274.66666666666663,185.6 456,195 C 637.3333333333334,204.4 862.6666666666667,230.39999999999998 1034,234 C 1205.3333333333333,237.60000000000002 1322.6666666666665,218.8 1440,200 C 1440,200 1440,400 1440,400 Z");
     }
+
     100% {
         d: path("M 0,400 C 0,400 0,200 0,200 C 206.13333333333333,232 412.26666666666665,264 549,262 C 685.7333333333333,260 753.0666666666666,224.00000000000003 890,208 C 1026.9333333333334,191.99999999999997 1233.4666666666667,196 1440,200 C 1440,200 1440,400 1440,400 Z");
     }
 }
 
 
-/*--------------------------------------------------------------
-# Section BANNER
---------------------------------------------------------------*/
+/* --------------------------------------------------------------
+                    Section BANNER
+   --------------------------------------------------------------
+*/
 
 #banner iframe {
     width: 600px;
@@ -476,11 +427,6 @@ svg path {
     margin-top: 15px;
 }
 
-
-/**
-* Cards
-*/
-
 .list-cards .card {
     display: flex;
     justify-content: center;
@@ -520,11 +466,6 @@ svg path {
     font-size: 13px;
     text-align: center;
 }
-
-
-/**
-* Counter de skills
-*/
 
 .counter-row {
     margin-top: 50px;
@@ -582,11 +523,6 @@ svg path {
     text-align: center;
 }
 
-
-/**
-* FIRST COL
-*/
-
 .section-banner .first-col span {
     font-size: 30px;
     font-weight: 600;
@@ -613,11 +549,6 @@ svg path {
     text-transform: uppercase;
 }
 
-
-/**
-* SECOND COL
-*/
-
 .section-banner .second-col h6 {
     font-size: 29px;
     font-weight: 600;
@@ -627,10 +558,8 @@ svg path {
 .section-banner .second-col h6 span {
     display: block;
     color: #FF7700;
+    font-weight: bold;
 }
-
-
-/* Banner Landing Page */
 
 .section-banner .second-col .decrecent-time {
     display: flex;
@@ -639,6 +568,7 @@ svg path {
 }
 
 .section-banner .second-col .decrecent-time b {
+    display: block;
     color: #FF7700;
     font-size: 46px;
     font-weight: 600;
@@ -650,9 +580,6 @@ svg path {
     font-weight: 600;
     text-transform: uppercase;
 }
-
-
-/* Banner Indicação */
 
 .section-banner .second-col .icon-indicacao ul {
     display: flex;
@@ -728,9 +655,6 @@ svg path {
     padding: 25px 10px;
 }
 
-
-/* Carousel de imagens */
-
 .container-proj {
     display: flex;
     align-items: center;
@@ -759,7 +683,6 @@ svg path {
     border-radius: 50%;
     transition: 0.5s;
     line-height: 30px;
-    /* box-shadow: 15px 15px 50px var(--text-primary); */
 }
 
 .button i:hover {
@@ -917,10 +840,12 @@ svg path {
         transform: scale(0.75) translateX(0%);
         opacity: 1;
     }
+
     50% {
         transform: scale(0.5) translateX(-150%);
         opacity: 0.5;
     }
+
     100% {
         transform: scale(0.25) translateX(0%);
         opacity: 0;
@@ -932,10 +857,12 @@ svg path {
         transform: scale(0.75) translateX(0%);
         opacity: 1;
     }
+
     50% {
         transform: scale(0.5) translateX(150%);
         opacity: 0.5;
     }
+
     100% {
         transform: scale(0.25) translateX(0%);
         opacity: 0;
@@ -946,6 +873,7 @@ svg path {
     from {
         transform: scale(0.75) translateX(100%);
     }
+
     to {
         transform: scale(0.75) translateX(0);
     }
@@ -955,6 +883,7 @@ svg path {
     from {
         transform: scale(0.75) translateX(100%);
     }
+
     to {
         transform: scale(0.85) translateX(0);
     }
@@ -964,6 +893,7 @@ svg path {
     from {
         transform: scale(0.85) translateX(100%);
     }
+
     to {
         transform: scale(1) translateX(0);
     }
@@ -973,6 +903,7 @@ svg path {
     from {
         transform: scale(1) translateX(100%);
     }
+
     to {
         transform: scale(0.85) translateX(0);
     }
@@ -982,6 +913,7 @@ svg path {
     from {
         transform: scale(0.85) translateX(100%);
     }
+
     to {
         transform: scale(0.75) translateX(0);
     }
@@ -991,6 +923,7 @@ svg path {
     from {
         transform: scale(0.75) translateX(-100%);
     }
+
     to {
         transform: scale(0.75) translateX(0);
     }
@@ -1000,6 +933,7 @@ svg path {
     from {
         transform: scale(0.75) translateX(-100%);
     }
+
     to {
         transform: scale(0.85) translateX(0);
     }
@@ -1009,6 +943,7 @@ svg path {
     from {
         transform: scale(0.85) translateX(-100%);
     }
+
     to {
         transform: scale(1) translateX(0);
     }
@@ -1018,6 +953,7 @@ svg path {
     from {
         transform: scale(1) translateX(-100%);
     }
+
     to {
         transform: scale(0.85) translateX(0);
     }
@@ -1027,6 +963,7 @@ svg path {
     from {
         transform: scale(0.85) translateX(-100%);
     }
+
     to {
         transform: scale(0.75) translateX(0);
     }
@@ -1109,7 +1046,6 @@ svg path {
     overflow: hidden;
     z-index: 1;
     height: 100%;
-    /* background: rgba(0, 0, 0, 0.6); */
 }
 
 #portfolio .portfolio-item .portfolio-content h3 {
@@ -1154,11 +1090,6 @@ svg path {
     transition: 3s;
 }
 
-
-/**
-* Nav tabs
-*/
-
 .nav-pills .nav-link {
     color: #fff;
     font-size: 14px;
@@ -1173,11 +1104,6 @@ svg path {
     text-align: justify;
     margin: auto 50px;
 }
-
-
-/**
-* Avatars
-*/
 
 .avatar {
     display: flex;
@@ -1221,11 +1147,6 @@ svg path {
 /*--------------------------------------------------------------
 # Section FOOTER
 --------------------------------------------------------------*/
-
-
-/**
-* Primeiro footer
-*/
 
 #footer {
     height: 100% !important;
@@ -1289,11 +1210,6 @@ svg path {
     height: 70px;
 }
 
-
-/**
-* Segundo footer
-*/
-
 .second-footer .footer-divider {
     border-top: 1px solid #bcbcbc;
 }
@@ -1317,11 +1233,6 @@ svg path {
 # OTHERS
 --------------------------------------------------------------*/
 
-
-/**
-* Custom scrollbar
-*/
-
 .scrollbar-c::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
     background-color: #f5f5f50b;
@@ -1339,11 +1250,6 @@ svg path {
     background-image: var(--bg-scrollbar);
 }
 
-
-/**
-* Back to top
-*/
-
 #backToTop {
     display: none;
     position: fixed;
@@ -1359,11 +1265,6 @@ svg path {
     background: var(--bg-primary);
     color: #fff;
 }
-
-
-/**
-* Button WhatsApp
-*/
 
 #btnWhatsapp {
     position: fixed;
@@ -1403,9 +1304,6 @@ input[type="checkbox"] {
     color: var(--text-primary) !important;
 }
 
-
-/* back to top */
-
 .dark #backToTop {
     background: var(--bg-linear);
     color: #14D5FF;
@@ -1420,11 +1318,6 @@ input[type="checkbox"] {
 /*--------------------------------------------------------------
 # HEADER
 --------------------------------------------------------------*/
-
-
-/**
-*  Menu Mobile
-*/
 
 .dark .container-nav .navigation {
     background: var(--bg-dark);
@@ -1446,11 +1339,6 @@ input[type="checkbox"] {
 .dark #toggle-men::before {
     color: #14d4ff85;
 }
-
-
-/**
-* Btn dark mode
-*/
 
 .dark .bi-lightbulb-fill {
     display: block;
@@ -1508,19 +1396,9 @@ input[type="checkbox"] {
 # Banner de descontos
 --------------------------------------------------------------*/
 
-
-/**
-* FIRST COL
-*/
-
 .dark .section-banner .first-col .btn-primary {
     background: var(--text-primary);
 }
-
-
-/**
-* SECOND COL
-*/
 
 .dark .section-banner .second-col h6 span,
 .dark .section-banner .second-col .decrecent-time .decrecent-item h3,
@@ -1583,11 +1461,6 @@ input[type="checkbox"] {
 # Section Footer
 --------------------------------------------------------------*/
 
-
-/**
-* Primeiro footer
-*/
-
 .dark #footer .footer-link {
     color: #cde1f8;
     opacity: 0.8;
@@ -1604,18 +1477,13 @@ input[type="checkbox"] {
     border: 1px solid var(--text-primary);
 }
 
-
-/**
-* Segundo footer
-*/
-
 .dark .second-footer .footer-text {
     background: #cde1f8;
     opacity: 0.8;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
 }
 
 .dark #footer ul .li-logo .logo-footer-dark {
@@ -1636,92 +1504,141 @@ input[type="checkbox"] {
 # CONFIGURAÇÕES DE RESPOSIVIDADE
 --------------------------------------------------------------*/
 
-/* Width 0px - 992px */
+@media only screen and (max-width: 768px) {
+    #splash h2 {
+        font-size: 4.5em;
+    }
+
+    #splash-2 {
+        bottom: 10%;
+        left: 10%;
+    }
+
+    #splash-3 {
+        top: 7.5%;
+        right: 7.5%;
+    }
+
+    .cubes {
+        width: 30px;
+        height: 30px;
+    }
+
+    .cubes div span {
+        transform: rotateY(calc(90deg * var(--i))) translateZ(15px);
+    }
+
+    .cubes .cubes-top {
+        width: 30px;
+        height: 30px;
+        transform: rotateX(90deg) translateZ(15px);
+    }
+
+    .cubes .cubes-top:before {
+        width: 30px;
+        height: 30px;
+        transform: translateZ(-75px);
+    }
+}
 
 @media only screen and (max-width: 992px) {
     .container-nav .navigation {
         display: block;
     }
+
     #toggle-men {
         display: block;
     }
+
     .section-banner .first-col,
     .section-banner .second-col {
         text-align: center;
     }
 }
 
-
-/* Max Width 360px */
-
 @media only screen and (max-width: 576px) {
-    /* Sections */
     #home {
         height: 80vh;
     }
+
     #home .text-title {
         font-size: 18px;
     }
+
     #home .text-text {
         font-size: 14px;
     }
+
     .logo {
         width: 150px;
         height: 70px;
     }
+
     #banner iframe {
         width: 350px;
         height: 300px;
     }
+
     #empresa iframe {
         padding: 0 35px;
         height: 250px;
     }
+
     #banner .owl-carousel {
         margin-top: 10px;
     }
+
     #banner .owl-carousel .owl-item img {
         height: 20px !important;
         width: 60px !important;
     }
+
     #empresa .nav-pills button {
         font-size: 12px !important;
     }
+
     #empresa .tab-pane span,
     #empresa .tab-pane ul {
         font-size: 14px;
     }
+
     #empresa .avatar-preview {
         margin-top: 20px;
     }
+
     #empresa .avatar-preview .avatar-nome {
         font-size: 12px;
     }
+
     #empresa .avatar-preview .avatar-func {
         font-size: 12px;
     }
-    .bg-image-desconto {
-        height: 130px;
-    }
+
     #projetos .text-section {
         margin-bottom: 50px !important;
     }
+
     #projetos .box {
         margin: 0 -3rem;
         width: 10.5rem !important;
     }
+
     #projetos .box video {
         height: 8rem;
     }
+
     #projetos .box video:hover {
         height: 12rem;
     }
+
     #projetos .avatar-projetos .avatar-title {
         font-size: 15px;
     }
+
     #projetos .avatar-projetos .avatar-nome {
         font-size: 11px;
     }
+
     #projetos .avatar-projetos .avatar-icon i {
         font-size: 36px;
         background: #d9d9d9;
@@ -1729,84 +1646,124 @@ input[type="checkbox"] {
         padding-top: 35px;
         padding-bottom: 35px;
     }
+
     #portfolio #portfolio-btn li {
         font-size: 10px !important;
     }
+
     #portfolio .portfolio-item .portfolio-content h3 {
         text-align: center;
     }
+
     #portfolio .portfolio-item .portfolio-content .linguagem {
         text-align: center;
     }
+
+    .section-banner .first-col span, .section-banner .second-col h6 {
+        font-size: 20px;
+    }
+
+    .section-banner .first-col h3, .section-banner .second-col .decrecent-time b {
+        font-size: 26px;
+    }
+
+    .section-banner .first-col p, .section-banner .second-col .decrecent-time span {
+        font-size: 13px;
+    }
+
+    .section-banner .first-col .btn-primary {
+        padding: 5px 10px;
+        font-size: 10px;
+        font-weight: 550;
+    }
+
+    .section-banner .second-col .banner-lg {
+        font-size: 8.5px;
+    }
+
+    .section-banner .second-col .icon-indicacao ul {
+        font-size: 16px;
+    }
+
     .title-section {
         font-size: 20px !important;
     }
+
     .text-section {
         font-size: 16px !important;
     }
 }
 
-
-/* Width 360px - 480px */
-
 @media (min-width: 576px) and (max-width: 768px) {
-    /* Sections */
     #home {
         height: 80vh;
     }
+
     #home .btn-primary {
         font-size: 14px;
     }
+
     .logo {
         width: 140px;
         height: 65px;
     }
+
     #banner .owl-carousel {
         margin-top: 10px;
     }
+
     #banner .owl-carousel .owl-item img {
         height: 25px !important;
         width: 85px !important;
     }
+
     #banner iframe {
         width: 550px;
         height: 350px;
     }
+
     #empresa iframe {
         padding: 0 35px;
         height: 300px;
     }
+
     #empresa {
         height: 135vh;
     }
+
     #empresa .nav-pills button {
         font-size: 13px !important;
     }
+
     #empresa .avatar-preview {
         margin-top: 20px;
     }
-    .bg-image-desconto {
-        height: 175px;
-    }
+
     #projetos .text-section {
         margin-bottom: 50px !important;
     }
+
     #projetos .box {
         margin: 0 -3rem;
         width: 12rem !important;
     }
+
     #projetos .box video {
         height: 9.25rem;
     }
+
     #projetos .box video:hover {
         height: 13.25rem;
     }
+
     #projetos .avatar-projetos .avatar-title {
         font-size: 15px;
     }
+
     #projetos .avatar-projetos .avatar-nome {
         font-size: 13px;
     }
+
     #projetos .avatar-projetos .avatar-icon i {
         font-size: 48px;
         background: #d9d9d9;
@@ -1814,167 +1771,239 @@ input[type="checkbox"] {
         padding-top: 35px;
         padding-bottom: 35px;
     }
+
     #portfolio #portfolio-btn li {
         font-size: 11px !important;
     }
+
     #portfolio .portfolio-item .portfolio-content h3 {
         text-align: center;
     }
+
     #portfolio .portfolio-item .portfolio-content .linguagem {
         text-align: center;
     }
-    /*  */
+
+    .section-banner .first-col span, .section-banner .second-col h6 {
+        font-size: 22px;
+    }
+
+    .section-banner .first-col h3, .section-banner .second-col .decrecent-time b {
+        font-size: 36px;
+    }
+
+    .section-banner .first-col p, .section-banner .second-col .decrecent-time span {
+        font-size: 16px;
+    }
+
+    .section-banner .first-col .btn-primary {
+        font-size: 13px;
+    }
+
+    .section-banner .second-col .banner-lg {
+        font-size: 10px;
+    }
+
+    .section-banner .second-col .icon-indicacao ul {
+        font-size: 18px;
+    }
+
     .text-title {
         font-size: 20px;
     }
+
     .text-text {
         font-size: 16px;
     }
+
     .title-section {
-        /* margin-top: 15px; */
         font-size: 20px !important;
     }
+
     .text-section {
         font-size: 15px !important;
     }
-    /* Cards */
+
     .list-cards {
         font-size: 12px;
     }
+
     .list-cards .card-header {
         font-size: 14px;
     }
-    .btn-config .dropdown {
-        z-index: 997;
-    }
 }
-
-
-/* Width 480px - 576px */
 
 @media (min-width: 768px) and (max-width: 992px) {
     #home {
         height: 80vh;
     }
+
     #home .text-title {
         font-size: 22px;
     }
+
     #home .text-text {
         font-size: 16px;
     }
+
     #home .btn-primary {
         font-size: 16.5px;
         padding: 10px 25px;
     }
+
     .logo {
         width: 140px;
         height: 65px;
     }
+
     #banner .owl-carousel {
         margin-top: 10px;
     }
+
     #banner iframe {
         width: 550px;
         height: 300px;
     }
+
     #empresa iframe {
         padding: 0 45px;
         height: 350px;
     }
+
     #empresa .nav-pills button {
         font-size: 14px;
     }
+
     #empresa .tab-pane span,
     #empresa .tab-pane ul {
         font-size: 17px;
     }
+
     #empresa .avatar-preview {
         margin-top: 35px;
     }
-    .bg-image-desconto {
-        height: 220px;
-    }
+
     #projetos .text-section {
         margin-bottom: 50px !important;
     }
+
     #projetos .box {
         margin: 0 -2.5rem;
         width: 13rem !important;
     }
+
     #projetos .box video:hover {
         height: 14rem;
     }
+
     #portfolio #portfolio-btn li {
         font-size: 13px !important;
     }
+
     #portfolio .portfolio-item .portfolio-content h3 {
         text-align: center;
     }
+
     #portfolio .portfolio-item .portfolio-content .linguagem {
         text-align: center;
     }
+
+    .section-banner .first-col span, .section-banner .second-col h6 {
+        font-size: 22px;
+    }
+
+    .section-banner .first-col h3, .section-banner .second-col .decrecent-time b {
+        font-size: 36px;
+    }
+
+    .section-banner .first-col p, .section-banner .second-col .decrecent-time span {
+        font-size: 14px;
+    }
+
+    .section-banner .first-col .btn-primary {
+        font-size: 13px;
+    }
+
+    .section-banner .second-col .banner-lg {
+        font-size: 10px;
+    }
+
+    .section-banner .second-col .icon-indicacao ul {
+        font-size: 18px;
+    }
+
+    
     .title-section {
         font-size: 22px;
     }
+
     .text-section {
         font-size: 15px;
     }
 }
 
-
-/* Width 576px - 768px */
-
 @media (min-width: 992px) and (max-width: 1200px) {
     #home {
         height: 87vh;
     }
+
     #home .text-title {
         font-size: 23px;
     }
+
     #home .text-text {
         font-size: 16px;
     }
+
     #home .btn-primary {
         font-size: 17px;
         padding: 12px 30px;
     }
+
     .logo {
         width: 140px;
         height: 65px;
     }
+
     #banner .owl-carousel {
         margin-top: 25px;
     }
+
     #banner iframe {
         width: 650px;
         height: 350px;
     }
+
     #empresa iframe {
         padding: 35px;
         height: 400px;
     }
+
     #empresa .nav-pills button {
         font-size: 14.5px;
     }
+
     #empresa .tab-pane span,
     #empresa .tab-pane ul {
         font-size: 16px;
     }
+
     #empresa .avatar-preview {
         margin-top: 20px;
     }
+
     #empresa .avatar-preview .avatar-nome {
         font-size: 15px;
     }
+
     #empresa .avatar-preview .avatar-func {
         font-size: 13px;
     }
-    .bg-image-desconto {
-        height: 250px;
-    }
+
     #projetos .text-section {
         margin-bottom: 50px !important;
     }
+
     /* #projetos .box {
         margin: 0 -2.5rem;
         width: 15rem !important;
@@ -1987,89 +2016,109 @@ input[type="checkbox"] {
     #portfolio #portfolio-btn li {
         font-size: 13.5px !important;
     }
+
     #portfolio .portfolio-item .portfolio-content h3 {
         text-align: center;
     }
+
     #portfolio .portfolio-item .portfolio-content .linguagem {
         text-align: center;
     }
+
     .title-section {
         font-size: 24px;
     }
+
     .text-section {
         font-size: 16px;
     }
 }
 
-
-/* Width 768px - 992px */
-
 @media (min-width: 1200px) and (max-width: 1400px) {
     #home {
         height: 85vh;
     }
+
     #home .text-title {
         font-size: 26px;
     }
+
     #home .text-text {
         font-size: 16px;
     }
+
     #home .btn-primary {
         font-size: 17px;
         padding: 13px 30px;
     }
+
     .logo {
         width: 140px;
         height: 65px;
     }
+
     #banner iframe {
         width: 650px;
         height: 400px;
     }
+
     #empresa iframe {
         padding: 0 35px;
         margin-top: 50px;
         height: 450px;
     }
+
     #banner .owl-carousel {
         margin-top: 25px;
     }
+
     #banner .owl-carousel .owl-item img {
         height: 40px;
         width: 100px !important;
     }
+
     #empresa .nav-pills button {
         font-size: 15px;
     }
+
     #empresa .avatar-preview {
         margin-top: 25px;
     }
+
     #empresa .avatar-preview .avatar-nome {
         font-size: 17px;
     }
+
     #empresa .avatar-preview .avatar-func {
         font-size: 15px;
     }
+
     #projetos .text-section {
         margin-bottom: 50px !important;
     }
+
     #projetos .box {
         margin: 0 -2rem;
         width: 16.5rem;
     }
+
     #portfolio #portfolio-btn li {
         font-size: 14px !important;
         margin-bottom: 25px;
     }
+
     #portfolio .portfolio-item .portfolio-content h3 {
         text-align: center;
     }
+
     #portfolio .portfolio-item .portfolio-content .linguagem {
         text-align: center;
     }
+
     .title-section {
         font-size: 26px;
     }
+
     .text-section {
         font-size: 16px;
     }
@@ -2079,21 +2128,26 @@ input[type="checkbox"] {
     #home {
         height: 75vh;
     }
+
     #banner .owl-carousel {
         margin-top: 10px;
     }
+
     #banner .owl-carousel .owl-item img {
         height: 50px !important;
         width: 120px !important;
     }
+
     #banner iframe {
         width: 600px;
         height: 400px;
     }
+
     #empresa iframe {
         padding: 35px;
         height: 450px;
     }
+
     .section-banner {
         padding-bottom: 30px;
     }
@@ -2102,7 +2156,7 @@ input[type="checkbox"] {
 /* -------------------------------------------------- 
     # CONFIGURAÇÃO DA SPLASH SCREEN
    --------------------------------------------------
-*/ 
+*/
 
 #section-splash {
     display: flex;
@@ -2113,13 +2167,8 @@ input[type="checkbox"] {
     overflow-y: hidden;
 }
 
-/* -------------------------------------------------- 
-                        WAVE TEXT    
-   --------------------------------------------------
-*/ 
-
 #splash {
-    position: relative;    
+    position: relative;
 }
 
 #splash h2 {
@@ -2127,7 +2176,6 @@ input[type="checkbox"] {
     transform: translate(-45%, -45%);
     font-size: 6em;
     font-weight: 800;
-
 }
 
 #splash h2:nth-child(1) {
@@ -2138,21 +2186,21 @@ input[type="checkbox"] {
 #splash h2:nth-child(2) {
     color: var(--text-primary);
     animation: waveText 4s ease-in-out infinite;
+    -webkit-animation: waveText 4s ease-in-out infinite;
+    -moz-animation: waveText 4s ease-in-out infinite;
 }
 
 @keyframes waveText {
-    0%, 100% {
+
+    0%,
+    100% {
         clip-path: polygon(0% 45%, 15% 44%, 32% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
     }
+
     50% {
         clip-path: polygon(0% 60%, 16% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
     }
-} 
-
-/* -------------------------------------------------- 
-                        CUBES   
-   --------------------------------------------------
-*/ 
+}
 
 #splash-2 {
     position: absolute;
@@ -2173,6 +2221,8 @@ input[type="checkbox"] {
     transform-style: preserve-3d;
     transform: rotateX(-30deg);
     animation: cubes 15s linear infinite;
+    -webkit-animation: cubes 15s linear infinite;
+    -moz-animation: cubes 15s linear infinite;
 }
 
 @keyframes cubes {
@@ -2229,7 +2279,8 @@ input[type="checkbox"] {
 
 #section-splash {
     position: relative;
-    height: 100vh;;
+    height: 100vh;
+    ;
 }
 
 #section-splash.fade {
@@ -2237,7 +2288,8 @@ input[type="checkbox"] {
     overflow: auto;
 }
 
-#main, #btnWhatsapp {
+#main,
+#btnWhatsapp {
     display: none;
 }
 
@@ -2252,42 +2304,4 @@ input[type="checkbox"] {
 
 #splash.fade {
     height: 0px;
-}
-
-
-@media only screen and (max-width: 768px) {
-    #splash h2 {
-        font-size: 4.5em;
-    }
-    
-    #splash-2 {
-        bottom: 10%;
-        left: 10%;
-    }
-    
-    #splash-3 {
-        top: 7.5%;
-        right: 7.5%;
-    }
-
-    .cubes {
-        width: 30px;
-        height: 30px;
-    }
-
-    .cubes div span {
-        transform: rotateY(calc(90deg * var(--i))) translateZ(15px);
-    }
-
-    .cubes .cubes-top {
-        width: 30px;
-        height: 30px;
-        transform: rotateX(90deg) translateZ(15px);
-    }
-
-    .cubes .cubes-top:before {
-        width: 30px;
-        height: 30px;
-        transform: translateZ(-75px);
-    }
 }
