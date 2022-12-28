@@ -1602,7 +1602,8 @@ input[type="checkbox"] {
         width: 10.75rem !important;
     }
 
-    #projetos .box video, #projetos .box img {
+    #projetos .box video,
+    #projetos .box img {
         height: 8rem;
     }
 }
@@ -1613,7 +1614,8 @@ input[type="checkbox"] {
         width: 12rem !important;
     }
 
-    #projetos .box video, #projetos .box img {
+    #projetos .box video,
+    #projetos .box img {
         height: 8rem;
     }
 }
@@ -1624,7 +1626,8 @@ input[type="checkbox"] {
         width: 13rem !important;
     }
 
-    #projetos .box video, #projetos .box img {
+    #projetos .box video,
+    #projetos .box img {
         height: 8rem;
     }
 }
@@ -1719,15 +1722,18 @@ input[type="checkbox"] {
         text-align: center;
     }
 
-    .section-banner .first-col span, .section-banner .second-col h6 {
+    .section-banner .first-col span,
+    .section-banner .second-col h6 {
         font-size: 20px;
     }
 
-    .section-banner .first-col h3, .section-banner .second-col .decrecent-time b {
+    .section-banner .first-col h3,
+    .section-banner .second-col .decrecent-time b {
         font-size: 26px;
     }
 
-    .section-banner .first-col p, .section-banner .second-col .decrecent-time span {
+    .section-banner .first-col p,
+    .section-banner .second-col .decrecent-time span {
         font-size: 13px;
     }
 
@@ -1808,7 +1814,8 @@ input[type="checkbox"] {
         width: 12rem !important;
     }
 
-    #projetos .box video, #projetos .box img {
+    #projetos .box video,
+    #projetos .box img {
         height: 9.25rem;
     }
 
@@ -1840,15 +1847,18 @@ input[type="checkbox"] {
         text-align: center;
     }
 
-    .section-banner .first-col span, .section-banner .second-col h6 {
+    .section-banner .first-col span,
+    .section-banner .second-col h6 {
         font-size: 22px;
     }
 
-    .section-banner .first-col h3, .section-banner .second-col .decrecent-time b {
+    .section-banner .first-col h3,
+    .section-banner .second-col .decrecent-time b {
         font-size: 36px;
     }
 
-    .section-banner .first-col p, .section-banner .second-col .decrecent-time span {
+    .section-banner .first-col p,
+    .section-banner .second-col .decrecent-time span {
         font-size: 16px;
     }
 
@@ -1960,15 +1970,18 @@ input[type="checkbox"] {
         text-align: center;
     }
 
-    .section-banner .first-col span, .section-banner .second-col h6 {
+    .section-banner .first-col span,
+    .section-banner .second-col h6 {
         font-size: 22px;
     }
 
-    .section-banner .first-col h3, .section-banner .second-col .decrecent-time b {
+    .section-banner .first-col h3,
+    .section-banner .second-col .decrecent-time b {
         font-size: 36px;
     }
 
-    .section-banner .first-col p, .section-banner .second-col .decrecent-time span {
+    .section-banner .first-col p,
+    .section-banner .second-col .decrecent-time span {
         font-size: 14px;
     }
 
@@ -1984,7 +1997,7 @@ input[type="checkbox"] {
         font-size: 18px;
     }
 
-    
+
     .title-section {
         font-size: 22px;
     }
@@ -2307,6 +2320,34 @@ input[type="checkbox"] {
     background: linear-gradient(#151515, var(--text-primary));
     filter: drop-shadow(0 0 25px var(--text-primary)) drop-shadow(0 0 35px var(--text-primary));
     transform: rotateY(calc(90deg * var(--i))) translateZ(25px);
+    animation: cubeBackground 15s linear infinite;
+}
+
+@keyframes cubeBackground {
+    0% {
+        background: var(--text-primary);
+        filter: drop-shadow(0 0 25px var(--text-primary)) drop-shadow(0 0 35px var(--text-primary));
+    }
+
+    35% {
+        background: #FF7700;
+        filter: drop-shadow(0 0 25px #ff7700) drop-shadow(0 0 35px #ff7700);
+    }
+
+    50% {
+        background: var(--text-primary);
+        filter: drop-shadow(0 0 25px var(--text-primary)) drop-shadow(0 0 35px var(--text-primary));
+    }
+
+    75% {
+        background: #FF7700;
+        filter: drop-shadow(0 0 25px #ff7700) drop-shadow(0 0 35px #ff7700);
+    }
+
+    90% {
+        background: var(--text-primary);
+        filter: drop-shadow(0 0 25px var(--text-primary)) drop-shadow(0 0 35px var(--text-primary));
+    }
 }
 
 .cubes .cubes-top {
@@ -2329,6 +2370,29 @@ input[type="checkbox"] {
     background: var(--text-primary);
     transform: translateZ(-100px);
     filter: blur(20px);
+    animation: cubeTopBackground 15s linear infinite;
+}
+
+@keyframes cubeTopBackground {
+    0% {
+        background: var(--text-primary);
+    }
+
+    35% {
+        background: #FF7700;
+    }
+
+    50% {
+        background: var(--text-primary);
+    }
+
+    75% {
+        background: #FF7700;
+    }
+
+    90% {
+        background: var(--text-primary);
+    }
 }
 
 #section-splash {
