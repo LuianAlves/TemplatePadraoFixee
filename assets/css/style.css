@@ -711,27 +711,43 @@ svg path {
     opacity: 0.8;
 }
 
-.move-to-position3-from-left, .move-to-position3-from-right video {
+.move-to-position3-from-left video {
     display: block;
 }
 
-.move-to-position3-from-left, .move-to-position3-from-right img {
+.move-to-position3-from-left img {
+    display: none;
+}
+
+.move-to-position3-from-right video {
+    display: block;
+}
+
+.move-to-position3-from-right img {
     display: none;
 }
 
 .box-second video,
 .box-first img,
-.move-to-position1-from-left, .move-to-position1-from-right video,
-.move-to-position2-from-left, .move-to-position2-from-right video,
-.move-to-position4-from-left, .move-to-position4-from-right video,
-.move-to-position5-from-left, .move-to-position5-from-right video {
+.move-to-position1-from-right video,
+.move-to-position2-from-right video,
+.move-to-position4-from-right video,
+.move-to-position5-from-right video,
+.move-to-position1-from-left video,
+.move-to-position2-from-left video,
+.move-to-position4-from-left video,
+.move-out-from-left video {
     display: none;
 }
 
-.move-to-position1-from-left, .move-to-position1-from-right img,
-.move-to-position2-from-left, .move-to-position2-from-right img,
-.move-to-position4-from-left, .move-to-position4-from-right img,
-.move-to-position5-from-left, .move-to-position5-from-right img {
+.move-to-position1-from-left img,
+.move-to-position2-from-left img,
+.move-to-position4-from-left img,
+.move-out-from-left img,
+.move-to-position1-from-right img,
+.move-to-position2-from-right img,
+.move-to-position4-from-right img,
+.move-to-position5-from-right img {
     display: block;
 }
 
