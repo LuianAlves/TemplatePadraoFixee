@@ -701,7 +701,6 @@ svg path {
     align-items: center;
     margin: 0 -1.5rem;
     width: 15rem;
-    /* height: 15rem; */
     box-shadow: 0px 0px 2rem 0px #888888;
     display: flex;
     justify-content: center;
@@ -712,14 +711,43 @@ svg path {
     opacity: 0.8;
 }
 
+.move-to-position3-from-left, .move-to-position3-from-right video {
+    display: block;
+}
+
+.move-to-position3-from-left, .move-to-position3-from-right img {
+    display: none;
+}
+
+.box-second video,
+.box-first img,
+.move-to-position1-from-left, .move-to-position1-from-right video,
+.move-to-position2-from-left, .move-to-position2-from-right video,
+.move-to-position4-from-left, .move-to-position4-from-right video,
+.move-to-position5-from-left, .move-to-position5-from-right video {
+    display: none;
+}
+
+.move-to-position1-from-left, .move-to-position1-from-right img,
+.move-to-position2-from-left, .move-to-position2-from-right img,
+.move-to-position4-from-left, .move-to-position4-from-right img,
+.move-to-position5-from-left, .move-to-position5-from-right img {
+    display: block;
+}
+
+
+.box img {
+    width: 300px;
+    height: 13rem;
+}
+
 .box video {
-    height: 12rem;
+    height: 14rem;
     border-radius: 15px;
     transition: 3s;
 }
 
 .box video:hover {
-    height: 20rem;
     opacity: 1;
     transition: 3s;
 }
@@ -2157,7 +2185,7 @@ input[type="checkbox"] {
     # CONFIGURAÇÃO DA SPLASH SCREEN
    --------------------------------------------------
 */
-
+/* 
 #section-splash {
     display: flex;
     justify-content: center;
@@ -2304,4 +2332,4 @@ input[type="checkbox"] {
 
 #splash.fade {
     height: 0px;
-}
+} */
