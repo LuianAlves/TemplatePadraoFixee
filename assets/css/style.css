@@ -664,7 +664,7 @@ svg path {
 .button {
     margin: -15%;
     cursor: pointer;
-    z-index: 1;
+    z-index: 99999;
 }
 
 .button--inactive {
@@ -753,12 +753,13 @@ svg path {
 
 
 .box img {
-    width: 300px;
+    width: 15rem;
     height: 13rem;
+    transition: 3s;
 }
 
 .box video {
-    height: 14rem;
+    height: 13rem;
     border-radius: 15px;
     transition: 3s;
 }
@@ -1600,6 +1601,39 @@ input[type="checkbox"] {
     }
 }
 
+@media only screen and (max-width: 400px) {
+    #projetos .box {
+        margin: 0 -3.05rem;
+        width: 10.75rem !important;
+    }
+
+    #projetos .box video, #projetos .box img {
+        height: 8rem;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 450px) {
+    #projetos .box {
+        margin: 0 -3.5rem;
+        width: 12rem !important;
+    }
+
+    #projetos .box video, #projetos .box img {
+        height: 8rem;
+    }
+}
+
+@media (min-width: 450px) and (max-width: 576px) {
+    #projetos .box {
+        margin: 0 -3.5rem;
+        width: 13rem !important;
+    }
+
+    #projetos .box video, #projetos .box img {
+        height: 8rem;
+    }
+}
+
 @media only screen and (max-width: 576px) {
     #home {
         height: 80vh;
@@ -1660,19 +1694,6 @@ input[type="checkbox"] {
 
     #projetos .text-section {
         margin-bottom: 50px !important;
-    }
-
-    #projetos .box {
-        margin: 0 -3rem;
-        width: 10.5rem !important;
-    }
-
-    #projetos .box video {
-        height: 8rem;
-    }
-
-    #projetos .box video:hover {
-        height: 12rem;
     }
 
     #projetos .avatar-projetos .avatar-title {
@@ -1792,12 +1813,8 @@ input[type="checkbox"] {
         width: 12rem !important;
     }
 
-    #projetos .box video {
+    #projetos .box video, #projetos .box img {
         height: 9.25rem;
-    }
-
-    #projetos .box video:hover {
-        height: 13.25rem;
     }
 
     #projetos .avatar-projetos .avatar-title {
@@ -1934,10 +1951,6 @@ input[type="checkbox"] {
     #projetos .box {
         margin: 0 -2.5rem;
         width: 13rem !important;
-    }
-
-    #projetos .box video:hover {
-        height: 14rem;
     }
 
     #portfolio #portfolio-btn li {
