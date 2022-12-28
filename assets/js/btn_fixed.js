@@ -1,4 +1,4 @@
-const menuConfig = document.querySelector('.menu-config');
+const navigation = document.querySelector('.navigation');
 
 document.querySelector('.toggle-men').onclick = function() {
     this.classList.toggle('active')

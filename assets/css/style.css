@@ -373,7 +373,7 @@ svg path {
    --------------------------------------------------------------
 */
 
-#banner iframe {
+#banner video {
     width: 600px;
     height: 500px;
     margin-bottom: 50px !important;
@@ -1126,11 +1126,11 @@ svg path {
     margin-top: 60px;
 }
 
-#empresa iframe {
+#empresa video {
     top: calc(20% - 15px);
 }
 
-#empresa iframe {
+#empresa video {
     width: 100%;
     transition: 3s;
 }
@@ -1652,12 +1652,12 @@ input[type="checkbox"] {
         height: 70px;
     }
 
-    #banner iframe {
+    #banner video {
         width: 350px;
         height: 300px;
     }
 
-    #empresa iframe {
+    #empresa video {
         padding: 0 35px;
         height: 250px;
     }
@@ -1782,12 +1782,12 @@ input[type="checkbox"] {
         width: 85px !important;
     }
 
-    #banner iframe {
+    #banner video {
         width: 550px;
         height: 350px;
     }
 
-    #empresa iframe {
+    #empresa video {
         padding: 0 35px;
         height: 300px;
     }
@@ -1921,12 +1921,12 @@ input[type="checkbox"] {
         margin-top: 10px;
     }
 
-    #banner iframe {
+    #banner video {
         width: 550px;
         height: 300px;
     }
 
-    #empresa iframe {
+    #empresa video {
         padding: 0 45px;
         height: 350px;
     }
@@ -2026,12 +2026,12 @@ input[type="checkbox"] {
         margin-top: 25px;
     }
 
-    #banner iframe {
+    #banner video {
         width: 650px;
         height: 350px;
     }
 
-    #empresa iframe {
+    #empresa video {
         padding: 35px;
         height: 400px;
     }
@@ -2114,12 +2114,12 @@ input[type="checkbox"] {
         height: 65px;
     }
 
-    #banner iframe {
+    #banner video {
         width: 650px;
         height: 400px;
     }
 
-    #empresa iframe {
+    #empresa video {
         padding: 0 35px;
         margin-top: 50px;
         height: 450px;
@@ -2195,12 +2195,12 @@ input[type="checkbox"] {
         width: 120px !important;
     }
 
-    #banner iframe {
+    #banner video {
         width: 600px;
         height: 400px;
     }
 
-    #empresa iframe {
+    #empresa video {
         padding: 35px;
         height: 450px;
     }
@@ -2214,7 +2214,7 @@ input[type="checkbox"] {
     # CONFIGURAÇÃO DA SPLASH SCREEN
    --------------------------------------------------
 */
-/* 
+
 #section-splash {
     display: flex;
     justify-content: center;
@@ -2361,4 +2361,4 @@ input[type="checkbox"] {
 
 #splash.fade {
     height: 0px;
-} */
+}
