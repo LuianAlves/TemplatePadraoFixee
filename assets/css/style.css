@@ -553,6 +553,7 @@ svg path {
     border: none;
     box-shadow: 10px 10px 20px rgba(2, 90, 119, 0.7);
     padding: 0;
+    transition: 1s ease-in-out;
 }
 
 .list-cards .card-header {
@@ -604,6 +605,7 @@ svg path {
     margin: 0 auto;
     text-align: center;
     display: block;
+    transition: 1s ease-in-out;
 }
 
 .counter-num .counter {
@@ -2174,6 +2176,26 @@ input[type="checkbox"] {
     }
     #servicos .list-cards .icon-card i {
        font-size: 36px !important;
+    }
+
+
+    #servicos .counter-row {
+        margin-top: 25px;
+    }
+    
+    #servicos .counter-ico .ico-circle {
+        height: 36px;
+        width: 36px;
+        padding-top: 3px;
+        font-size: 20px;
+    }
+    
+    .counter-num .counter {
+        font-size: 18px;
+    }
+    
+    .counter-num span {
+        font-size: 12px;
     }
 
     #empresa .nav-pills button {
