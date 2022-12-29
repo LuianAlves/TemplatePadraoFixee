@@ -1604,6 +1604,8 @@ input[type="checkbox"] {
 }
 
 @media (min-width: 400px) and (max-width: 450px) {
+
+
     #projetos .box {
         margin: 0 -3.5rem;
         width: 12rem !important;
@@ -1662,6 +1664,15 @@ input[type="checkbox"] {
     #banner .owl-carousel .owl-item img {
         height: 20px !important;
         width: 60px !important;
+    }
+
+    #servicos .list-cards .card {
+        height: 80px;
+        width: 80px;
+        border-radius: 10px;
+    }
+    #servicos .list-cards .icon-card i {
+       font-size: 36px !important;
     }
 
     #empresa .nav-pills button {
@@ -1781,6 +1792,15 @@ input[type="checkbox"] {
     #banner video {
         width: 550px;
         height: 350px;
+    }
+
+    #servicos .list-cards .card {
+        height: 100px;
+        width: 100px;
+        border-radius: 10px;
+    }
+    #servicos .list-cards .icon-card i {
+       font-size: 42px !important;
     }
 
     #empresa video {
