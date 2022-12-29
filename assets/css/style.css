@@ -2240,7 +2240,7 @@ input[type="checkbox"] {
     position: absolute;
     transform: translate(-45%, -45%);
     font-size: 7em;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 #splash h2:nth-child(1) {
@@ -2271,14 +2271,14 @@ input[type="checkbox"] {
 
 #splash-2 {
     position: absolute;
-    bottom: 7.5%;
-    left: 7.5%;
+    bottom: 43%;
+    left: 65%;
 }
 
 #splash-3 {
     position: absolute;
-    top: 7.5%;
-    right: 7.5%;
+    top: 80%;
+    right: 5%;
 }
 
 .cubes {
@@ -2321,31 +2321,33 @@ input[type="checkbox"] {
     filter: drop-shadow(0 0 25px var(--text-primary)) drop-shadow(0 0 35px var(--text-primary));
     transform: rotateY(calc(90deg * var(--i))) translateZ(25px);
     animation: cubeBackground 15s linear infinite;
+    opacity: .7;
 }
 
 @keyframes cubeBackground {
     0% {
-        background: var(--text-primary);
+        background: linear-gradient(#151515, var(--text-primary));
         filter: drop-shadow(0 0 25px var(--text-primary)) drop-shadow(0 0 35px var(--text-primary));
     }
 
     35% {
-        background: #FF7700;
+        background: linear-gradient(#151515, #FF7700);
         filter: drop-shadow(0 0 25px #ff7700) drop-shadow(0 0 35px #ff7700);
     }
 
     50% {
-        background: var(--text-primary);
+        background: linear-gradient(#151515, var(--text-primary));
         filter: drop-shadow(0 0 25px var(--text-primary)) drop-shadow(0 0 35px var(--text-primary));
     }
 
     75% {
-        background: #FF7700;
+        background: linear-gradient(#151515, #FF7700);
         filter: drop-shadow(0 0 25px #ff7700) drop-shadow(0 0 35px #ff7700);
+
     }
 
     90% {
-        background: var(--text-primary);
+        background: linear-gradient(#151515, var(--text-primary));
         filter: drop-shadow(0 0 25px var(--text-primary)) drop-shadow(0 0 35px var(--text-primary));
     }
 }
@@ -2423,3 +2425,4 @@ input[type="checkbox"] {
 #splash.fade {
     height: 0px;
 }
+
