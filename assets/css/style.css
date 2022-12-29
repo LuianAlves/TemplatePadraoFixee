@@ -2753,33 +2753,32 @@ input[type="checkbox"] {
 */
 
 #section-splash {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     background: #011721;
-    height: 100%;
+    height: 100vh !important;
     overflow-y: hidden !important;
 }
 
 #splash {
     position: relative;
-
 }
 
 #splash h2 {
     position: absolute;
     transform: translate(-45%, -45%);
     font-size: 8em;
-    font-weight: normal;
-    transition: 1s;
+    font-weight: lighter;
+    transition: .5s ease-in;
 }
 
 #splash h2:nth-child(1) {
-    color: transparent;
-    text-stroke: 2px #fff;
-    -o-text-stroke: 2px #fff;
-    -moz-text-stroke: 2px #fff;
-    -webkit-text-stroke: 2px #fff;
+    text-stroke: 1px #fff;
+    -o-text-stroke: 1px #fff;
+    -moz-text-stroke: 1px #fff;
+    -webkit-text-stroke: 1px #fff;
 }
 
 #splash h2:nth-child(2) {
@@ -3161,14 +3160,8 @@ input[type="checkbox"] {
     }
 }
 
-#section-splash {
-    position: relative;
-    height: 100vh;
-    ;
-}
-
 #section-splash.fade {
-    height: 0;
+    height: 0 !important;
     overflow: auto;
 }
 
