@@ -4,4 +4,4 @@ setTimeout(() => {
     document.getElementById("splash").classList.toggle('fade')
     document.getElementById("main").classList.toggle('fade')
     document.getElementById("home").classList.toggle('fade')
-}, 750000);
+}, 7500);
