@@ -298,8 +298,9 @@ ul {
     border: none;
     z-index: 997;
     animation: pulse 1.5s infinite;
-    -webkit-animation: pulse 1.5s infinite;
+    -o-animation: pulse 1.5s infinite;
     -moz-animation: pulse 1.5s infinite;
+    -webkit-animation: pulse 1.5s infinite;
 }
 
 .btn-primary:hover {
@@ -307,6 +308,48 @@ ul {
 }
 
 @keyframes pulse {
+    0% {
+        transform: scale(.9);
+    }
+
+    70% {
+        transform: scale(.85);
+    }
+
+    100% {
+        transform: scale(.9);
+    }
+}
+
+@-o-keyframes pulse {
+    0% {
+        transform: scale(.9);
+    }
+
+    70% {
+        transform: scale(.85);
+    }
+
+    100% {
+        transform: scale(.9);
+    }
+}
+
+@-moz-keyframes pulse {
+    0% {
+        transform: scale(.9);
+    }
+
+    70% {
+        transform: scale(.85);
+    }
+
+    100% {
+        transform: scale(.9);
+    }
+}
+
+@-webkit-keyframes pulse {
     0% {
         transform: scale(.9);
     }
@@ -335,16 +378,19 @@ svg {
 
 svg path {
     animation: pathAnim 5s;
-    -webkit-animation: pathAnim 5s;
+    -o-animation: pathAnim 5s;
     -moz-animation: pathAnim 5s;
+    -webkit-animation: pathAnim 5s;
 
     animation-timing-function: linear;
-    -webkit-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
     -moz-animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
 
     animation-iteration-count: infinite;
-    -webkit-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
     -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
 }
 
 @keyframes pathAnim {
@@ -413,6 +459,27 @@ svg path {
     }
 }
 
+@-o-keyframes pathAnim {
+    0% {
+        d: path("M 0,400 C 0,400 0,200 0,200 C 206.13333333333333,232 412.26666666666665,264 549,262 C 685.7333333333333,260 753.0666666666666,224.00000000000003 890,208 C 1026.9333333333334,191.99999999999997 1233.4666666666667,196 1440,200 C 1440,200 1440,400 1440,400 Z");
+    }
+
+    25% {
+        d: path("M 0,400 C 0,400 0,200 0,200 C 189.86666666666667,200 379.73333333333335,200 535,200 C 690.2666666666667,200 810.9333333333334,200 956,200 C 1101.0666666666666,200 1270.5333333333333,200 1440,200 C 1440,200 1440,400 1440,400 Z");
+    }
+
+    50% {
+        d: path("M 0,400 C 0,400 0,200 0,200 C 163.86666666666667,216.66666666666666 327.73333333333335,233.33333333333331 469,237 C 610.2666666666667,240.66666666666669 728.9333333333334,231.33333333333334 887,223 C 1045.0666666666666,214.66666666666666 1242.5333333333333,207.33333333333331 1440,200 C 1440,200 1440,400 1440,400 Z");
+    }
+
+    75% {
+        d: path("M 0,400 C 0,400 0,200 0,200 C 137.33333333333331,192.8 274.66666666666663,185.6 456,195 C 637.3333333333334,204.4 862.6666666666667,230.39999999999998 1034,234 C 1205.3333333333333,237.60000000000002 1322.6666666666665,218.8 1440,200 C 1440,200 1440,400 1440,400 Z");
+    }
+
+    100% {
+        d: path("M 0,400 C 0,400 0,200 0,200 C 206.13333333333333,232 412.26666666666665,264 549,262 C 685.7333333333333,260 753.0666666666666,224.00000000000003 890,208 C 1026.9333333333334,191.99999999999997 1233.4666666666667,196 1440,200 C 1440,200 1440,400 1440,400 Z");
+    }
+}
 
 /* --------------------------------------------------------------
                     Section BANNER
@@ -851,77 +918,140 @@ svg path {
 
 .move-out-from-left {
     animation: moveOutLeft 0.5s ease-in-out;
-    -webkit-animation: moveOutLeft 0.5s ease-in-out;
+    -o-animation: moveOutLeft 0.5s ease-in-out;
     -moz-animation: moveOutLeft 0.5s ease-in-out;
+    -webkit-animation: moveOutLeft 0.5s ease-in-out;
 }
 
 .move-out-from-right {
     animation: moveOutRight 0.5s ease-in-out;
-    -webkit-animation: moveOutRight 0.5s ease-in-out;
+    -o-animation: moveOutRight 0.5s ease-in-out;
     -moz-animation: moveOutRight 0.5s ease-in-out;
+    -webkit-animation: moveOutRight 0.5s ease-in-out;
 }
 
 .move-to-position5-from-left {
     animation: moveToP5Left 0.5s ease-in-out;
-    -webkit-animation: moveToP5Left 0.5s ease-in-out;
+    -o-animation: moveToP5Left 0.5s ease-in-out;
     -moz-animation: moveToP5Left 0.5s ease-in-out;
+    -webkit-animation: moveToP5Left 0.5s ease-in-out;
 }
 
 .move-to-position4-from-left {
     animation: moveToP4Left 0.5s ease-in-out;
-    -webkit-animation: moveToP4Left 0.5s ease-in-out;
+    -o-animation: moveToP4Left 0.5s ease-in-out;
     -moz-animation: moveToP4Left 0.5s ease-in-out;
+    -webkit-animation: moveToP4Left 0.5s ease-in-out;
 }
 
 .move-to-position3-from-left {
     animation: moveToP3Left 0.5s ease-in-out;
-    -webkit-animation: moveToP3Left 0.5s ease-in-out;
+    -o-animation: moveToP3Left 0.5s ease-in-out;
     -moz-animation: moveToP3Left 0.5s ease-in-out;
+    -webkit-animation: moveToP3Left 0.5s ease-in-out;
 }
 
 .move-to-position2-from-left {
     animation: moveToP2Left 0.5s ease-in-out;
-    -webkit-animation: moveToP2Left 0.5s ease-in-out;
+    -o-animation: moveToP2Left 0.5s ease-in-out;
     -moz-animation: moveToP2Left 0.5s ease-in-out;
+    -webkit-animation: moveToP2Left 0.5s ease-in-out;
 }
 
 .move-to-position1-from-left {
     animation: moveToP1Left 0.5s ease-in-out;
-    -webkit-animation: moveToP1Left 0.5s ease-in-out;
+    -o-animation: moveToP1Left 0.5s ease-in-out;
     -moz-animation: moveToP1Left 0.5s ease-in-out;
+    -webkit-animation: moveToP1Left 0.5s ease-in-out;
 }
 
 .move-to-position5-from-right {
     animation: moveToP5Right 0.5s ease-in-out;
-    -webkit-animation: moveToP5Right 0.5s ease-in-out;
+    -o-animation: moveToP5Right 0.5s ease-in-out;
     -moz-animation: moveToP5Right 0.5s ease-in-out;
+    -webkit-animation: moveToP5Right 0.5s ease-in-out;
 }
 
 .move-to-position4-from-right {
     animation: moveToP4Right 0.5s ease-in-out;
-    -webkit-animation: moveToP4Right 0.5s ease-in-out;
+    -o-animation: moveToP4Right 0.5s ease-in-out;
     -moz-animation: moveToP4Right 0.5s ease-in-out;
+    -webkit-animation: moveToP4Right 0.5s ease-in-out;
 }
 
 .move-to-position3-from-right {
     animation: moveToP3Right 0.5s ease-in-out;
-    -webkit-animation: moveToP3Right 0.5s ease-in-out;
+    -o-animation: moveToP3Right 0.5s ease-in-out;
     -moz-animation: moveToP3Right 0.5s ease-in-out;
+    -webkit-animation: moveToP3Right 0.5s ease-in-out;
 }
 
 .move-to-position2-from-right {
     animation: moveToP2Right 0.5s ease-in-out;
-    -webkit-animation: moveToP2Right 0.5s ease-in-out;
+    -o-animation: moveToP2Right 0.5s ease-in-out;
     -moz-animation: moveToP2Right 0.5s ease-in-out;
+    -webkit-animation: moveToP2Right 0.5s ease-in-out;
 }
 
 .move-to-position1-from-right {
     animation: moveToP1Right 0.5s ease-in-out;
-    -webkit-animation: moveToP1Right 0.5s ease-in-out;
+    -o-animation: moveToP1Right 0.5s ease-in-out;
     -moz-animation: moveToP1Right 0.5s ease-in-out;
+    -webkit-animation: moveToP1Right 0.5s ease-in-out;
 }
 
 @keyframes moveOutLeft {
+    0% {
+        transform: scale(0.75) translateX(0%);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(0.5) translateX(-150%);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: scale(0.25) translateX(0%);
+        opacity: 0;
+    }
+}
+
+@-o-keyframes moveOutLeft {
+    0% {
+        transform: scale(0.75) translateX(0%);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(0.5) translateX(-150%);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: scale(0.25) translateX(0%);
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes moveOutLeft {
+    0% {
+        transform: scale(0.75) translateX(0%);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(0.5) translateX(-150%);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: scale(0.25) translateX(0%);
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes moveOutLeft {
     0% {
         transform: scale(0.75) translateX(0%);
         opacity: 1;
@@ -955,7 +1085,85 @@ svg path {
     }
 }
 
+@-o-keyframes moveOutRight {
+    0% {
+        transform: scale(0.75) translateX(0%);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(0.5) translateX(150%);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: scale(0.25) translateX(0%);
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes moveOutRight {
+    0% {
+        transform: scale(0.75) translateX(0%);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(0.5) translateX(150%);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: scale(0.25) translateX(0%);
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes moveOutRight {
+    0% {
+        transform: scale(0.75) translateX(0%);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(0.5) translateX(150%);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: scale(0.25) translateX(0%);
+        opacity: 0;
+    }
+}
+
 @keyframes moveToP5Left {
+    from {
+        transform: scale(0.75) translateX(100%);
+    }
+
+    to {
+        transform: scale(0.75) translateX(0);
+    }
+}
+@-o-keyframes moveToP5Left {
+    from {
+        transform: scale(0.75) translateX(100%);
+    }
+
+    to {
+        transform: scale(0.75) translateX(0);
+    }
+}
+@-moz-keyframes moveToP5Left {
+    from {
+        transform: scale(0.75) translateX(100%);
+    }
+
+    to {
+        transform: scale(0.75) translateX(0);
+    }
+}
+@-webkit-keyframes moveToP5Left {
     from {
         transform: scale(0.75) translateX(100%);
     }
@@ -974,8 +1182,62 @@ svg path {
         transform: scale(0.85) translateX(0);
     }
 }
+@-o-keyframes moveToP4Left {
+    from {
+        transform: scale(0.75) translateX(100%);
+    }
+
+    to {
+        transform: scale(0.85) translateX(0);
+    }
+}
+@-moz-keyframes moveToP4Left {
+    from {
+        transform: scale(0.75) translateX(100%);
+    }
+
+    to {
+        transform: scale(0.85) translateX(0);
+    }
+}
+@-webkit-keyframes moveToP4Left {
+    from {
+        transform: scale(0.75) translateX(100%);
+    }
+
+    to {
+        transform: scale(0.85) translateX(0);
+    }
+}
 
 @keyframes moveToP3Left {
+    from {
+        transform: scale(0.85) translateX(100%);
+    }
+
+    to {
+        transform: scale(1) translateX(0);
+    }
+}
+@-o-keyframes moveToP3Left {
+    from {
+        transform: scale(0.85) translateX(100%);
+    }
+
+    to {
+        transform: scale(1) translateX(0);
+    }
+}
+@-moz-keyframes moveToP3Left {
+    from {
+        transform: scale(0.85) translateX(100%);
+    }
+
+    to {
+        transform: scale(1) translateX(0);
+    }
+}
+@-webkit-keyframes moveToP3Left {
     from {
         transform: scale(0.85) translateX(100%);
     }
@@ -994,8 +1256,62 @@ svg path {
         transform: scale(0.85) translateX(0);
     }
 }
+@-o-keyframes moveToP2Left {
+    from {
+        transform: scale(1) translateX(100%);
+    }
+
+    to {
+        transform: scale(0.85) translateX(0);
+    }
+}
+@-moz-keyframes moveToP2Left {
+    from {
+        transform: scale(1) translateX(100%);
+    }
+
+    to {
+        transform: scale(0.85) translateX(0);
+    }
+}
+@-webkit-keyframes moveToP2Left {
+    from {
+        transform: scale(1) translateX(100%);
+    }
+
+    to {
+        transform: scale(0.85) translateX(0);
+    }
+}
 
 @keyframes moveToP1Left {
+    from {
+        transform: scale(0.85) translateX(100%);
+    }
+
+    to {
+        transform: scale(0.75) translateX(0);
+    }
+}
+@-o-keyframes moveToP1Left {
+    from {
+        transform: scale(0.85) translateX(100%);
+    }
+
+    to {
+        transform: scale(0.75) translateX(0);
+    }
+}
+@-moz-keyframes moveToP1Left {
+    from {
+        transform: scale(0.85) translateX(100%);
+    }
+
+    to {
+        transform: scale(0.75) translateX(0);
+    }
+}
+@-webkit-keyframes moveToP1Left {
     from {
         transform: scale(0.85) translateX(100%);
     }
@@ -1014,8 +1330,62 @@ svg path {
         transform: scale(0.75) translateX(0);
     }
 }
+@-o-keyframes moveToP1Right {
+    from {
+        transform: scale(0.75) translateX(-100%);
+    }
+
+    to {
+        transform: scale(0.75) translateX(0);
+    }
+}
+@-moz-keyframes moveToP1Right {
+    from {
+        transform: scale(0.75) translateX(-100%);
+    }
+
+    to {
+        transform: scale(0.75) translateX(0);
+    }
+}
+@-webkit-keyframes moveToP1Right {
+    from {
+        transform: scale(0.75) translateX(-100%);
+    }
+
+    to {
+        transform: scale(0.75) translateX(0);
+    }
+}
 
 @keyframes moveToP2Right {
+    from {
+        transform: scale(0.75) translateX(-100%);
+    }
+
+    to {
+        transform: scale(0.85) translateX(0);
+    }
+}
+@-o-keyframes moveToP2Right {
+    from {
+        transform: scale(0.75) translateX(-100%);
+    }
+
+    to {
+        transform: scale(0.85) translateX(0);
+    }
+}
+@-moz-keyframes moveToP2Right {
+    from {
+        transform: scale(0.75) translateX(-100%);
+    }
+
+    to {
+        transform: scale(0.85) translateX(0);
+    }
+}
+@-webkit-keyframes moveToP2Right {
     from {
         transform: scale(0.75) translateX(-100%);
     }
@@ -1034,8 +1404,62 @@ svg path {
         transform: scale(1) translateX(0);
     }
 }
+@-o-keyframes moveToP3Right {
+    from {
+        transform: scale(0.85) translateX(-100%);
+    }
+
+    to {
+        transform: scale(1) translateX(0);
+    }
+}
+@-moz-keyframes moveToP3Right {
+    from {
+        transform: scale(0.85) translateX(-100%);
+    }
+
+    to {
+        transform: scale(1) translateX(0);
+    }
+}
+@-webkit-keyframes moveToP3Right {
+    from {
+        transform: scale(0.85) translateX(-100%);
+    }
+
+    to {
+        transform: scale(1) translateX(0);
+    }
+}
 
 @keyframes moveToP4Right {
+    from {
+        transform: scale(1) translateX(-100%);
+    }
+
+    to {
+        transform: scale(0.85) translateX(0);
+    }
+}
+@-o-keyframes moveToP4Right {
+    from {
+        transform: scale(1) translateX(-100%);
+    }
+
+    to {
+        transform: scale(0.85) translateX(0);
+    }
+}
+@-moz-keyframes moveToP4Right {
+    from {
+        transform: scale(1) translateX(-100%);
+    }
+
+    to {
+        transform: scale(0.85) translateX(0);
+    }
+}
+@-webkit-keyframes moveToP4Right {
     from {
         transform: scale(1) translateX(-100%);
     }
@@ -1054,6 +1478,37 @@ svg path {
         transform: scale(0.75) translateX(0);
     }
 }
+
+@-o-keyframes moveToP5Right {
+    from {
+        transform: scale(0.85) translateX(-100%);
+    }
+
+    to {
+        transform: scale(0.75) translateX(0);
+    }
+}
+
+@-moz-keyframes moveToP5Right {
+    from {
+        transform: scale(0.85) translateX(-100%);
+    }
+
+    to {
+        transform: scale(0.75) translateX(0);
+    }
+}
+
+@-webkit-keyframes moveToP5Right {
+    from {
+        transform: scale(0.85) translateX(-100%);
+    }
+
+    to {
+        transform: scale(0.75) translateX(0);
+    }
+}
+
 
 
 /*--------------------------------------------------------------
@@ -2130,15 +2585,6 @@ input[type="checkbox"] {
         margin-bottom: 50px !important;
     }
 
-    /* #projetos .box {
-        margin: 0 -2.5rem;
-        width: 15rem !important;
-        height: 20rem !important;
-    } 
-    #projetos .box:hover {
-        width: 16rem !important;
-        height: 21rem !important;
-    }*/
     #portfolio #portfolio-btn li {
         font-size: 13.5px !important;
     }
@@ -2313,11 +2759,54 @@ input[type="checkbox"] {
 #splash h2:nth-child(2) {
     color: var(--text-primary);
     animation: waveText 8s ease-in-out infinite;
-    -webkit-animation: waveText 8s ease-in-out infinite;
+    -o-animation: waveText 8s ease-in-out infinite;
     -moz-animation: waveText 8s ease-in-out infinite;
+    -webkit-animation: waveText 8s ease-in-out infinite;
 }
 
 @keyframes waveText {
+
+    0%,
+    100% {
+        clip-path: polygon(0% 45%, 15% 44%, 32% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
+        color: var(--text-primary);
+    }
+
+    50% {
+        clip-path: polygon(0% 60%, 16% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
+        color: #ff7700;
+    }
+}
+
+@-o-keyframes waveText {
+
+    0%,
+    100% {
+        clip-path: polygon(0% 45%, 15% 44%, 32% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
+        color: var(--text-primary);
+    }
+
+    50% {
+        clip-path: polygon(0% 60%, 16% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
+        color: #ff7700;
+    }
+}
+
+@-moz-keyframes waveText {
+
+    0%,
+    100% {
+        clip-path: polygon(0% 45%, 15% 44%, 32% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
+        color: var(--text-primary);
+    }
+
+    50% {
+        clip-path: polygon(0% 60%, 16% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
+        color: #ff7700;
+    }
+}
+
+@-webkit-keyframes waveText {
 
     0%,
     100% {
@@ -2350,11 +2839,42 @@ input[type="checkbox"] {
     transform-style: preserve-3d;
     transform: rotateX(-30deg);
     animation: cubes 15s linear infinite;
-    -webkit-animation: cubes 15s linear infinite;
+    -o-animation: cubes 15s linear infinite;
     -moz-animation: cubes 15s linear infinite;
+    -webkit-animation: cubes 15s linear infinite;
 }
 
 @keyframes cubes {
+    0% {
+        transform: rotateX(-30deg) rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateX(-30deg) rotateY(360deg);
+    }
+}
+
+@-o-keyframes cubes {
+    0% {
+        transform: rotateX(-30deg) rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateX(-30deg) rotateY(360deg);
+    }
+}
+
+@-moz-keyframes cubes {
+    0% {
+        transform: rotateX(-30deg) rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateX(-30deg) rotateY(360deg);
+    }
+}
+
+@-webkit-keyframes cubes {
     0% {
         transform: rotateX(-30deg) rotateY(0deg);
     }
@@ -2383,10 +2903,97 @@ input[type="checkbox"] {
     filter: drop-shadow(0 0 25px var(--text-primary)) drop-shadow(0 0 35px var(--text-primary));
     transform: rotateY(calc(90deg * var(--i))) translateZ(25px);
     animation: cubeBackground 15s linear infinite;
+    -o-animation: cubeBackground 15s linear infinite;
+    -moz-animation: cubeBackground 15s linear infinite;
+    -webkit-animation: cubeBackground 15s linear infinite;
     opacity: .7;
 }
 
 @keyframes cubeBackground {
+    0% {
+        background: linear-gradient(#151515, var(--text-primary));
+        filter: drop-shadow(0 0 25px var(--text-primary)) drop-shadow(0 0 35px var(--text-primary));
+    }
+
+    35% {
+        background: linear-gradient(#151515, #FF7700);
+        filter: drop-shadow(0 0 25px #ff7700) drop-shadow(0 0 35px #ff7700);
+    }
+
+    50% {
+        background: linear-gradient(#151515, var(--text-primary));
+        filter: drop-shadow(0 0 25px var(--text-primary)) drop-shadow(0 0 35px var(--text-primary));
+    }
+
+    75% {
+        background: linear-gradient(#151515, #FF7700);
+        filter: drop-shadow(0 0 25px #ff7700) drop-shadow(0 0 35px #ff7700);
+
+    }
+
+    90% {
+        background: linear-gradient(#151515, var(--text-primary));
+        filter: drop-shadow(0 0 25px var(--text-primary)) drop-shadow(0 0 35px var(--text-primary));
+    }
+}
+
+@-o-keyframes cubeBackground {
+    0% {
+        background: linear-gradient(#151515, var(--text-primary));
+        filter: drop-shadow(0 0 25px var(--text-primary)) drop-shadow(0 0 35px var(--text-primary));
+    }
+
+    35% {
+        background: linear-gradient(#151515, #FF7700);
+        filter: drop-shadow(0 0 25px #ff7700) drop-shadow(0 0 35px #ff7700);
+    }
+
+    50% {
+        background: linear-gradient(#151515, var(--text-primary));
+        filter: drop-shadow(0 0 25px var(--text-primary)) drop-shadow(0 0 35px var(--text-primary));
+    }
+
+    75% {
+        background: linear-gradient(#151515, #FF7700);
+        filter: drop-shadow(0 0 25px #ff7700) drop-shadow(0 0 35px #ff7700);
+
+    }
+
+    90% {
+        background: linear-gradient(#151515, var(--text-primary));
+        filter: drop-shadow(0 0 25px var(--text-primary)) drop-shadow(0 0 35px var(--text-primary));
+    }
+}
+
+@-moz-keyframes cubeBackground {
+    0% {
+        background: linear-gradient(#151515, var(--text-primary));
+        filter: drop-shadow(0 0 25px var(--text-primary)) drop-shadow(0 0 35px var(--text-primary));
+    }
+
+    35% {
+        background: linear-gradient(#151515, #FF7700);
+        filter: drop-shadow(0 0 25px #ff7700) drop-shadow(0 0 35px #ff7700);
+    }
+
+    50% {
+        background: linear-gradient(#151515, var(--text-primary));
+        filter: drop-shadow(0 0 25px var(--text-primary)) drop-shadow(0 0 35px var(--text-primary));
+    }
+
+    75% {
+        background: linear-gradient(#151515, #FF7700);
+        filter: drop-shadow(0 0 25px #ff7700) drop-shadow(0 0 35px #ff7700);
+
+    }
+
+    90% {
+        background: linear-gradient(#151515, var(--text-primary));
+        filter: drop-shadow(0 0 25px var(--text-primary)) drop-shadow(0 0 35px var(--text-primary));
+    }
+}
+
+@-webkit-keyframes cubeBackground {
     0% {
         background: linear-gradient(#151515, var(--text-primary));
         filter: drop-shadow(0 0 25px var(--text-primary)) drop-shadow(0 0 35px var(--text-primary));
@@ -2435,9 +3042,78 @@ input[type="checkbox"] {
     transform: translateZ(-100px);
     filter: blur(20px);
     animation: cubeTopBackground 15s linear infinite;
+    -o-animation: cubeTopBackground 15s linear infinite;
+    -moz-animation: cubeTopBackground 15s linear infinite;
+    -webkit-animation: cubeTopBackground 15s linear infinite;
 }
 
 @keyframes cubeTopBackground {
+    0% {
+        background: var(--text-primary);
+    }
+
+    35% {
+        background: #FF7700;
+    }
+
+    50% {
+        background: var(--text-primary);
+    }
+
+    75% {
+        background: #FF7700;
+    }
+
+    90% {
+        background: var(--text-primary);
+    }
+}
+
+@-webkit-keyframes cubeTopBackground {
+    0% {
+        background: var(--text-primary);
+    }
+
+    35% {
+        background: #FF7700;
+    }
+
+    50% {
+        background: var(--text-primary);
+    }
+
+    75% {
+        background: #FF7700;
+    }
+
+    90% {
+        background: var(--text-primary);
+    }
+}
+
+@-moz-keyframes cubeTopBackground {
+    0% {
+        background: var(--text-primary);
+    }
+
+    35% {
+        background: #FF7700;
+    }
+
+    50% {
+        background: var(--text-primary);
+    }
+
+    75% {
+        background: #FF7700;
+    }
+
+    90% {
+        background: var(--text-primary);
+    }
+}
+
+@-o-keyframes cubeTopBackground {
     0% {
         background: var(--text-primary);
     }
