@@ -20,6 +20,10 @@
     padding: 0;
 }
 
+#btnWhatsapp:hover {
+    color: #fff !important;
+}
+
 a:hover {
     color: var(--text-primary) !important;
 }
@@ -2361,7 +2365,7 @@ input[type="checkbox"] {
     display: none;
 }
 
-#main.fade {
+#main.fade, #btnWhatsapp.fade {
     opacity: 1;
     display: block;
 }
