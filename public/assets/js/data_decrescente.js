@@ -3,7 +3,7 @@ const horas = document.getElementById("horas");
 const minutos = document.getElementById("minutos");
 const segundos = document.getElementById("segundos");
 
-const vencimento = "18 Jan 2023";
+const vencimento = "13 Feb 2023";
 
 function countdown() {
 
